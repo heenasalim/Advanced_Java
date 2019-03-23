@@ -1,0 +1,21 @@
+
+public class Date {
+int dd,mm,yy;
+
+/**
+ * @param dd
+ * @param mm
+ * @param yy
+ */
+public Date(int dd, int mm, int yy) {
+	//super();
+	this.dd = dd;
+	this.mm = mm;
+	this.yy = yy;
+}
+
+
+public String toString() {
+	return "Date [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";
+}
+}

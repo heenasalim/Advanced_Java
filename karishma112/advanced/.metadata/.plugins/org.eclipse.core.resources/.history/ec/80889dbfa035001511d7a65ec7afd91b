@@ -1,0 +1,17 @@
+package pk2;
+
+public class circle implements Shape {
+	
+	double r;
+	circle()
+	{
+		r=5;
+	}
+	public final double PI=3.14;
+	public double area()
+	{
+		return PI*r*r;
+	}
+	
+
+}

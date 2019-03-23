@@ -1,0 +1,17 @@
+package pk1;
+
+public class testEnum {
+	WeekDay w;
+	
+	public static void main(String args[])
+	{
+		testEnum t=new testEnum();
+		for(WeekDay w1:t.w.valueOf())
+		{
+			System.out.println(w1+""+getVal());
+		}
+		
+		
+	}
+
+}

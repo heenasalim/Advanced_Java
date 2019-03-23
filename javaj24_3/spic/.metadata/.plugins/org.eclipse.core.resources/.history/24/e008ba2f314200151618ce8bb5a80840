@@ -1,0 +1,243 @@
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+
+import  javax.swing.*;
+public class BusDemo   extends JFrame  implements Runnable {
+	
+	Thread t1,t2,t3,t4;
+	int  x1,x2=1000;
+	  int x3=452;
+	  int  x4=820;
+	 String  c="green";
+	 String  c1="green";
+	public  BusDemo() throws InterruptedException
+	{
+		t1=new  Thread(this,"thread 1");
+		t2=new  Thread(this,"thread 2");
+		t3=new  Thread(this,"thread 3");
+		t4=new  Thread(this,"thread 4");
+		t1.start();
+		//t2.join();
+		t2.start();
+		t3.start();
+		t4.start();
+	//	t3.join();
+		
+		
+	}
+public static void main(String[] args) throws InterruptedException {
+	BusDemo  j=new  BusDemo();
+	j.setVisible(true);
+	j.setSize(500,500);
+	j.setDefaultCloseOperation(EXIT_ON_CLOSE);
+}
+
+public  void paint (Graphics  g)
+{
+	super.paint(g);
+	  g.setColor(Color.green);
+	g.setFont(new Font("Times New Roman",Font.BOLD,40));
+	g.drawString("HEENAs  JAVA  APPLICATION", 70, 100);
+	
+	g.setColor(Color.darkGray);
+	 g.fill3DRect(0, 150, 10000,300,true);
+	
+	 g.setColor(Color.darkGray); 
+	 g.fill3DRect(500, 0, 300,10000,true);
+	
+	 g.setColor(Color.red);
+    g.fill3DRect(x1, 250, 200,50, true);
+                        //1st  buss  parameter
+    g.setColor(Color.blue);
+    g.fillOval(x1+20, 300, 30,30);
+   
+    g.setColor(Color.blue); 
+    g.fillOval(x1+170, 300, 30,30);
+   
+    g.setColor(Color.red);                             // {
+    g.fill3DRect(x2, 400, 200,50, true);
+    
+                                                  //2nd  bus  parameter
+    g.setColor(Color.green);
+    g.fillOval(x2+20, 450, 30,30);
+   
+    g.setColor(Color.green);
+    g.fillOval(x2+170, 450, 30,30);             // }
+   
+    g.setColor(Color.yellow);
+    g.fill3DRect(450, 10, 50, 100, true);
+  
+    g.setColor(Color.yellow);
+    g.fill3DRect(800, 10, 50, 100, true);
+    
+   
+  
+   // g.setColor(Color.green);
+ //  
+    
+   
+		//if(Thread.holdsLock(t1)==true)
+		//{
+    
+      
+      if(c.equals("red"))
+	  {	
+    	//  g.setColor(Color.red);
+    	 //  g.fillOval(x3, 40, 30, 30);
+    	   g.setColor(Color.red);
+    	  g.fillOval(x4, 70, 30, 30);
+		   // g.setColor(Color.red);
+		  //  g.fillOval(452, 70, 30, 30);
+			repaint();
+			
+	  }
+      if(c1.equals("red"))
+   	  {	
+       	  g.setColor(Color.red);
+       	   g.fillOval(x3, 40, 30, 30);
+       	  // g.setColor(Color.red);
+       	   // g.fillOval(x4, 70, 30, 30);
+   		   // g.setColor(Color.red);
+   		  //  g.fillOval(452, 70, 30, 30);
+   			repaint();
+   			
+   	  }
+  //    else
+   //   {
+   // 	   
+    //	    g.fillOval(x3, 70, 30, 30);
+    //  }
+		//}
+    
+    
+      if(c.equals("green"))
+	  {	
+    	//  g.setColor(Color.red);
+    	   
+    	 // g.fillOval(x4, 40, 30, 30);
+    	 	  
+    	  g.setColor(Color.green);
+    	  g.fillOval(x4, 40, 30, 30);
+    	 
+    	 // g.setColor(Color.green);
+    	//    g.fillOval(x2+20, 300, 30,30);
+		  //  g.setColor(Color.yellow);
+		   // g.fillOval(452, 70, 30, 30);
+			repaint();
+			
+	  }
+
+      if(c1.equals("green"))
+	  {	
+    	//  g.setColor(Color.red);
+    	   
+    	 // g.fillOval(x4, 40, 30, 30);
+    	 	  
+    	 
+    //  {
+      g.setColor(Color.green);
+      g.fillOval(x3, 70, 30, 30);
+    //	    g.fillOval(x3, 70, 30, 30);
+     // }
+	}
+	
+	
+	
+   
+    
+    
+   
+  
+
+}
+@Override
+	public void run() {
+		// TODO Auto-generated method stub
+while(true)
+{
+	try
+	{
+		if(Thread.currentThread()==t1)
+		{
+			
+			//Thread.holdsLock(t1);
+			
+			if(x1!=300)
+			x1++;
+			if(x1==300  && c.equals("red"))
+		    x1=300;
+			//Thread.sleep(20);
+		    if(x1==300  && c.equals("green"))
+		    x1++;
+		   
+		    repaint();
+			
+		
+			Thread.sleep(10);		
+			
+		}
+		if(Thread.currentThread()==t2)
+		{
+			x2--;
+			repaint();
+			
+			//Thread.holdsLock(t1);
+			Thread.sleep(10);
+		}
+		if(Thread.currentThread()==t3)
+		{
+			
+		
+			
+			repaint();
+		
+			Thread.sleep(15);
+		
+		
+	}
+	}
+		
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	    
+	if(Thread.currentThread()==t3)
+		{
+		
+		try {
+			Thread.sleep(3500);
+			c="red";
+			Thread.sleep(3500);
+			c="green";
+			Thread.sleep(3505);
+			c="red";
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+			if(x3==452)
+		repaint();
+			
+			
+		}
+
+	//}
+	//
+		
+	//}
+	
+
+	
+
+}
+}
+
+}
+
+
+//}

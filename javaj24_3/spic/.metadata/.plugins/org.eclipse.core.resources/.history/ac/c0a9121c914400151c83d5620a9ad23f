@@ -1,0 +1,55 @@
+package balls;
+
+public class Synchrinizedtransaction   extends   Thread {
+
+	Thread  t1;
+	Thread   t2;
+	Synchrinizedtransaction()
+	{
+		t1=new  Thread(this,"thread1");
+		t2=new  Thread(this,"thread  2");
+		t1.start();
+		t2.start();
+	}
+	
+	 public  void  run()
+	{
+		if(Thread.currentThread()==t1)
+		{
+			
+		deposite(1000);
+		try {
+			Thread.sleep(1000);
+		} 	e.printStackTrace();
+		}   //  if  u  r  not  giving  this  u  cannot  see  stop when  it  happened  u  cannot  able  to  see  it  it  will  happen  so  fast 		
+			
+		}
+		if(Thread.currentThread()==t2)
+		{
+			withdraw(1000);
+		}
+		catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+		
+	}
+	
+	
+	  //private synchronized void  withdraw(int  i)   either  use  this  orv  defined  Lock  l1=new ReentrantLock();  at  start  of  the  program
+	  private synchronized void  withdraw(int  i)
+	  {
+		  int  bal=a.getbalance();
+		  bal=bal-i;
+		  a.setBalance(bal);
+		 System.out.println("after  withdraw "+a.getbalance()); 
+	  }
+	  private  synchronized void  deposite(int  i)
+	  {
+		  int  bal=a.getbalance();
+		  bal=bal+i;
+		  a.setBalance(bal);
+		  System.out.println("sfter  deposite" +a.getbalance());
+	  }
+
+	
+	
+}

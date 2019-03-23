@@ -1,0 +1,23 @@
+package pk2;
+
+public class Emp implements Printable {
+	int id;
+	String name;
+	double sal;
+	/**
+	 * @param id
+	 * @param name
+	 * @param s
+	 */
+	public Emp(int id, String name, double s) {
+		//super();
+		this.id = id;
+		this.name = name;
+		this.sal = s;
+	}
+	public void print()
+	{
+		
+	}
+
+}

@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210044457
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210080760
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210085938
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440210093482
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440210096096
+error,log,,,"Unexpected runtime error while computing a text hover",1440210098696
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210100981
+started,bundle,org.eclipse.wst.common.frameworks,1.2.101.v201107192200,"org.eclipse.wst.common.frameworks",1440210101033
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1440210101038
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1440210101047
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1440210101050
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1440210101067
+started,bundle,org.eclipse.wst.common.modulecore,1.2.101.v201108231700,"org.eclipse.wst.common.modulecore",1440210101070
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210103528
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210103541
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210105174
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210105464
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210106713
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210117334
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210121301
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210130001
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210135191
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210137474
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210137482
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210139112
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210139379
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210141030
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210161139
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210179673
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210198772
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210201416
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210203690
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210205566
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210205578
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210206940
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210207205
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210209210
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210230086
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210231898
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210244460
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210246624
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210246636
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210247702
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210247970
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210256597
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210256686
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210257980
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210273193
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210280859
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210289718
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210311885
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210314059
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210314067
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210315392
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210315680
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210327177
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210341019
+error,log,,,"Unexpected runtime error while computing a text hover",1440210343886
+error,log,,,"Unexpected runtime error while computing a text hover",1440210344873
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210357624
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440210371584
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440210375064
+error,log,,,"Unexpected runtime error while computing a text hover",1440210377646
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210378974
+error,log,,,"Unexpected runtime error while computing a text hover",1440210379819
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210387806
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210387815
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210389347
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210389633
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210402041
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210412727
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210413658
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440210422771
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440210425130
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210436015
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210445955
+started,bundle,org.eclipse.wst.jsdt.debug.rhino.ui,1.0.0.v201103232243,"org.eclipse.wst.jsdt.debug.rhino.ui",1440210446260
+started,bundle,org.eclipse.wst.jsdt.core,1.1.101.v201108151912,"org.eclipse.wst.jsdt.core",1440210446572
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210449719
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210449748
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210450702
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210450990
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210463354
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440210465571
+error,log,,,"Unexpected runtime error while computing a text hover",1440210468780
+error,log,,,"Unexpected runtime error while computing a text hover",1440210470855
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210483354
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210531732
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210531899
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210532091
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210532371
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210532563
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210532707
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210533083
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210540604
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440210543496
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440210543647
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440210543790
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440210543958
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210552671
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210554908
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210554917
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210556138
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210556425
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210560966
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440210564159
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210566307
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210566316
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210567978
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210568270
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210571778
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210664048
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1440210671165
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440210671264
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210671277
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210672501
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210674310
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210817359
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210819349
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1440210827412
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1440210841492
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210844323
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210867276
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210867345
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210867379
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210871609
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440210876173
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210893313
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440210960994
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440210961010
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210968065
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440210968080
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211005303
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211006848
+error,log,,,"Unexpected runtime error while computing a text hover",1440211009513
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211010997
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211399752
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440211409185
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440211413610
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440211417489
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211427361
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440211435549
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211436307
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440211438055
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440211445735
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440211450650
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211455924
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440211460198
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211460210
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211462072
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440211462364
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211537333
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211537348
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211546927
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211548059
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211549887
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440211556696
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211596101
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211598794
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211606671
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211620712
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440211653477
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211656130
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440211662308
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211697248
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211698241
+error,log,,,"Unexpected runtime error while computing a text hover",1440211699281
+error,log,,,"Unexpected runtime error while computing a text hover",1440211702121
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440211750935
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440211755613
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211762098
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440211766659
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211766669
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211768109
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440211768392
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211782541
+error,log,,,"Unexpected runtime error while computing a text hover",1440211784207
+error,log,,,"Unexpected runtime error while computing a text hover",1440211790717
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211803245
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440211805143
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211806351
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211806371
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211806372
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.close",1440211806394
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1440211811149
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211811901
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211811924
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440211897850
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211897857
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211898956
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440211899283
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211902149
+error,log,,,"Unexpected runtime error while computing a text hover",1440211905824
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440211908838
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440211910463
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211910475
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211911364
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440211911670
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440211919334
+error,log,,,"Unexpected runtime error while computing a text hover",1440211927963
+error,log,,,"Unexpected runtime error while computing a text hover",1440211928985
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211937241
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211944989
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211948537
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211951052
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211970959
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440211978249
+error,log,,,"Unexpected runtime error while computing a text hover",1440212035633
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212036436
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440212042687
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212042700
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212044068
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440212044332
+error,log,,,"Unexpected runtime error while computing a text hover",1440212093189
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440212098334
+error,log,,,"Unexpected runtime error while computing a text hover",1440212127986
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212128611
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440212130746
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212130758
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212132047
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440212132336
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212149142
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212172302
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212191307
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212195046
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440212199391
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212200222
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212203983
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440212207709
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212207721
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212209065
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440212209372
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440212212732
+error,log,,,"Unexpected runtime error while computing a text hover",1440212215259
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440212220823
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440212223460
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212240374
+error,log,,,"Unexpected runtime error while computing a text hover",1440212250107
+error,log,,,"Unexpected runtime error while computing a text hover",1440212252090
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212253842
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212272397
+error,log,,,"Unexpected runtime error while computing a text hover",1440212273148
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212275985
+error,log,,,"Unexpected runtime error while computing a text hover",1440212276656
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212278334
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212281729
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440212289219
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212289230
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212290869
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440212291148
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440212293674
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440212328877
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212331280
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212331735
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212334999
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440212337791
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212337799
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440212339061
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440212339327
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440212342949
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212345416
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212347293
+error,log,,,"Unexpected runtime error while computing a text hover",1440212361395
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440212417496
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212419926
+error,log,,,"Unexpected runtime error while computing a text hover",1440212436503
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1440212465408
+error,log,,,"Unexpected runtime error while computing a text hover",1440212478276
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440212499288
+error,log,,,"Unexpected runtime error while computing a text hover",1440212516366
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212542994
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440212578793
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440212584918
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440212587690
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1440212591335

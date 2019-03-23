@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package pk1;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class Passval {
+	int dd,mm,yy;
+ Passval(int dd,int mm,int yy)
+ {
+	 this.dd=dd;
+	 this.mm=mm;
+	 this.yy=yy;
+ }
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Passval p1=new Passval(10,12,2000);
+	Passval p2=new Passval(1,1,2010);
+	
+
+	}
+
+}

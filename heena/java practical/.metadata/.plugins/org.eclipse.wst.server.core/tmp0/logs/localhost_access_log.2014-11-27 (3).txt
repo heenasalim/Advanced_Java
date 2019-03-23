@@ -1,0 +1,6 @@
+127.0.0.1 - - [27/Nov/2014:16:45:40 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [27/Nov/2014:16:45:41 +0530] "GET /ui/generalinformation.jsp HTTP/1.1" 500 3152
+0:0:0:0:0:0:0:1 - - [27/Nov/2014:16:47:31 +0530] "GET /ui/mystyle.css HTTP/1.1" 404 997
+0:0:0:0:0:0:0:1 - - [27/Nov/2014:16:47:31 +0530] "GET /ui/undefinedsrc/debug.js HTTP/1.1" 404 1027
+0:0:0:0:0:0:0:1 - - [27/Nov/2014:16:47:31 +0530] "GET /ui/undefinedsrc/browser_debug.js HTTP/1.1" 404 1051
+0:0:0:0:0:0:0:1 - - [27/Nov/2014:16:47:31 +0530] "GET /ui/generalinformation.jsp HTTP/1.1" 200 6912

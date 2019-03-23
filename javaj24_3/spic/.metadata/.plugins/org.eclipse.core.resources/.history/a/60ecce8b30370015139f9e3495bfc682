@@ -1,0 +1,11 @@
+
+public class Shape  implements Printable {
+double area1;
+int  r=789;
+area1=(3.14*r*r);
+System.out.println("Shape area of  the  circle is"+area1);
+public  void  print()
+{
+System.out.println("class shape");	
+}
+}

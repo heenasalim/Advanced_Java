@@ -1,0 +1,19 @@
+package ch6;
+
+public class Account {
+
+	int  accid;
+	  String accname;
+	  int  balance;
+	  class  Locker
+	  {
+		 int  locid;
+		Locker()
+		{
+		this.locid=locid;
+		
+		}
+		 
+	  }
+
+}

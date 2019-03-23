@@ -1,0 +1,82 @@
+package Multithreding;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+
+
+public class BannerClass extends JFrame implements Runnable {
+	Thread t1,t2;
+	int x1,x2=500;
+	public BannerClass() {
+		t1=new Thread(this,"Thread-1");
+		t2=new Thread(this,"Thread-2");
+		t1.start();
+		t2.start();
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		 BannerClass b=new  BannerClass();
+		 b.setVisible(true);
+		 b.setSize(300,400);
+		
+	}
+public void pain(Graphics g)
+{
+	super.paint(g);
+	g.setFont(new Font("Times new Roman",Font.BOLD,20));
+	g.setColor(Color.BLUE);
+	g.drawString("Infosys",x1,200);
+	
+	
+	g.drawString("PVTLTD",x2,200);
+	//g.setColor(Color.BLUE);
+	
+}
+
+	@Override
+	public void run() {
+	//int i=0;
+	
+		while(true)
+		{
+			try
+			{
+			
+			if(Thread.currentThread()==t1)
+			{
+				x1++;
+				repaint();
+				Thread.sleep(1000);
+					
+			
+			}
+			
+			
+			if(Thread.currentThread()==t2)
+			{
+				
+				x2--;
+				repaint();
+				//System.out.print("thread2=");
+				
+			
+				Thread.sleep(1000);
+			}
+			}catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				}
+		}
+		
+		
+		
+		
+		}
+	}
+

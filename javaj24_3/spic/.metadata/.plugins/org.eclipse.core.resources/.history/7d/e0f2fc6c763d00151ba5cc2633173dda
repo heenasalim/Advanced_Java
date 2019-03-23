@@ -1,0 +1,42 @@
+package ch7;
+
+import java.util.Scanner;
+
+public class SearchUtilDemo {
+
+	   int  Empno;
+	  
+	   
+	// public  void   intake()
+	  //{
+		  
+	   // Empno=s.nextInt();
+	 //  }
+	   
+	  public   void   searchEmpInfo(  Collection c[])  throws  Exception 
+	  { 
+		  Scanner  s= new  Scanner(System.in);
+		  Empno=s.nextInt();
+		 
+		 if(c.empid==Empno)
+		
+		 {
+			 System.out.println( "employee  details  are" +c);
+		  } 
+		 
+		 else
+		  
+		  {
+		     throw  new  MyException("employee  does  not   exist");
+		  }
+		  
+		 
+		  
+		 }
+		 
+
+
+	  
+}
+
+	  

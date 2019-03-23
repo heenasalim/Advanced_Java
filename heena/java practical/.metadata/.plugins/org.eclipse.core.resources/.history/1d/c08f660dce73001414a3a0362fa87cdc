@@ -1,0 +1,17 @@
+package pk11;
+
+import java.awt.event.ActionEvent;
+
+public class Login extends ActionEvent{
+	private String username;
+	private String password;
+public Login(Object source, int id, String command) {
+		super(source, id, command);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+		// TODO Auto-generated constructor stub
+	}
+
+}

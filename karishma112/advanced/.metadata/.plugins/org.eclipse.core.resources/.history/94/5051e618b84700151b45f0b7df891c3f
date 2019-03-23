@@ -1,0 +1,23 @@
+package JDBConn;
+
+import java.sql.*;
+import java.sql.DriverManager;
+
+public class connectivity1 {
+
+	public connectivity1() {
+		try
+		{
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			System.out.println("Got Driver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@oracl_server:1521:"orcl","java","java"");
+			
+		}
+	}
+
+	
+	public static void main(String[] args) {
+		connectivity1 c=new connectivity1();
+	}
+
+}

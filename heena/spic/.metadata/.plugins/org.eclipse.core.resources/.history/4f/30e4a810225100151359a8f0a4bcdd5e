@@ -1,0 +1,83 @@
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class ServletSession
+ */
+@WebServlet("/ServletSession")
+public class ServletSession extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**           
+     * @see HttpServlet#HttpServlet()
+     */
+	
+	
+	
+    public ServletSession() {
+        super();
+        
+        
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		PrintWriter out=response.getWriter();
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+	        System.out.println("got  connection");
+	       Connection con=DriverManager.getConnection("jdbc:Oracle:thin:@Oracle-server:1521:orcl","java","java");
+	       System.out.println("get  connection");
+	       java.sql.Statement s=con.createStatement();
+	      ResultSet rs=s.executeQuery("select username,password  from  database");
+	       int  flag=0;
+	       String user=request.getParameter("user");
+	       String pass=request.getParameter("pass");
+	       System.out.println("user"+user);
+	       System.out.println("password"+pass);
+	      while(rs.next())
+	      {
+	    	  if(user.equals(rs.getString(1))&&  pass.equals(rs.getString(2)))
+	    	  {
+	    		  flag++;
+	    		  out.print("<html><body>");
+	    			//out.print("<img alt='abc' src='D://Tulips.jpg' width=200 height=200/>");
+	    			out.print("<a href='URL2?user="+user+"'>CLICK HERE</a>");
+	    			out.print("</body></html>");
+	    	  }
+	      }
+	      if(flag==0)
+	      {
+	    	  out.print("<h1>Wrong  User</h1>");
+	      }
+
+		
+		                       
+		//String user=request.getParameter("user");
+		//System.out.println(user);
+		
+		}
+		 catch(Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		 
+	  
+	}
+
+}

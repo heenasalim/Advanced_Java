@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package pk1;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class Passval {
+	int dd,mm,yy;
+ Passval(int dd,int mm,int yy)
+ {
+	 this.dd=dd;
+	 this.mm=mm;
+	 this.yy=yy;
+ }
+	/**
+	 * @param args
+	 */
+ public String toString()
+ {
+	 return "dd="+dd+"mm="+mm+"yy="+yy;
+ }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Passval p1=new Passval(10,12,2000);
+	Passval p2=new Passval(1,1,2010);
+	
+	System.out.println("****Before swap*******");
+
+	System.out.println("" +p1);
+	System.out.println("" +p2);
+	System.out.println("****after swap*******");
+	swap(p1,p2);
+	
+	}
+	public static void swap(Passval p1, Passval p2) {
+		// TODO Auto-generated method stub
+		Passval temp=p1;
+		p1=p2;
+		p2=temp;
+		System.out.println("" +p1);
+	}
+
+}

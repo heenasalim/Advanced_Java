@@ -1,0 +1,12 @@
+
+public class Applet   extends  JApplet {
+	  Font  f;
+	  @oveeride
+	  public  void  init()
+	  {
+		  super.init();
+		  String type=getParameter("font");
+		  
+	  }
+
+}

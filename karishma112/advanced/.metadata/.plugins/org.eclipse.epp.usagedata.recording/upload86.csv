@@ -1,0 +1,201 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Resource '/GmailLogin/for%20java/apache-tomcat-7.0.22/webapps/manager/xform.xsl' does not exist.",1440731442944
+error,log,,,"Resource '/GmailLogin/for%20java/apache-tomcat-7.0.22/webapps/manager/xform.xsl' does not exist.",1440731442948
+error,log,,,"Resource '/GmailLogin/for%20java/apache-tomcat-7.0.22/webapps/manager/xform.xsl' does not exist.",1440731442952
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440731454088
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731480270
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731502765
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731510265
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731547262
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731547395
+closed,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440731549949
+closed,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731551125
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731551910
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731556946
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731565164
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.cleanAction",1440731565170
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731565438
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731566893
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440731570430
+opened,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731588267
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731588336
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731589822
+opened,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.AllMarkersView",1440731590029
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440731610818
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440731620309
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731628886
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731638821
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731638825
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731661797
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731690398
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.edit.text.openLocalFile",1440731690420
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731696557
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731744527
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731753247
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731771302
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1440731771314
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731780606
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440731788117
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731788673
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731792596
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731810918
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731816819
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731875726
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440731892661
+error,log,,,"Unhandled event loop exception",1440731892919
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440731922444
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731937241
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440731956306
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731975278
+opened,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731981803
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731981850
+closed,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731985200
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731986759
+closed,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731989591
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732008515
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732011853
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732011914
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732013655
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440732013660
+opened,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732019396
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732019417
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440732041056
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732062642
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440732068238
+executed,command,org.eclipse.wst.sse.ui,1.3.1.v201108191312,"org.eclipse.wst.sse.ui.format",1440732075973
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440732081109
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732089231
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440732091348
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440732097162
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440732097259
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732100542
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732103546
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732103645
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732106636
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440732106713
+opened,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732106841
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732106871
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440732119502
+closed,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732119502
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440732121666
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440732121666
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440732123800
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440732151687
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440732151767
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732159962
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732161971
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732162100
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732165059
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440732165096
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165302
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165307
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165318
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165324
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165329
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165332
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165337
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165341
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165346
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165350
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165354
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165357
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165362
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165367
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165370
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165374
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165377
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165381
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165384
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165388
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165391
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165395
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165400
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165405
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165408
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165412
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165416
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165419
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165423
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165426
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165430
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165433
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165437
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165441
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165444
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165448
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165452
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165456
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165460
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165464
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165468
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165473
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165477
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165481
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165485
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165492
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165497
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165501
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165504
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165508
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165511
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165515
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165518
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165522
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165526
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165530
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165534
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165538
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165542
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165545
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165549
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165552
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165555
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165559
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165562
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165566
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165570
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165573
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165577
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165581
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165585
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165589
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165593
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165597
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440732165600
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165662
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165666
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165669
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165673
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165676
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165680
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165684
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165687
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165690
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165694
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165699
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165702
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165706
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165710
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165713
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165717
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165721
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165724
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165728
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165732
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165735
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165738
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165742
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165745
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165749
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165752
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165756
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165760
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165763
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165767
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165772
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165776
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165781
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165784
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165789
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165792
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/mmetrics-frames.xsl' does not exist.",1440732165796

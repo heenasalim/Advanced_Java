@@ -1,0 +1,12 @@
+package ch7;
+  import java.lang.annotation.Documented;
+  import java.lang.annotation.Inherited;
+@Documented
+
+
+
+
+public class ReflectionDemo1 {
+
+	
+}

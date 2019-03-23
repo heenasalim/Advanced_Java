@@ -1,0 +1,20 @@
+package ch7;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class SortUtilDemo {
+	
+	public  void  sort(Collection c[])
+	{
+		  SortedSet   s=  new  TreeSet();
+		  for(int  i=0;i<c.length;i++)
+		  {
+	   s.add("heena");
+	   s.add("teena");
+	   s.add(2000);
+	   s.add(3000);
+		  }
+	  System.out.println("sorted  set  is "+s);
+	}
+}

@@ -1,0 +1,15 @@
+package Multithreding;
+
+public class AccountDemo {
+
+	public AccountDemo() {
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

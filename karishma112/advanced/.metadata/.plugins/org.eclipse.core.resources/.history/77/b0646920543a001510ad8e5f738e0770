@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class Account 
+{
+
+	public int balance=20000;
+	//String msg1;
+	 Account (String str)
+	 {
+	System.out.println("how much money u want to withrdaw");
+	Scanner s=new Scanner(System.in);
+	
+	balance=s.nextInt();
+	 }
+		
+
+}

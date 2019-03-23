@@ -1,0 +1,20 @@
+package ch7;
+
+public class Employee12 {
+	  public Employee12(int empid, double sal, String empname) {
+		super();
+		this.empid = empid;
+		this.sal = sal;
+		this.empname = empname;
+	}
+	int  empid;  double  sal;
+	  String  empname;
+	@Override
+	public String toString() {
+		return "Employee12 [empid=" + empid + ", sal=" + sal + ", empname="
+				+ empname + "]";
+	}
+	  
+	  
+
+}

@@ -1,0 +1,7 @@
+package ch7;
+
+public class Employee12 {
+	  int  empid;  double  sal;
+	  String  empname;
+
+}

@@ -1,0 +1,8 @@
+package collectionpk;
+
+public @interface cityInfo {
+	String cityname();
+	int zip();
+	
+
+}

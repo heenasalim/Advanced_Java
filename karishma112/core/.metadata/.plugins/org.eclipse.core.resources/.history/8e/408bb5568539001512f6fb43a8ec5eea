@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package pk1;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class FileDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package test;
+
+import java.awt.event.ActionEvent;
+import java.util.Date;
+
+public class EmployeeAction extends ActionEvent {
+public EmployeeAction(Object source, int id, String command) {
+		super(source, id, command);
+		// TODO Auto-generated constructor stub
+	}
+private String empid,password,password1,name,email;
+Date dob;
+int age;
+}

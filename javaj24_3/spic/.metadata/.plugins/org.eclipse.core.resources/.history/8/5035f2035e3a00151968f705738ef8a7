@@ -1,0 +1,25 @@
+package ch6;
+
+public class File {
+
+	File  f;
+	String  fname,path,abspath;
+  double  size;
+  File(String s)
+  
+  {
+	  f= new  File("console1.txt");
+	  
+	if(f.exists()==true)
+	{
+		System.out.println("file  existe=s");
+	}
+	else
+{
+	System.out.println("file  does  not  existes");
+}
+	
+  }
+	
+	
+}

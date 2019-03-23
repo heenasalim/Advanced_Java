@@ -1,0 +1,46 @@
+package ch5;
+
+public class Manager extends Employee
+{
+    float pa,fa,oa;
+    
+    Manager()
+    {
+    	 pa=(8/100)*bsc;
+    	 fa=(13/100)*bsc;
+    	 oa=(3/100)*bsc;
+    	
+    }
+
+	public Manager(int id, int bsc, String name, float pa, float fa, float oa)
+     {
+		super(id, bsc, name);
+		
+			this.pa=pa;
+			this.fa=fa;
+			this.oa=oa;
+     	}
+  public float calSal()
+  {
+	float netsalary=bsc+pa+fa+oa;
+	return netsalary;
+  }
+  
+  public static void main(String args)
+  {
+       Manager m=new Manager();
+       m.display();
+       
+       System.out.println("********************");
+       Manager m1=new Manager(200,12000,"pranita",m.pa,m.fa,m.oa);
+       m1.display();
+       System.out.println("NetSalary is="+m1.calSal());
+  }
+
+@Override
+public String toString() 
+{
+	return "Manager [pa=" + pa + ", fa=" + fa + ", oa=" + oa + "]";
+}
+
+}

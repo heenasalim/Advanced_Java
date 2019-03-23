@@ -1,0 +1,15 @@
+package javaIO;
+
+public class simpleAvial {
+	simpleAvial()
+	{
+		File f1=new File("one.txt");
+		File f1=new File("two.txt");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 simpleAvial s=new  simpleAvial();
+	}
+
+}

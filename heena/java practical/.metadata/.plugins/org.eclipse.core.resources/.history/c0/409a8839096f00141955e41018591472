@@ -1,0 +1,91 @@
+package pk2;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class LoginServlet2
+ */
+@WebServlet("/LoginServlet2")
+public class LoginServlet2 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public LoginServlet2() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see Servlet#init(ServletConfig)
+	 */
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+		driver=config.getServletContext().getInitParameter("driver");
+		url=config.getServletContext().getInitParameter("url");
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		try
+		{
+			Class.forName(driver);
+			System.out.println("Got Driver");
+			
+			Connection con=DriverManager.getConnection(url,"java","java");
+			System.out.println("Got Connection");
+		
+		
+		String user=request.getParameter("user");
+		String pass=request.getParameter("pass");
+		
+		System.out.println(user);
+		System.out.println(pass);
+		
+		if(user.equals("seed") && pass.equals("info"))
+		{
+			System.out.println("Welcome");
+			response.sendRedirect("home1.html");
+		}
+		else
+		{
+			response.sendRedirect("error.html");
+		}
+		
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	
+
+	/*protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}*/
+
+	}
+}
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}

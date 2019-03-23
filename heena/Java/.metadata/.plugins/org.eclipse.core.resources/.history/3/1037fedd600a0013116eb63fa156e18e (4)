@@ -1,0 +1,18 @@
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+
+public class Menu {
+  JMenuBar mb=new JMenuBar();
+  JMenu m1=new JMenu("File");
+  JMenu m2=new JMenu("Edit");
+  JMenu m3=new JMenu("Format");
+  JMenu m4=new JMenu("View");
+  JMenu m5=new JMenu("Help");
+  JMenuItem m6=new JMenuItem("New");
+  JMenu m7=new JMenu("Open");
+  JMenu m8=new JMenu("Save");
+  JMenu m9=new JMenu("Print");
+  JMenu m10=new JMenu("Exit");
+}

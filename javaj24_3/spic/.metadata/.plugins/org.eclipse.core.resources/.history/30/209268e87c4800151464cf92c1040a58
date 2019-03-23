@@ -1,0 +1,13 @@
+import java.sql.Connection;
+
+
+public class Banking {
+public static void main(String[] args) {
+	
+}
+private  static void  moneyTransfer()  throws Exception
+{
+	Connection  con=null;
+	
+}
+}

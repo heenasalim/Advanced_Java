@@ -1,0 +1,102 @@
+package balls;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+
+public class Bouncingball extends JFrame implements Runnable {
+
+	int  x1,x2,x3=0;
+	Thread t1;
+	Thread t2;
+	Thread  t3;
+	
+	  public Bouncingball()
+	{
+		t1=new Thread(this,"thread-1");
+		t2=new Thread(this,"thread-2");
+		t3=new Thread(this,"thread-3");
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+	  @Override
+	  public  void  paint(Graphics  g)
+	  {
+		    super.paint(g);  
+		    g.setColor(Color.red);
+		  g.fillOval(x1,150, 50,50);
+		   g.setColor(Color.green);
+		  g.fillOval(x2,250, 50,50);
+		   g.setColor(Color.blue);
+		  g.fillOval(x3,350, 50,50);
+	  }
+public static void main(String[] args) {
+	Bouncingball  b1=new Bouncingball();
+	b1.setVisible(true);
+	b1.setSize(800, 800);
+	b1.setDefaultCloseOperation(EXIT_ON_CLOSE);
+	
+	
+}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		while(true)
+		{
+			
+			try
+			{
+			if(Thread.currentThread()==t1)
+			{
+				x1++;
+				Thread.sleep(10);
+				repaint();
+				if(x1==300)
+				{
+					synchronized(this)
+					{
+			wait();
+					}
+				}
+			}
+				if(Thread.currentThread()==t2)
+				{
+					x2++;
+					Thread.sleep(10);
+					repaint();
+					if(x2==300)
+					{
+				  synchronized(this)
+				    {
+					wait();	
+			        }
+					}
+					
+				 }
+				if(Thread.currentThread()==t3)
+				{
+					x3++;
+					Thread.sleep(50);
+					repaint();
+					if(x3==300)
+					{
+						synchronized(this)
+						{
+				  notifyAll();
+						}
+					}
+				}
+			}
+			catch(Exception e){
+				
+			}
+			
+			}
+			
+		}
+		
+	
+}

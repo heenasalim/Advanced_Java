@@ -1,0 +1,25 @@
+package ch6;
+
+public class Wrapper {
+	 int  x=30;
+	   Integer i= new  Integer(x);  //pdt   to  wrapper
+	   
+	   int  y=i.intValue();   //wrapperv to  pdt 
+	   String s="30";
+	   int  k=Integer.parseInt(s);   //string  to  pdt 
+	   //Integer i=Integer  Valueof(s);  //string  to  wrapper 
+	  
+	   //convert  wrapper   to  primitive 
+	 public  void  show()
+	   {  
+		  
+	  System.out.println("wrapper  to  primitive:"+y);
+	 System.out.println (" primitive  data  type  to  wrapper"+x);
+	 System.out.println (" primitive  data  type  to  wrapper"+k);
+	}
+	public  static  void  main(String  args[])
+	{
+   Wrapper  w=new  Wrapper();
+   w.show();
+
+}}

@@ -1,0 +1,6 @@
+package collectionpk;
+
+public @interface cityInfo {
+	String city_name;
+
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+public class DivisionDemo {
+	
+	int n01,n02;
+	Scanner s=new Scanner(System.in);
+	System.out.println("\n enter the two numbers = ");
+	s.nextInt();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DivisionDemo d=new DivisionDemo();
+		//d.checkEx();
+
+	}
+
+
+}

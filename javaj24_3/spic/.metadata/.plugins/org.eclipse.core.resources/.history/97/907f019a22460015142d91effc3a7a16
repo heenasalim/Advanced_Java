@@ -1,0 +1,10 @@
+import  java.applet.*;
+public class Changer  implements  actionlistner {
+ 
+	
+ 	
+	public  void actionperformed
+	{
+
+	}
+}

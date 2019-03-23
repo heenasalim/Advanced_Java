@@ -1,0 +1,47 @@
+package socket;
+
+
+import java.net.*;
+import java.io.*;
+
+class chatclient
+{
+	Socket connection;//client socket
+	DataInputStream dis;//clientread
+	DataOutputStream dos;//write
+	DataInputStream disi;//serverread
+	public chatclient() throws Exception
+	{
+		connection =new Socket("192.168.5.64",2000);
+		System.out.println("Request sent....");
+		
+	}
+	public void talk()
+	{
+		String str=new String(" ");
+		try{
+		dis=new DataInputStream(connection.getInputStream());
+		dos=new DataOutputStream(connection.getOutputStream());
+		disi= new DataInputStream(System.in);
+		
+		while(true)
+		{
+			str=new String(disi.readLine());
+			dos.writeUTF(str);
+			System.out.println(dis.readUTF());
+		}
+		}
+		catch(Exception e){}
+	}
+	public static void main(String args[])
+	{
+		try
+		{
+
+		chatclient cc=new chatclient();
+		cc.talk();
+		}
+		catch(Exception e){}
+	}
+}
+

@@ -1,0 +1,12 @@
+package abstract1;
+
+public class Rectangle extends  shape {
+
+	public int  area()
+	{ 
+		int  l,b;
+		int  a=(l*b); 
+		System.out.println("");
+	}
+	
+}

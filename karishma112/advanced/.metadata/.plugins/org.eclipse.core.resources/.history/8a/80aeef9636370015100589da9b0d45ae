@@ -1,0 +1,18 @@
+package JavaClasspk;
+import java.io.*;
+
+public class FileDemo {
+	FileDemo()
+	{
+		File f;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileDemo f=new FileDemo();
+		
+		
+		
+
+	}
+
+}

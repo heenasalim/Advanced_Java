@@ -1,0 +1,38 @@
+package Multithreding;
+
+import javax.swing.JFrame;
+
+public class BallDemo extends JFrame implements Runnable {
+
+	Thread t1,t2,t3;
+	int x1,x2,x3;
+	public BallDemo() {
+		// TODO Auto-generated constructor stub
+		t1=new Thread(this,"Thread-1");
+		t2=new Thread(this,"Thread-2");
+		t3=new Thread(this,"Thread-3");
+		//t1.setPriority(1);
+		//t2.setPriority(10);
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		BallDemo b=new BallDemo();
+		b.setVisible(true);
+		b.setSize(400,400);
+		b.setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

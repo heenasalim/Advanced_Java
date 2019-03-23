@@ -1,0 +1,21 @@
+package Multithreding;
+
+public class ThreadClass extends Thread {
+	Thread t1,t2;
+
+	public ThreadClass() {
+		t1=new Thread();
+		t2=new Thread();
+		
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ThreadClass ts=new ThreadClass();
+		
+	}
+
+}

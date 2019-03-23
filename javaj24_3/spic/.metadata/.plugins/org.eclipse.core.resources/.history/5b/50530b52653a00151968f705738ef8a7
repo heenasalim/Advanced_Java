@@ -1,0 +1,32 @@
+package ch7;
+
+import java.io.*;
+
+
+public class FileDemo
+{
+	
+	void method()
+	{
+		try 
+		{  
+			int  a=0;
+			int c;
+			int  b=10;
+			c=b/a;
+			FileInputStream f= new  FileInputStream("file12.txt");
+		
+			  
+          }
+		catch (FileNotFoundException  ex)
+		{
+			
+			System.out.println("file  does  not   exist");
+		}
+		catch(ArithmeticException e)
+		{
+		System.err.println("  divide  by   zero  error");
+		}
+		
+}
+}

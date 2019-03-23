@@ -1,0 +1,18 @@
+
+public class Servlet11 {
+public static void main(String[] args) {
+	
+  Connection  con=null;
+	  try
+	  {
+		  Class.forName("oracle.jdbc.driver.OracleDriver");
+		    System.out.println("got  connection");
+		    
+		  
+	  }
+	    catch(Exception  e)
+	    {
+	    	  e.printStackTrace();
+	    }
+}
+}

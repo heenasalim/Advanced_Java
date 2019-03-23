@@ -1,0 +1,50 @@
+package ch6;
+
+public class DemoStringBuilder {
+	
+	
+	
+	
+public  static  void  main(String  args[])
+{
+String  s=new  String("abc");
+String s2=new  String("abc");
+StringBuffer  s1=new  StringBuffer("abchgfds");
+StringBuilder  b3=  new  StringBuilder("gjhkjka");
+System.out.println("capacity initialized for   string  builder  is is"+b3);
+System.out.println("appended  string  is"+ b3.append("xyz"));
+System.out.println("capacity"+b3.capacity());
+System.out.println("character  at  2  locatiobn  is"+b3.charAt(2));
+System.out.println("remove  character  at  5  and  6  location "+b3.delete(5,6));
+System.out.println("String  representation  is"+b3.insert(0, "sahjha"));
+if(s==s2)
+{
+System.out.println("equals");
+}   
+
+else 
+	
+System.out.println("not  equals");
+
+if(s.equals(s2))
+		{
+System.out.println("equals");
+}   
+else
+{
+	System.out.println("not  equals");
+}
+
+if(s.equals(s1))
+{
+System.out.println("Equals");
+}
+else 
+	System.out.println("not  equals");
+
+}
+System.out.println("location  for  s  is="+s.hashCode());
+System.out.println("location  for  s2  is="+s2.hashCode());
+System.out.println("location  for  s1  is=="+s1.hashCode());
+System.out.println("location  for  b3  is=="+b3.hashCode());
+}

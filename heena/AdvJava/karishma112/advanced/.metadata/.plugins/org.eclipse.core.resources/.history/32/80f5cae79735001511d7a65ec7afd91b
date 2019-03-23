@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package pk2;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class Manager extends Employee{
+	//double pa,fa,oa;
+	Manager()
+	{
+		super(1,"abc",20000);
+	}
+	
+	public double petrolAll()
+	{
+		
+		return(8*basicSal)/100;
+	}
+
+	public double foodAll()
+	{
+		
+		return (13*basicSal)/100;
+	}
+	public double otherAll()
+	{
+		
+		return (8*basicSal)/100;
+	}
+	public String toString()
+	{
+		return "\nempid="+eid+"\nname="+name+"\nbasic="+basicSal+"\npetrolAll= "+petrolAll()+"FoodAllowance="+foodAll()+"OtherAll="+otherAll();
+	}
+
+
+	public static void main(String[] args) {
+		//Employee e=new Employee(1,"abc",20000);
+		Manager m=new Manager();
+		System.out.println(e);
+		// TODO Auto-generated method stub
+
+	}
+
+}

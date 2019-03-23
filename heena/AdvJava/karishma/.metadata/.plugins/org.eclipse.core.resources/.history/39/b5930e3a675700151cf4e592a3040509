@@ -1,0 +1,31 @@
+import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+
+public class Servlet11 {
+public static void main(String[] args) {
+	
+  Connection  con=null;
+	  try
+	  {
+		  Class.forName("oracle.jdbc.driver.OracleDriver");
+		    System.out.println("got  connection");
+		     con=DriverManager.getConnection("jdbc:Oracle:thin:@Oracle-server:1521:orcl","java","java");
+		     System.out.println("get  connection");
+		     java.sql.Statement s=con.createStatement();
+		      ResultSet rs=s.executeQuery("select username,password  from  Login11");
+		      int  flag=0;
+		      while(rs.next())
+		      {
+		    	  if(user.equals(rs.getString(1))&&  pass.equals(rs.getString(2)))
+		      }
+		  
+	  }
+	    catch(Exception  e)
+	    {
+	    	  e.printStackTrace();
+	    }
+}
+}

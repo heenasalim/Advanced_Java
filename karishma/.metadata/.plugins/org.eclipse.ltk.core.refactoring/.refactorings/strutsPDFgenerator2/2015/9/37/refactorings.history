@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;strutsPDFgenerator2/src/pk1&apos;&#x0D;&#x0A;- Original project: &apos;strutsPDFgenerator2&apos;&#x0D;&#x0A;- Destination element: &apos;strutsPDFgenerator2/src/pk1&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     GeneratePDFAction.java&#x0D;&#x0A;     MessageInPDF.java" description="Copy compilation units" destination="/src&lt;pk1" element1="/src&lt;{GeneratePDFAction.java" element2="/src&lt;{MessageInPDF.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1442030885194" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+package Applet;
+
+import java.applet.Applet;
+import java.awt.*;
+
+public class changingApplet extends Applet{
+
+	Canvas c;
+	color col;
+	
+}

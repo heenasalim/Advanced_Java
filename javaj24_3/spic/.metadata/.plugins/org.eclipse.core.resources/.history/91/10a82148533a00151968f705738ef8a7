@@ -1,0 +1,24 @@
+package ch6;
+
+public class DemoStringBuilder {
+	
+	
+	
+	
+public  static  void  main(String  args[])
+{
+String  s=new  String("abc");
+String s2=new  String("abc");
+if(s==s2)
+{
+System.out.println("equals");
+}
+StringBuffer  s1=new  StringBuffer("abc");
+StringBuilder  b3=  new  StringBuilder(16);
+b3.reverse();
+if(s.equals(s1))
+{
+System.out.println("not  Equals");
+}
+}
+}

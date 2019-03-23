@@ -1,0 +1,34 @@
+package salaryDe;
+import javax.swing.*;
+
+public class SalaryDetails {
+	
+	JFrame f;
+	JPanel p;
+	JButton b1;
+	JTextField t1,t2,t3,t4,t5,t6;
+	JLabel l1,l2,l3,l4,l5,l6,l7,l8;
+	SalaryDetails()
+	{
+		f=new JFrame("salaryDetails");
+		p=new JPanel();
+		b1=new JButton("Calculate");
+		l1=new JLabel("Name");
+		l2=new JLabel("BasicSalary");
+		l3=new JLabel("HRA");
+		l4=new JLabel("DA");
+		l5=new JLabel("Totalsalary");
+		l6=new JLabel("PF");
+		l7=new JLabel("ITax");
+		l8=new JLabel("Salary in Hand");
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

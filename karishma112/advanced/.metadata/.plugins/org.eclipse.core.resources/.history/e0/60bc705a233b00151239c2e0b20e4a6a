@@ -1,0 +1,100 @@
+package collectionpk;
+
+import java.awt.List;
+import java.util.*;
+
+public class Employee {
+	int id;
+	String name;
+	double salary;
+	Set skillset;
+	int ch;
+	
+	
+	
+	Employee (int id,String name,double salary,String... X)
+	{
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
+		skillset=new HashSet();
+	
+		for(int i=0;i<X.length;i++)
+		 {
+			 skillset.add(X[i]);
+		 }
+		
+	}
+	public String toString()
+	{
+		return "\nid="+id+"\tname= "+name+"\tsalary= "+salary+"\tskills= "+skillset;
+	}
+		
+		
+
+	
+
+	
+	public static void main(String[] args) {
+		
+		int ch,i,n;
+		System.out.println("\n****************MENU******************\n");
+		System.out.println("\n1.insert \n2.insert through user\n3.Exit\n");
+		Scanner s=new Scanner(System.in);
+		System.out.println("\nEnter ur choice=");
+		ch=s.nextInt();
+		switch(ch)
+		{
+		case 1:		Employee e[]=new Employee[5];
+					ArrayList l=new ArrayList();
+					e[0]=new Employee(1,"abc",1000,"c","c");
+					l.add(e[0]);
+					e[1]=new Employee(3,"xyz",2000,"c++");
+					l.add(e[1]);
+					e[2]=new Employee(2,"xyz",2000,"java","c++");
+					l.add(e[2]);
+					e[3]=new Employee(1,"xyz",2000,"java","c++","c");
+					l.add(e[3]);
+					e[4]=new Employee(4,"xyz",2000,"c");
+					l.add(e[4]);
+					System.out.println(l);
+					break;
+		case 2:		
+					System.out.println("\nHow many employee u want to add=");	
+					n=s.nextInt();
+					Employee e1[]=new Employee[n];
+					ArrayList l1=new ArrayList();
+					for(i=0;i<=e1.length;i++)
+					{
+						System.out.println("\nenter empid= ");
+						int id=s.nextInt();
+						//e[i]=s.nextInt();
+						System.out.println("\nenter empname=");
+						String name=s.next();
+						System.out.println("\nenter salary=");
+						double salary=s.nextDouble();
+						System.out.println("\nenter skills= ");
+						String x=s.next();
+						//e1[i]=new Employee(id,name,salary,x);
+					}
+					
+					//Employee e2=new Employee(id,name,salary,x);
+					for(i=0;i<e1.length;i++)
+					{
+						l1.add(e1[i]);
+					}
+					Iterator it=l1.iterator();
+					while(it.hasNext())
+					{
+						System.out.println(""+it.next());
+					}
+					//System.out.println(l1);
+					
+					break;
+		}
+		
+	
+
+	}
+
+}

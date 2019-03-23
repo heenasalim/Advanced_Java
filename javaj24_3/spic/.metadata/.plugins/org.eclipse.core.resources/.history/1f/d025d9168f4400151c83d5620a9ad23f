@@ -1,0 +1,6 @@
+package balls;
+
+public class Synchrinizedtransaction   extends   Thread {
+
+	
+}

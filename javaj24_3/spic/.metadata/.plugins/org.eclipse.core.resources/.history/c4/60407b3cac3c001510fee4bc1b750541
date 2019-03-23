@@ -1,0 +1,10 @@
+package ch7;
+
+public class Utilitylist {
+
+	   public  static   void printlist(Collection  c[])
+	   {
+		     List  l=  new    ArrayList();
+		     
+	   }
+}

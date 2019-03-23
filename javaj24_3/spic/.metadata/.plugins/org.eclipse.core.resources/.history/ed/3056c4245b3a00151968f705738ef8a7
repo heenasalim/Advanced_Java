@@ -1,0 +1,18 @@
+package ch6;
+
+public class Wrapper {
+    int  x=30;
+   Integer i= new  Integer(x);
+   int  y=i.intvalue();
+   String s="30";
+   int  k=Integer.parseInt(s);
+   public  void  show()
+   {  
+	  
+  System.out.println("wrapper  to  primitive:"+y);
+ System.out.println (" primitive  data  type  to  wrapper"+x);
+      
+}
+   //convert  wrapper   to  primitive 
+
+}

@@ -1,0 +1,30 @@
+package javaIO;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class serial {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileOutputStream fos;
+		ObjectOutputStream oos;
+		try
+		{
+		Serialization s=new Serialization();
+		fos=new FileOutputStream("serial1.txt");
+		oos=new ObjectOutputStream(fos);
+		oos.writeObject(s);
+		oos.close();
+		}
+		catch (Exception e1) {
+			// TODO: handle exception
+			e1.printStackTrace();
+		}
+
+	}
+
+}

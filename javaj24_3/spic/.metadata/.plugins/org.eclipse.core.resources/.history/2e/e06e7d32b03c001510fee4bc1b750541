@@ -1,0 +1,57 @@
+package ch7;
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+public class Collection {
+	String    empname;
+	double  sal;
+	int  empid; 
+	Set  SkillSet;
+	
+
+  public Collection(int empid, String empname, double sal,String...X) {
+		super();
+		this.empid = empid;
+		this.empname = empname;
+		this.sal = sal;
+
+	  Set  SkillSet=  new  HashSet();
+	  
+		   for   ( int i=0;i<X.length;i++)
+			
+			{
+				SkillSet.add(X[i]);
+			}
+			       
+	}
+    
+
+
+  
+                                                                                                                                                                                                                                                                                         
+  
+
+     @Override
+public String toString() {
+	return "Collection [empname=" + empname + ", sal=" + sal + ", empid="
+			+ empid + ", SkillSet=" + SkillSet + "]";
+}
+
+
+
+
+
+
+
+	public  static  void  main(String  args[])
+     {
+    	Collection  c[]=  new   Collection[2];
+    	    c[0]=  new  Collection(1,"abc",1000,"c","c++","java");
+    	    c[1]= new  Collection(2,"xyz",5780,"mysql","sql");
+    	    Utilitylist  u=  new Utilitylist();
+    	    u.printlist(c);
+    	    
+     }
+}

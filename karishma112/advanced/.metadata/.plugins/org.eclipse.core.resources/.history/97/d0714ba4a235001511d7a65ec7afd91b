@@ -1,0 +1,12 @@
+package pk2;
+
+public abstract class Shape {
+	
+public abstract double area();
+
+/*public static void main(String args[])
+{
+	Shape s;
+	s.area();
+}*/
+}

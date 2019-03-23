@@ -1,0 +1,16 @@
+package Multithreding;
+
+public class BannerClass {
+
+	public BannerClass() {
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		 BannerClass b=new  BannerClass();
+		
+	}
+
+}

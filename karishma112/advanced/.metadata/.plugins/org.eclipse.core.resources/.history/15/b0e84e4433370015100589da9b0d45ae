@@ -1,0 +1,26 @@
+package wrapper;
+
+public class WrapperDemo {
+	WrapperDemo()
+	{
+	int i=20;
+	Integer I=new Integer(i);
+	
+	System.out.println("integer i="+I);//primitive to wrapper integer
+	
+	
+	int y=I.intValue();//wrapper to primitive
+	System.out.println("integer y="+y);
+	
+	String s="30";
+	System.out.println("*****String to int*********");
+	int j=Integer.parseInt(s);
+	System.out.println("integer j="+y);
+	
+	}
+	public static void main(String[] args) {
+		WrapperDemo w=new WrapperDemo();
+		
+	}
+
+}

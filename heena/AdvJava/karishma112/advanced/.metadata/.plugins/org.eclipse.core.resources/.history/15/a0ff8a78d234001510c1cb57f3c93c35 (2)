@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package pk1;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class PassRef {
+	int dd,mm,yy;
+	PassRef(int dd,int mm,int yy)
+	{
+		this.dd=dd;
+		this.mm=mm;
+		this.yy=yy;
+	}
+
+	/**
+	 * 
+	 */
+	public String toString()
+	{
+		
+	}
+	public PassRef() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PassRef []a=new PassRef[2];
+		a[0]=new PassRef(1,1,2000);
+		a[1]=new PassRef(12,2,2015);
+
+	}
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+   <constant name="struts.devMode" value="true" />
+   <constant name="struts.custom.i18n.resources" value="test.ApplicationResources" />
+   	<package name="testproj3" namespace="/struts3" extends="struts-default">
+		<action name="account" class="AccountAction">
+			<result name="input">/welcome.jsp</result>
+		</action>
+	</package>	
+			<package name="testproj" namespace="/struts" extends="struts-default">
+		<action name="ArraysDataTransferTest" class="pk1.DataTransferTest">
+			<result name="success">/ArraysDataTransferSuccess.jsp</result>
+	    </action>
+	</package>	
+	 <package name="default" extends="struts-default">
+        <action name="*AlbumAction" method="{1}"  class="pk.AlbumInfoAction">
+            <result name="populate">/albumDetails.jsp</result>
+        </action>     
+    </package>
+    	<package name="testproj6" namespace="/struts" extends="struts-default">
+		<action name="converter" class="com.CurrencyConvertert">
+			<result name="success">/index1.jsp</result>
+	    </action>
+	</package>	
+</struts>

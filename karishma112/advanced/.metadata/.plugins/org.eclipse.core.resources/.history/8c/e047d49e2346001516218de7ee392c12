@@ -1,0 +1,14 @@
+package Applet;
+
+
+	import java.awt.*;
+
+	import javax.swing.*;
+	import java.applet.*;
+
+
+	public class applet3  extends  JApplet
+	{
+
+		Button b1,b2,b3;
+}

@@ -1,0 +1,15 @@
+
+public class DivisionDemo2 {
+
+	int a=20,b=0,c;
+	void check()
+	{
+		c=a/b;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 DivisionDemo2 d=new  DivisionDemo2();
+
+	}
+
+}

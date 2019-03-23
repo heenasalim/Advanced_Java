@@ -1,0 +1,855 @@
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Java Database ConnectivityKnowledge Check
+Started on	Saturday, 5 September 2015, 8:02 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 8:05 AM
+Time taken	2 mins 19 secs
+Marks	3.00/4.00
+Grade	7.50 out of 10.00 (75%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+If I want to connect with an Oracle database, which type of driver will you recommend?
+
+Select one:
+a. Native Drivers
+b. Pure Java Driver CorrectThis type of driver makes direct call to the database using the URL provided.
+c. Web Driver
+d. JDBC - ODBC Bridge
+Feedback
+Your answer is correct.
+
+Out of the four types available, you need to choose one. You need to understand the pros and cons of each driver so that you can suggest which type of drivers fits well in the given scenario.
+
+The correct answer is: Pure Java Driver
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Match the Statement type with it's usage scenario
+
+Statement
+
+Answer 1 Correct
+Callable statement
+
+Answer 2 Correct
+Prepared Statement
+
+Answer 3 Correct
+Feedback
+Your answer is correct.
+
+The correct answer is: Statement – Used in situations where a simple query is required, Callable statement – Used when stored procedure are to be executed, Prepared Statement – Used in situations where parameterized query is needed
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+State true or false
+
+executeQuery() method returns a string.
+
+Select one:
+True Incorrect
+False
+Feedback
+The correct answer is 'False'.
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+If a developer wants to find out number of tables in a database at runtime, it can be done using which of the following?
+
+Select one:
+a. ResultSetMetaData
+b. DatabaseMetaData Correct
+c. Tables
+d. All of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: DatabaseMetaData
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Advanced JDBCKnowledge Check
+Started on	Wednesday, 26 August 2015, 8:21 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 8:08 AM
+Time taken	9 days 23 hours
+Marks	3.00/4.00
+Grade	7.50 out of 10.00 (75%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Navigation of result set becomes possible because of these attributes
+
+Select one or more:
+a. ResultSet.TYPE_SCROLL_SENSITIVE Correct
+b. ResultSet.TYPE_SCROLL_INSENSITIVE Correct
+c. ResultSet.TYPE_UPDATABLE
+d. ResultSet.TYPE_READ_ONLY
+Feedback
+Your answer is correct.
+
+The correct answer is: ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.TYPE_SCROLL_INSENSITIVE
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+I wish to move to 102nd record. Which approach will you recommend?
+
+ 
+
+*Assumption: ResultSet object is available through reference "rs".
+
+Select one:
+a. rs.absolute(120) Correct
+b. rs.120
+c. rs.move(120)
+d. rs.next(120)
+Feedback
+Your answer is correct.
+
+The correct answer is: rs.absolute(120)
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Batch Updates are useful because ........
+
+Select one:
+a. Reduces traffic across network calls
+b. Used to group queries for better handling Incorrect
+c. For executing transaction, Batches are mandatory
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Reduces traffic across network calls
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Employee image can be stored in the database in a column with a variable of a BLOB data type.
+
+Select one:
+True Correct
+False
+Feedback
+The correct answer is 'True'.
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Introduction to Web TechnologiesKnowledge Check
+Started on	Saturday, 5 September 2015, 8:10 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 8:14 AM
+Time taken	3 mins 29 secs
+Marks	3.67/4.00
+Grade	9.17 out of 10.00 (92%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Hyper Text Transfer Protocol is a _______________________ protocol
+
+Select one:
+a. stateless Correct
+b. Disconnected
+c. statful
+d. Connected
+Feedback
+Your answer is correct.
+
+The correct answer is: stateless
+Question 2
+Partially correct
+Mark 0.67 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following may be required for executing a web application
+
+Select one or more:
+a. None of the above
+b. Web Server Correct
+c. Java
+d. Web Container Correct
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 2.
+The correct answer is: Java, Web Server, Web Container
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+While debugging, I came to know that the HTTP response received contained Status code value 302. What does it mean?
+
+Select one:
+a. Redirection to other URL Correct
+b. Successful execution
+c. Page not found
+d. Server Error
+Feedback
+Your answer is correct.
+
+The correct answer is: Redirection to other URL
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+For an application involving credit card verification, Post method should be used.
+
+Select one:
+True Correct
+False
+Feedback
+The correct answer is 'True'.
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1XML in JavaKnowledge Check
+Started on	Saturday, 5 September 2015, 8:42 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 8:45 AM
+Time taken	2 mins 36 secs
+Marks	2.50/4.00
+Grade	6.25 out of 10.00 (63%)
+Question 1
+Partially correct
+Mark 0.50 out of 1.00
+ Not flaggedFlag question
+Question text
+What is the use of XML?
+
+Select one or more:
+a. Used to Transfer Data
+b. Used as a Markup language
+c. Used to display HTML pages
+d. Used to store data Correct
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Used to store data, Used to Transfer Data
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Please state True or False
+
+A valid XML document may not be a well-formed XML document.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+A schema based XML document is considered to richer than a DTD based XML document, because
+
+Select one:
+a. XML schema allows for rich UI components to be added to XML
+b. You can create a Rich Internet Application using a Schema
+c. XML schema is modern way of describing the XML
+d. XML schema allows for Data types to be associated with XML tags Correct
+Feedback
+Your answer is correct.
+
+The correct answer is: XML schema allows for Data types to be associated with XML tags
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Match the parser type with it's characteristic
+
+SAX Parser
+
+Answer 1 Incorrect
+DOM Parser
+
+Answer 2
+Feedback
+Your answer is incorrect.
+
+The correct answer is: SAX Parser – Sequential Event based XML validation tool, DOM Parser – Tree based, random data manipulation XML validation tool
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1ServletsKnowledge Check
+Started on	Saturday, 5 September 2015, 8:46 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 8:49 AM
+Time taken	2 mins 57 secs
+Marks	4.50/5.00
+Grade	9.00 out of 10.00 (90%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of these are part of the Servlet Lifecycle?
+
+Select one or more:
+a. service() Correct
+b. remove()
+c. initialization()
+d. init() Correct
+Feedback
+Your answer is correct.
+
+The correct answer is: init(), service()
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Client side data can be retrieved in a Servlet class using the following code.
+
+*Assume client side variable name to be "username" and the request variable name to be "request".
+
+Select one:
+a.
+String user=(String)request.getVariable("username");
+ b.
+String user=(String)request.getParameter("username");
+ Correct
+c.
+String user=(String)request.getAttribute("username");
+Feedback
+Your answer is correct.
+
+The correct answer is:
+String user=(String)request.getParameter("username");
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Servlet collaboration can be done with response.sendRedirect().
+Select one:
+True Correct
+False
+Feedback
+The correct answer is 'True'.
+Next ?
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4Question 5
+Show all questions on one page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Java Servlets(Session, Filters)Knowledge Check
+Started on	Saturday, 5 September 2015, 9:00 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 9:02 AM
+Time taken	1 min 17 secs
+Marks	3.00/5.00
+Grade	6.00 out of 10.00 (60%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session Tracking is required because _________________
+
+Select one or more:
+a. It is mandatory part of web application development
+b. Session tracking is used to track user activities across multiple interactions with the web application Correct
+c. Session tracking helps to transfer user data to servlet for further processing Incorrect
+d. HTTP is a stateless protocol, hence session tracking is required for user identification CorrectSession tracking helps to transfer user data to servlet for further processing
+Feedback
+Your answer is correct.
+
+The correct answer is: HTTP is a stateless protocol, hence session tracking is required for user identification, Session tracking is used to track user activities across multiple interactions with the web application
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+If the cookies are disabled at the client-end, which of the following session tracking mechanism is recommended?
+
+Select one:
+a. URL ReWriting Correct
+b. HTTPSession API
+c. Server side Cookies
+d. Hidden Form Fields
+Feedback
+Your answer is correct.
+
+The correct answer is: URL ReWriting
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+HttpSession internally uses _____________________
+
+Select one:
+a. All of the above Incorrect
+b. Encoded URL
+c. Cookies
+d. Text file
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Cookies
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session data can be available even after the application is finished.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 5
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+A filter can be applied to a specific request by _______________________
+
+Select one:
+a. Mapping with a servlet by adding a <filter-class> tag in the <servlet> tag group
+b. Mapping it to a servlet in <servlet> and <servlet-mapping> tag group
+c. Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+d. Specific URL cannot be targetted
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Java Servlets(Session, Filters)Knowledge Check
+Started on	Saturday, 5 September 2015, 9:00 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 9:02 AM
+Time taken	1 min 17 secs
+Marks	3.00/5.00
+Grade	6.00 out of 10.00 (60%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session Tracking is required because _________________
+
+Select one or more:
+a. It is mandatory part of web application development
+b. Session tracking is used to track user activities across multiple interactions with the web application Correct
+c. Session tracking helps to transfer user data to servlet for further processing Incorrect
+d. HTTP is a stateless protocol, hence session tracking is required for user identification CorrectSession tracking helps to transfer user data to servlet for further processing
+Feedback
+Your answer is correct.
+
+The correct answer is: HTTP is a stateless protocol, hence session tracking is required for user identification, Session tracking is used to track user activities across multiple interactions with the web application
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+If the cookies are disabled at the client-end, which of the following session tracking mechanism is recommended?
+
+Select one:
+a. URL ReWriting Correct
+b. HTTPSession API
+c. Server side Cookies
+d. Hidden Form Fields
+Feedback
+Your answer is correct.
+
+The correct answer is: URL ReWriting
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+HttpSession internally uses _____________________
+
+Select one:
+a. All of the above Incorrect
+b. Encoded URL
+c. Cookies
+d. Text file
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Cookies
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session data can be available even after the application is finished.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 5
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+A filter can be applied to a specific request by _______________________
+
+Select one:
+a. Mapping with a servlet by adding a <filter-class> tag in the <servlet> tag group
+b. Mapping it to a servlet in <servlet> and <servlet-mapping> tag group
+c. Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+d. Specific URL cannot be targetted
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Java Servlets(Session, Filters)Knowledge Check
+Started on	Saturday, 5 September 2015, 9:00 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 9:02 AM
+Time taken	1 min 17 secs
+Marks	3.00/5.00
+Grade	6.00 out of 10.00 (60%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session Tracking is required because _________________
+
+Select one or more:
+a. It is mandatory part of web application development
+b. Session tracking is used to track user activities across multiple interactions with the web application Correct
+c. Session tracking helps to transfer user data to servlet for further processing Incorrect
+d. HTTP is a stateless protocol, hence session tracking is required for user identification CorrectSession tracking helps to transfer user data to servlet for further processing
+Feedback
+Your answer is correct.
+
+The correct answer is: HTTP is a stateless protocol, hence session tracking is required for user identification, Session tracking is used to track user activities across multiple interactions with the web application
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+If the cookies are disabled at the client-end, which of the following session tracking mechanism is recommended?
+
+Select one:
+a. URL ReWriting Correct
+b. HTTPSession API
+c. Server side Cookies
+d. Hidden Form Fields
+Feedback
+Your answer is correct.
+
+The correct answer is: URL ReWriting
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+HttpSession internally uses _____________________
+
+Select one:
+a. All of the above Incorrect
+b. Encoded URL
+c. Cookies
+d. Text file
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Cookies
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session data can be available even after the application is finished.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 5
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+A filter can be applied to a specific request by _______________________
+
+Select one:
+a. Mapping with a servlet by adding a <filter-class> tag in the <servlet> tag group
+b. Mapping it to a servlet in <servlet> and <servlet-mapping> tag group
+c. Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+d. Specific URL cannot be targetted
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1Java Servlets(Session, Filters)Knowledge Check
+Started on	Saturday, 5 September 2015, 9:00 AM
+State	Finished
+Completed on	Saturday, 5 September 2015, 9:02 AM
+Time taken	1 min 17 secs
+Marks	3.00/5.00
+Grade	6.00 out of 10.00 (60%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session Tracking is required because _________________
+
+Select one or more:
+a. It is mandatory part of web application development
+b. Session tracking is used to track user activities across multiple interactions with the web application Correct
+c. Session tracking helps to transfer user data to servlet for further processing Incorrect
+d. HTTP is a stateless protocol, hence session tracking is required for user identification CorrectSession tracking helps to transfer user data to servlet for further processing
+Feedback
+Your answer is correct.
+
+The correct answer is: HTTP is a stateless protocol, hence session tracking is required for user identification, Session tracking is used to track user activities across multiple interactions with the web application
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+If the cookies are disabled at the client-end, which of the following session tracking mechanism is recommended?
+
+Select one:
+a. URL ReWriting Correct
+b. HTTPSession API
+c. Server side Cookies
+d. Hidden Form Fields
+Feedback
+Your answer is correct.
+
+The correct answer is: URL ReWriting
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+HttpSession internally uses _____________________
+
+Select one:
+a. All of the above Incorrect
+b. Encoded URL
+c. Cookies
+d. Text file
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Cookies
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Session data can be available even after the application is finished.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 5
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+A filter can be applied to a specific request by _______________________
+
+Select one:
+a. Mapping with a servlet by adding a <filter-class> tag in the <servlet> tag group
+b. Mapping it to a servlet in <servlet> and <servlet-mapping> tag group
+c. Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+d. Specific URL cannot be targetted
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Configuring the URL pattern with the <filter> and <filter-mapping> tag group
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingWCD_v1JSP(Custom Tags, EL and JSTL)Knowledge Check
+Started on	Wednesday, 16 September 2015, 10:12 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:12 AM
+Time taken	28 secs
+Marks	1.50/4.00
+Grade	3.75 out of 10.00 (38%)
+Question 1
+Partially correct
+Mark 0.50 out of 1.00
+ Not flaggedFlag question
+Question text
+What is the purpose of custom tags?
+
+Select one or more:
+a. Reduce the Java code presence in the JSP Correct
+b. For embedding HTML like code in the JSP
+c. For using library functions
+d. Increase readability of the JSP
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Reduce the Java code presence in the JSP, Increase readability of the JSP
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+For implementing a custom tag, developer has to implement / extend which of the following components?
+
+Select one:
+a. TagBody class Incorrect
+b. TagSupport class
+c. SimpleTagSupport class
+d. SimpleTagSupport interface
+Feedback
+Your answer is incorrect.
+
+The correct answer is: SimpleTagSupport class
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+How can I pass attributes to the class implementing Custom Tags?
+
+Select one:
+a. Data can be passed at runtime using <attribute> in the tag library
+b. Data can be passed using <values> tag in the tag library
+c. Data can be passed at runtime using <parameter> tag in the tag library
+d. Data cannot be passed at runtime Incorrect
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Data can be passed at runtime using <attribute> in the tag library
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which tag will allow me to execute a selection construct in JSP?
+
+Select one:
+a. <core:if>
+b. <c:if> Correct
+c. <if>
+d. <condition>
+Feedback
+Your answer is correct.
+
+The correct answer is: <c:if>
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page
+Finish review
+WCD_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)

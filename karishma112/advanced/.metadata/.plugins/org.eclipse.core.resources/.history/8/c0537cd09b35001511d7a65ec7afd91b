@@ -1,0 +1,18 @@
+package pk2;
+
+public class test {
+	public void showDatails(Employee e)
+	{
+		e.toString();
+	}
+	//Employee e=new Employee();
+	public static void main(String args[])
+	{
+		Manager m1=new Manager(10,"xyx",30000);
+		MarketingExe me1=new  MarketingExe(12,2,2000);
+		System.out.println(""+showDetails(m1));
+		System.out.println(""+showDetails(me1));
+		
+	}
+
+}

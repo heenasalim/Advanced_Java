@@ -1,0 +1,37 @@
+package ch6;
+
+public class DemoStringBuilder {
+	
+	
+	
+	
+public  static  void  main(String  args[])
+{
+String  s=new  String("abc");
+String s2=new  String("abc");
+StringBuffer  s1=new  StringBuffer("abc");
+StringBuilder  b3=  new  StringBuilder(16);
+  System.out.println("location  for  s  is="+s.hashCode());
+  System.out.println("location  for  s2  is="+s2.hashCode());
+  System.out.println("location  for  s  is"+s1.hashCode());
+  System.out.println("location  for  s  is"+b3.hashCode());
+if(s==s2)
+{
+System.out.println("equals");
+}   
+else 
+System.out.println("not  equals");
+if(s.equals(s2))
+		{
+System.out.println("equals");
+}   
+
+if(s.equals(s1))
+{
+System.out.println("Equals");
+}
+else 
+	System.out.println("not  equals");
+
+}
+}

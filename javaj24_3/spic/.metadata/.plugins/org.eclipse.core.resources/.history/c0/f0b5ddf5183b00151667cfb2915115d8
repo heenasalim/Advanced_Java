@@ -1,0 +1,12 @@
+package ch7;
+
+import java.util.Scanner;
+public class DivisionDemo {
+
+	
+public  static  void division()
+{  
+	Scanner  s=new Scanner(System.in);
+	int  a=s.nextInt();
+}
+}

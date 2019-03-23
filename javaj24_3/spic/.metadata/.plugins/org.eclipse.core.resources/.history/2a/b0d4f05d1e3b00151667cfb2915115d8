@@ -1,0 +1,40 @@
+package ch7;
+
+import java.util.Scanner;
+
+public class divi extends  Exception{
+	
+	 int a,b;
+	  double  c;
+	   divi(String   str)
+		{
+			super(str);
+		}
+	public void division()
+	{  
+		Scanner  s=new Scanner(System.in);
+		System.out.println("enter  the  two  numbers  u  want  to    divide");
+		  a=s.nextInt();
+		  b=s.nextInt();
+		  try
+		  {
+			 c=b/a;
+			 
+		  }
+		 finally
+		 {
+			
+		 }
+		  
+    }
+	
+	public  class TestException 
+	{
+	
+		if(a==0)
+		{
+			throw  new  divi("division  can  not  be  done");
+		}
+	}
+	}
+

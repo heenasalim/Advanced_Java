@@ -1,0 +1,15 @@
+package collectionpk;
+
+public class ReflectionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e3=new Employee(1, "www", 2000,"c");
+		Class c=e3.getClass();
+
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class testclone {
+public  static    void  main(String  args[])
+
+{
+	clone c1=new clone(18,4,1994);
+	
+}
+}

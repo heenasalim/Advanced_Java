@@ -1,0 +1,27 @@
+package javaIO;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class serial {
+	int i,j;
+	String name;
+
+	public serial(int i, String name, int j) {
+		// TODO Auto-generated constructor stub
+		this.i=i;
+		this.j=j;
+		this.name=name;
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//serial s=new serial();
+		Serialization ss=new Serialization();
+
+	}
+
+}

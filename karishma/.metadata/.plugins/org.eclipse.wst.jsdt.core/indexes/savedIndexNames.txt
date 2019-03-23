@@ -1,0 +1,15 @@
+INDEX VERSION 1.122+D:\karishma\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1659701703.index
+1327418251.index
+941111286.index
+2169275104.index
+3235336712.index
+194336011.index
+1358739673.index
+3984201606.index
+1905713309.index
+3198747794.index
+2199543203.index
+1307029663.index
+3423318561.index
+2740495559.index

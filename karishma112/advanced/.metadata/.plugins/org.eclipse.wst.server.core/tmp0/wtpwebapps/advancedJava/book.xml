@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+<id>1</id>
+<name>java</name>
+<price>500</price>
+<auther>abc</auther>
+</book>

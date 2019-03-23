@@ -1,0 +1,29 @@
+package ch5;
+
+public class Manager extends Employee
+{
+    float pa,fa,ow;
+    
+    Manager()
+    {
+    	 pa=(8/100)*bsc;
+    	 fa=(13/100)*bsc;
+    	 ow=(3/100)*bsc;
+    	
+    }
+
+	public Manager(int id, int bsc, String name) {
+		super(id, bsc, name);
+		{
+			this.pa=pa;
+			this.fa=fa;
+			this.oa=oa;
+     	}
+  public float calSal()
+  {
+	float netsalary=bsc+pa+fa+oa;
+	return netsalary;
+  }
+  
+  }
+

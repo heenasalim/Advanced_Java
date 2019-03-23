@@ -1,0 +1,56 @@
+package swingPK;
+import javax.swing.*;
+
+public class Student {
+	
+JLabel l1,l2,l3,l4;
+JTextField t1;
+//JList ls;
+JButton b1,b2,b3,b4,b5;
+//JComboBox c;
+//JRadioButton rb;
+JFrame f1;
+JPanel p;
+
+
+	 Student() {
+		
+		f1=new JFrame("StudentDetails");
+		p=new JPanel();
+		l1=new JLabel("Name");
+		l2=new JLabel("Qualification");
+		t1=new JTextField();
+		//ls=new JList();
+		//rb=new JRadioButton();
+		//c=new JComboBox();
+		b1=new JButton(">>");
+		b2=new JButton("<<");
+		b3=new JButton("Register");
+		b4=new JButton("Cancel");
+		b5=new JButton("Reset");
+		
+		
+		f1.add(p);
+		p.add(l1);
+		p.add(l2);
+		p.add(l3);
+		p.add(l4);
+		//p.add(ls);
+		p.add(t1);
+		p.add(b1);
+		p.add(b2);
+		p.add(b3);
+		p.add(b4);
+		p.add(b5);
+		//p.add(rb);
+		//p.add(c);
+		f1.setVisible(true);
+		f1.setSize(300,400);
+	}
+
+	
+	public static void main(String[] args) {
+		Student ss=new Student();
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class testinterface {
+public  static  void  main(String  args[])
+{
+	Date d1=new  Date(18,4,1994);
+	Shape s1=new  shape();
+}
+}

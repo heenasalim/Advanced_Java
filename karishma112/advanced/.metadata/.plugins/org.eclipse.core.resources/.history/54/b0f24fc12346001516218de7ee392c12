@@ -1,0 +1,21 @@
+package Applet;
+
+
+	import java.awt.*;
+
+	import javax.swing.*;
+	import java.applet.*;
+
+
+	public class applet3  extends  JApplet
+	{
+
+		JButton b1,b2,b3;
+		public void init()
+		{
+			b1=new JButton("Red");
+			b2=new JButton("Green");
+			b3=new JButton("Blue");
+			
+		}
+}

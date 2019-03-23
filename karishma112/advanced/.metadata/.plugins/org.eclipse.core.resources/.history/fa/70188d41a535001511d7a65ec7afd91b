@@ -1,0 +1,18 @@
+package pk2;
+
+public class DateClone {
+int dd,mm,yy;
+
+/**
+ * @param dd
+ * @param mm
+ * @param yy
+ */
+public DateClone(int dd, int mm, int yy) {
+	//super();
+	this.dd = dd;
+	this.mm = mm;
+	this.yy = yy;
+}
+
+}

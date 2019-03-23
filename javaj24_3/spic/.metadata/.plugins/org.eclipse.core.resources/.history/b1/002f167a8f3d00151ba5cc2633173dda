@@ -1,0 +1,59 @@
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+public class javaswing11 {
+ 
+	 JFrame f;
+	 JPanel  p;
+	 JLabel l1;
+	 JLabel  l2;
+	 JTextField  tf;
+	 JComboBox cb;
+	 JList   ls1;
+	 JList  ls2;
+	 JButton  b;
+	 JButton  b1;
+	 JButton  b2;
+	 JButton  b3;
+	   javaswing11()
+	   {
+		   f=new JFrame(" java  swing  Exercise1   radio  combolist  student  info");
+		   p= new JPanel();
+		  tf=new JTextField(56);
+		 l1=new JLabel("NAME");
+		 l2=new JLabel("QUALIFICATION");
+		 l1=new JLabel("SUBJECT  OFFERED ");
+		 l2=new JLabel("QUALIFICATION");
+		 ls1=new JList();
+	  b1= new JButton("OK");
+	  b2=  new JButton("CANCEL");
+	  b3=  new JButton("EXIT");
+	 b1.addActionListener(this);
+	 b2.addActionListener(this);
+	 b3.addActionListener(this);
+	  p.add(l1);
+	  p.add(tf);
+	  p.add(l2);
+	  p.add(tp);
+	  p.add(b1);
+	  p.add(b2);
+	  p.add(b3);
+	  
+	  f.add(p);
+	  f.setVisible(true);
+	  f.setSize(400, 400);
+	  
+		   
+	   }
+	 
+	 
+	 
+	 
+}

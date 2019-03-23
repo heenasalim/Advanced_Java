@@ -1,0 +1,11 @@
+package collectionpk;
+
+import java.util.Scanner;
+
+public class UtilityReport {
+	static	void showReport(Employee e3)
+	{
+		Scanner s=new Scanner(System.in);
+	}
+
+}

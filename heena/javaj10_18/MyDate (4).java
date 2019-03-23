@@ -1,0 +1,31 @@
+class MyDate 
+{
+	int dd,mm,yy;
+	MyDate()
+	{
+		dd=17;
+		mm=6;
+		yy=2014;
+   
+	}
+	MyDate(int d,int m,int y)
+	{
+		dd=d;
+		mm=m;
+		yy=y;
+	}
+
+public void initDate()
+	{
+		System.out.println("date is:"+dd+"/"+mm+"/"+yy);
+	}
+
+	public static void main(String[] args) 
+	{
+		MyDate d=new MyDate();
+		d.initDate();
+		MyDate d1=new MyDate(13,4,2014);
+		d1.initDate();
+
+	}
+}

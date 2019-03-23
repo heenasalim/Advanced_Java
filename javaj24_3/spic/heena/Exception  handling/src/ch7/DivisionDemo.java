@@ -1,0 +1,29 @@
+package ch7;
+import java.util.Scanner;
+public class DivisionDemo 
+{
+static  int a,b;
+   static double  c;
+public  static  void division()
+{  
+	Scanner  s=new Scanner(System.in);
+	System.out.println("enter  the  two  numbers  u  want  to    divide");
+	 b=s.nextInt();  
+	a=s.nextInt();
+	 
+	  try
+	  {
+		 c=b/a;
+		 
+	  }
+  catch( ArithmeticException  ae)
+  {
+	System.err.println("  divide   by  zero  error  enter  the  another  number");  
+  }
+}
+public  static  void  main(String args[])  throws Exception 
+{
+	DivisionDemo  d=new  DivisionDemo();
+	d.division();
+}
+}

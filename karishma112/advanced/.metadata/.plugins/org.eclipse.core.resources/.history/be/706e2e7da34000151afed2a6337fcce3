@@ -1,0 +1,20 @@
+package Multithreding;
+
+import javax.swing.JFrame;
+
+public class Busdemo extends JFrame implements Runnable{
+	Thread t1,t2;
+	
+	public  Busdemo()
+	{
+		t1=new Thread(this,"Thread-1");
+		t2=new Thread(this,"Thread-2");
+		t1.start();
+		t2.start();
+	}
+	public static void main(String[] args) {
+		 Busdemo bd=new  Busdemo();
+	}
+	}
+
+}

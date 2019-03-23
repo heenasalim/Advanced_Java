@@ -1,0 +1,14 @@
+import javax.swing.JApplet;
+
+ 
+public class Applet   extends  JApplet {
+	  Font  f;
+	  @ovreride
+	  public  void  init()
+	  {
+		  super.init();
+		  String type=getParameter("font");
+		  int  size=Integer.ParseInt(getparameter("size"));
+	  }
+
+}

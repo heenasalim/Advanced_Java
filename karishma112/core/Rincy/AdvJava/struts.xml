@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+ 		
+		<package name="testproj" namespace="/struts" extends="struts-default">
+	
+	<!--  <interceptors> 
+		
+		<interceptor name="custom1" class="strut.CustomInterceptor"/>
+		<interceptor name="custom2" class="strut.CustomInterceptor2"/>
+		
+		<interceptor-stack name="CustomStack">
+		
+		<interceptor-ref name="custom1"/>
+		<interceptor-ref name="custom2"/>
+		<interceptor-ref name="defaultStack"/>
+	
+		</interceptor-stack>
+		
+		</interceptors>
+		
+	  <default-interceptor-ref name="CustomStack"/> -->
+	
+		  
+		
+		<action name="Login" class="strut.LoginBean" >
+		  
+		 <!--   <interceptor-ref name="params"></interceptor-ref>
+		   	<interceptor-ref name="execAndWait">
+		   	  <param name="delay">1000</param>
+		   	  <param name="delaySleepInterval">50</param>
+		   	</interceptor-ref> 
+		   -->
+		   	 
+		    <result name="wait">/wait.jsp</result>
+			<result name="success" type="redirect-action">Logout</result>
+			<result name="error">/error.jsp</result>
+	
+	    </action>
+		
+		<action name="Logout" class="strut.Logout" >
+	        <result name="success">/welcome.jsp</result>
+		</action>
+		
+		<action name="UI" class="strut.UIProperties">
+			<result name="success">/GeneralDetails.jsp</result>	
+		</action>
+		
+		<action name="personal" class="strut.PersonalProperties">
+			<result name="success">/PersonalDetails.jsp</result>	
+		</action>
+		
+		<action name="Employee" class="strut.EmployeeAction" method="execute">
+			<result name="input">/Validator.jsp</result>
+			<result name="success">/UI.jsp</result>	
+		</action>
+		
+			
+		</package>	
+		
+   
+ 
+</struts>

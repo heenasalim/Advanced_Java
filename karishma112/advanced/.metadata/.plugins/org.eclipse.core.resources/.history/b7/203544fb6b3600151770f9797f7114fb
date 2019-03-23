@@ -1,0 +1,11 @@
+package pk6;
+
+public class Calculator {
+	String s,ch;
+	
+	switch(ch)
+	{
+	
+	}
+
+}

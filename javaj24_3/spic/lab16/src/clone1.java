@@ -1,0 +1,50 @@
+
+public class clone1   implements Cloneable{
+  
+//int  dd,mm,yy;
+
+//@Override
+//public String toString() {
+///	return "clone [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";
+//}
+
+//public clone1(int dd, int mm, int yy) {
+	//super();
+//	this.dd = dd;
+//	this.mm = mm;
+//	this.yy = yy;
+//}
+	
+Date d;
+public clone1(Date d) {
+	super();
+	this.d = d;
+}
+public  Object  clone()
+{
+clone1 c=new  clone1(this.d);
+return  c;
+
+}
+@Override
+public String toString() {
+	return "clone1 [d=" + d + "]";
+}
+
+public  static    void  main(String  args[])
+
+{
+	clone1 c6=new clone1(new Date(23,6,1996));
+	clone1 c2=(clone1)c6.clone();
+
+	System.out.println(c6.d.hashCode());
+	System.out.println(c2.d.hashCode());
+	System.out.println(c6.hashCode());
+	System.out.println(c2.hashCode());
+	
+	
+}
+
+
+
+}

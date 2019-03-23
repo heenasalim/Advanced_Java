@@ -1,0 +1,20 @@
+package ch7;
+
+import java.io.*;
+
+public class FileDemo
+{
+	  
+		try 
+		{
+			FileInputStream f= new  FileInputStream("file12.txt");
+		
+			  
+          }
+		catch (FileNotFoundException  ex)
+		{
+			
+			System.out.println("file  does  not   exist");
+		}
+
+}

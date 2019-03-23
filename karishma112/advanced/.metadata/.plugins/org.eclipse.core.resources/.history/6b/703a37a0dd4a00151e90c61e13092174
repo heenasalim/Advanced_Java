@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function validation() {
+		alert("hello");
+var user=document.getElementById("user").value;
+alert(user);
+
+var pwd=document.getElementById("pwd").value;
+alert(pwd);
+var len=user.length;
+alert(len);
+
+
+
+var len1=pwd.length;
+alert(len1);
+
+
+if(user==""&& pwd=="")
+	{
+	alert("username and password shouldnot blank")
+	}
+if(len1==8)
+	{
+	alert("password length is correct");
+	
+	}
+else
+	{
+	alert("password length is Incorrect");
+	}
+
+
+}
+</script>
+</head>
+<body>
+<form action="reguster.html"></form>
+userName<input type="text" name="user" id="user"><br>
+PassWord<input type="text" name="pwd" id="pwd"><br>
+
+
+<input type="button" value="Submit" onclick= "validation()">
+<input type="button" value="Registre Now" size="30">
+<a href="register.html">new user</a>
+<img alt="book.jpg" src="D://book.jpg" name="REGISTER NOW">
+
+</body>
+</html>

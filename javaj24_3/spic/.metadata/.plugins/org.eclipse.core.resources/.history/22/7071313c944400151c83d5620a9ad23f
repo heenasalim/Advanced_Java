@@ -1,0 +1,12 @@
+package applet;
+
+import java.awt.Font;
+
+import javax.swing.JApplet;
+
+public class Applet1 extends  JApplet{
+
+	Font  f;
+	
+
+}

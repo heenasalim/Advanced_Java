@@ -1,0 +1,5 @@
+{
+username.required=User is required
+password.required=Password is required
+
+}

@@ -1,0 +1,21 @@
+import java.awt.Font;
+import java.awt.Graphics;
+
+import javax.swing.JApplet;
+
+
+public class Applet2   extends  JApplet{
+
+	public  void  init()
+	{
+		super.init();
+	}
+public  void  paint(Graphics  g)
+{	Font  f;
+	super.paint(g);
+	String  s=getParameter("font");
+	f=new Font(s, Font.BOLD,70);
+	g.setFont(f);
+	g.drawString("hie   good  morning", 100,100);
+}
+}

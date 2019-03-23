@@ -1,0 +1,9 @@
+package abstract1;
+public  abstract  class shape {
+	
+	public  abstract  void  shape()
+	{
+		System.out.println(" inside  the   shape ");
+	}
+  
+}

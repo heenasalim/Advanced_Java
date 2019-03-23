@@ -1,0 +1,24 @@
+
+public class DivisionDemo {
+	int no1=10,no2=0,no3;
+	
+	void check()throws Exception
+	{
+		
+	//Scanner s=new Scanner(System.in);
+	//System.out.println("enter the two numbers = ");
+	//no1=s.nextInt();
+	//no2=s.nextInt();
+	no3=no1/no2;
+	throw new RunTimeException();
+	
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DivisionDemo d=new DivisionDemo();
+		d.check();
+
+	}
+
+
+}

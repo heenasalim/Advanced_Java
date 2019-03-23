@@ -1,0 +1,8 @@
+package ch6;
+
+public class Stringdemo {
+
+	String  name;
+	
+	
+}

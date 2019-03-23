@@ -1,0 +1,12 @@
+package ch7;
+
+public class SortUtilDemo {
+	
+	public  void  sort()
+	{
+		
+	
+	  SortedSet   s=  new  TreeSet();
+	  
+	}
+}

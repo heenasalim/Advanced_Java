@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+
+import java.io.*;
+public class FileDemo2 {
+	File f;
+
+	/**
+	 * 
+	 */
+	void checkEx()
+	{
+		try
+		{
+		f=new File("myfile.txt");
+		
+		if(f.exists())
+		{
+			System.out.println("file is present");
+		}
+		else
+		{
+			System.out.println("file isnot present");
+		}
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println("Inside catch");
+			System.out.println("file isnot present");
+			
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileDemo2 ff=new FileDemo2();
+
+	}
+
+}

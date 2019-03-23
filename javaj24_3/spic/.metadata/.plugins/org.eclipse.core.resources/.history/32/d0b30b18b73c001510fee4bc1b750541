@@ -1,0 +1,33 @@
+package ch7;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class SortUtilDemo 
+{
+public  void  sort(Collection c[])
+	{
+		  SortedSet   s=  new  TreeSet();
+		  for(int  i=0;i<c.length;i++)
+		  {
+	   s.add("heena");
+	   s.add("teena");
+	   s.add("sayli");  
+	   s.add("hashmat");
+		  }
+	  System.out.println("sorted  set  is "+s);        
+	}
+	
+	public  void  sortBySal(Collection c[])
+	{
+		SortedSet  s1=  new    TreeSet();
+		for(i=0;i<c.length;i++)
+	{
+			s1.add(1);
+			s1.add(3);
+			s1.add(4);
+			s1.add(5);
+			s1.add(2);
+	}
+}
+}

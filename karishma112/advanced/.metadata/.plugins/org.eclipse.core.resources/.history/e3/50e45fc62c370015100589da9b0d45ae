@@ -1,0 +1,21 @@
+package string;
+
+public class StringBuff {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer s=new StringBuffer("abc");
+		StringBuffer s1=new StringBuffer("xyz");
+		System.out.println("string1= "+s);
+		System.out.println("string1 memory loc= "+s.hashCode());
+		System.out.println("string2= "+s1);
+		System.out.println("string2 memory loc= "+s1.hashCode());
+		
+		
+
+	}
+
+}

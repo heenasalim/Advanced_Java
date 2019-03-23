@@ -1,0 +1,53 @@
+package ch5;
+
+public class baseemp {        
+	
+ int  empid;
+ String empname;
+ int  Sal;
+  
+  public baseemp(int empid, String empname, int sal) 
+  {
+	super();
+	this.empid = empid;
+	this.empname = empname;
+	Sal = sal;
+}
+
+baseemp()
+  {
+	  empid=1001;
+	  empname="heena";
+	  Sal=2000;
+	  
+  }
+
+@Override
+public String toString() {
+	return "baseemp [empid=" + empid + ", empname=" + empname + ", Sal=" + Sal
+			+ "]";
+}
+
+
+
+
+public  static  void  main(String  args[])
+{
+	baseemp  be= new  baseemp();
+	Manager  m1 =  new  Manager(1,"HEENA ",34,4883,3883,2992);
+	marketExecutive  m2=  new  marketExecutive(2,"teena",98,328993,3882,290902);
+	System.out.println("\n tostring  details  for  manager class  is:\t"+m1);
+	System.out.println("\n tostring  details  for  marketexecutive  class  is:\t"+m2);
+	System.out.println("details of the manager  class  with  show  method  is: +"+ "**\n");
+	m1.show();
+	System.out.println("details of the marketing  executive  is  class  with  show  method  is: +"+    "**\n");
+	m2.show();
+	}
+
+	
+	
+	
+	 
+
+	
+}

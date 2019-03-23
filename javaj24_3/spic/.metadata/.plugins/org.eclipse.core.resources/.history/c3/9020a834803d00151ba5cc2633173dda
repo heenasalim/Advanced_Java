@@ -1,0 +1,35 @@
+package ch7;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+import java.lang.reflect.Field;
+
+
+
+public class reflectionDemo  extends Exception {
+  public static void main(String[] args) throws Exception
+  {
+	  
+	   Employee12 m=new   Employee12(1, 677433, "heena");
+	   
+	   Class  c=m.getClass();   //getting  class 
+	   Field  f[]=c.getDeclaredFields();
+	 for(int  i=0;i<f.length;i++)
+	  {
+		System.out.println("the  feillds  are:"+f[i]);
+	  }
+	  Method  m1[]=c.getDeclaredMethods();    //getting  fields 
+		 for(int  i=0;i<m1.length;i++)
+		{
+			System.out.println("the  feillds  are:"+m1[i]);
+		}
+		 Constructor   m2[]=(Constructor) c.getDeclaredConstructor();  //getting  copnstructor  
+		 for(int  i=0;i<m2.length;i++)
+		{
+			System.out.println("the  feillds  are:"+m2[i]);
+		}
+		  Employee12 e=(Employee12) Class.forName("ch7.Employee12").newInstance();
+}
+  
+
+}

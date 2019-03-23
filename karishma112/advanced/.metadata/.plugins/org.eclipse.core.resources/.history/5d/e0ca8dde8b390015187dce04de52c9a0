@@ -1,0 +1,15 @@
+import java.util.*;
+public class DivisionDemo {
+	
+	int n01,n02;
+	Scanner s=new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DivisionDemo d=new DivisionDemo();
+		//d.checkEx();
+
+	}
+
+
+}

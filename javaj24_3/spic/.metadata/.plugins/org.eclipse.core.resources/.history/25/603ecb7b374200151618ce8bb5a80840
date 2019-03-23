@@ -1,0 +1,44 @@
+package balls;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class Bouncingball  implements Runnable {
+
+	int  x1,x2,x3=0;
+	Thread t1;
+	Thread t2;
+	Thread  t3;
+	
+	  public Bouncingball()
+	{
+		t1=new Thread(this,"thread-1");
+		t2=new Thread(this,"thread-2");
+		t3=new Thread(this,"thread-3");
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+	  public  void  paint(Graphics  g)
+	  {
+		  
+	  }
+public static void main(String[] args) {
+	Bouncingball  b1=new Bouncingball();
+	
+}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		while(true)
+		{
+			if(Thread.currentThread()==t1)
+			{
+				x1++;
+				repaint();
+			}
+		}
+		
+	}
+}

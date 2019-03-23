@@ -1,0 +1,63 @@
+package JDBConn;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class AccountClass {
+
+	public AccountClass() {
+		try
+		{
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			System.out.println("Got Driver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@oracle-server:1521:orcl","java","java" );
+			System.out.println("Got Connected");
+			PreparedStatement ps=con.prepareStatement("select balance from account where accno=?");
+			ps.setInt(1,1);
+			ResultSet rs=ps.executeQuery();
+			rs.next();
+			int bal1=rs.getInt(1);
+			System.out.println("balance before Transaction");
+			System.out.println(bal1);
+			
+			ps=con.prepareStatement("select balance from account where accno=?");
+			ps.setInt(1,2);
+			 rs=ps.executeQuery();
+			rs.next();
+			int bal2=rs.getInt(1);
+			System.out.println(bal2);
+			
+			
+			ps=con.prepareStatement("update account set balance=? where accno=?");
+			ps.setInt(1,(bal1-500));
+			ps.setInt(2,1);
+			ResultSet rs1=ps.executeQuery();
+			System.out.println("****Updated***");
+			while(rs1.next())
+			{
+				System.out.println(rs1.getInt(3));
+			}
+			
+			
+			String s=null;
+			System.out.println(s.length());
+			ps=con.prepareStatement("update account set balance=? where accno=?");
+			ps.setInt(1,(bal2+500));
+			ps.setInt(2,2);
+			rs=ps.executeQuery();
+			
+			}
+			catch (Exception e) {
+			
+			e.printStackTrace();
+			}
+	}
+
+	
+	public static void main(String[] args) {
+		AccountClass a=new AccountClass();
+	}
+
+}

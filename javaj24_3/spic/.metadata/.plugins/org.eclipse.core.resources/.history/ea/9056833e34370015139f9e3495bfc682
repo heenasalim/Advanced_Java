@@ -1,0 +1,25 @@
+
+public class clone   implements Cloneable{
+  
+int  dd,mm,yy;
+
+@Override
+public String toString() {
+	return "clone [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";
+}
+
+public clone(int dd, int mm, int yy) {
+	super();
+	this.dd = dd;
+	this.mm = mm;
+	this.yy = yy;
+}
+
+public  void  show()
+{
+	
+System.out.println(" date  for  clone  class  is  \n   dd mm  yy");	
+System.out.println("variable  is:"+int k=78);
+}
+
+}

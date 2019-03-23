@@ -1,0 +1,28 @@
+import java.beans.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+public class Database1  
+{
+	
+
+ public  static  void  main(String  args[])throws  Exception 
+{
+	
+try
+{
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	System.out.println("got  driver");
+	Connection  con=DriverManager.getConnection("jdbc:oracle:thin:@oracle-server:1521:orcl","java","java");
+	System.out.println("got   connection+");
+	java.sql.Statement  smt=con.createStatement();
+	int  i=smt.executeUpdate("Update  emp13  set ename=1");
+	
+	
+}
+ catch(Exception e)
+ {
+ e.printStackTrace();
+ }
+ }
+ }

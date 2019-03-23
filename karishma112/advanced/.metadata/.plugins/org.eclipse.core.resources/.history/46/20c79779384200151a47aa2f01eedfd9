@@ -1,0 +1,19 @@
+package Multithreding;
+
+public class Transaction {
+	AccountDemo a;
+
+	public Transaction(AccountDemo a) {
+		// TODO Auto-generated constructor stub
+		this.a=a;
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

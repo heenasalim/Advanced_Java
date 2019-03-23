@@ -1,0 +1,24 @@
+package  swings;
+import  javax.swing.*;
+public class SwinDemo {
+      JFrame  f;
+      JPanel  p;
+      JTextField  tf;
+      JPasswordField  tp;
+      JLabel  l1,l2
+      JButton  b1,b2,b3;
+      
+
+
+SwinDemo()
+{
+	f=new JFrame();
+	p= new JPanel();
+	tf=new JTextField();
+	tp=new JPasswordField();
+	l1=new JLabel();
+	l2=new JLabel();
+  b1= new JButton();
+  b2=  new JButton();
+  b3=  new JButton();
+}

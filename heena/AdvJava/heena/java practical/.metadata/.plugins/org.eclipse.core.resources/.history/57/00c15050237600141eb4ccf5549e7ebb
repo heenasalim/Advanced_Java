@@ -1,0 +1,27 @@
+package Swing3;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JToolBar;
+
+public class ToolBar {
+
+	
+	public static void main(String[] args) {
+		JFrame f=new JFrame();
+		JToolBar tb=new JToolBar("Can drag out");
+		tb.setFloatable(true);
+		tb.setRollover(true);
+		
+		tb.add(new JButton("New"));
+		tb.addSeparator();
+		tb.add(new JButton("open"));
+		
+		f.add(tb,"North");
+		f.setSize(400,400);
+		f.setVisible(true);
+		
+
+	}
+
+}

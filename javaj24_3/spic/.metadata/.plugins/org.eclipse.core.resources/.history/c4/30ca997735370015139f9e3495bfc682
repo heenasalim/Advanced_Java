@@ -1,0 +1,11 @@
+
+public class testclone {
+public  static    void  main(String  args[])
+
+{
+	clone1 c1=new clone(18,4,1994);
+	clone1 c2=(clone)c1.clone();
+	
+	
+}
+}

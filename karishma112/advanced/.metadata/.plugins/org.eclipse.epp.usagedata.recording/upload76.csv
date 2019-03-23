@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730101111
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440730101119
+opened,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730105941
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730105977
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730108535
+closed,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730108535
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730112163
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730116243
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730117401
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730117410
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730117745
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730117753
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730117961
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730117969
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730118160
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730118168
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730119105
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730121178
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730137560
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730140385
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730141743
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730144980
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440730156553
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730162714
+error,log,,,"Unexpected runtime error while computing a text hover",1440730166506
+error,log,,,"Unexpected runtime error while computing a text hover",1440730173222
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440730223172
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1440730232188
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.RunLast",1440730232202
+error,log,,,"Several ports (8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).",1440730237220
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730237221
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730237269
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730241946
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730244235
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730246778
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730249035
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730251057
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730254035
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730255913
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730255922
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730256121
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730256130
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730256297
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730256305
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730256489
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730256497
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730257385
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730264043
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730265697
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730268210
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730269792
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730269800
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730269968
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730269976
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730270152
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730270161
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730270408
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730270417
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730271208
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730272673
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730274040
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440730275439
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730279265
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440730284710
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440730288347
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440730296708
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440730304973
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440730308929
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440730315538
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730319087
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730327855
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730332071
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730333421
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730333429
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730333845
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730333854
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730334332
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730334341
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730334980
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730334990
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730336092
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730339174
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730340604
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730342205
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730348093
+error,log,,,"Unexpected runtime error while computing a text hover",1440730351135
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730364901
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730370066
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730372957
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730373244
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730387754
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730391191
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730393423
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730394641
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730395246
+error,log,,,"Unexpected runtime error while computing a text hover",1440730405341
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730413531
+error,log,,,"Unexpected runtime error while computing a text hover",1440730432683
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730443182
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730446126
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730471822
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730493634
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730531766
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730541904
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730544223
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730555532
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730566862
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730600467
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730604616
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730607091
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730612278
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730615053
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730619563
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730620752
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730620761
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730621288
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730621296
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730621688
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730621697
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730622240
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730622248
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730623136
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730625057
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730626447
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730659441
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730662820
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730664010
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730671387
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730726444
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440730731129
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730732856
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730739605
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730747105
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730750737
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730752389
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730752395
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730753023
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730753031
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730753223
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730753231
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730753437
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730753443
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730754262
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440730757198
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730790672
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440730961730
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730967683
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440730972545
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440730986858
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1440730992546
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730996187
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730997952
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730997962
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730998177
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730998185
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730998345
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730998353
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730998537
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730998546
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440730999352
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731001970
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731003368
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731004542
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731010272
+error,log,,,"Unexpected runtime error while computing a text hover",1440731012289
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731026648
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440731052104
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440731076220
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440731083489
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731103276
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731104725
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731104732
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731108104
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440731127164
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731130561
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731134091
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731134097
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731140067
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731145934
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.edit.text.openLocalFile",1440731145961
+started,bundle,org.eclipse.wst.common.project.facet.ui,1.4.200.v201103311536,"org.eclipse.wst.common.project.facet.ui",1440731179155
+started,bundle,org.eclipse.wst.web.ui,1.1.400.v201004141630,"org.eclipse.wst.web.ui",1440731179155
+started,bundle,org.eclipse.jst.common.project.facet.ui,1.4.200.v201008182133,"org.eclipse.jst.common.project.facet.ui",1440731179392
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731179535
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440731266207
+error,log,,,"Unexpected runtime error while computing a text hover",1440731278720
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731297853
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731297889
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731297889
+started,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1440731361190
+opened,editor,org.eclipse.wst.xml.ui,1.1.201.v201108151912,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1440731361222
+activated,editor,org.eclipse.wst.xml.ui,1.1.201.v201108151912,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1440731361355
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440731361614
+closed,editor,org.eclipse.wst.xml.ui,1.1.201.v201108151912,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1440731361614
+opened,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731361792
+activated,editor,org.eclipse.wst.html.ui,1.0.601.v201108152113,"org.eclipse.wst.html.core.htmlsource.source",1440731361874
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440731365944
+started,bundle,org.eclipse.wst.xml.xpath.core,1.2.1.v201109010357,"org.eclipse.wst.xml.xpath.core",1440731373936
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1440731379234
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440731416042
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416756
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416764
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416767
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416771
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416776
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416780
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416787
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416791
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416794
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416798
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416802
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416819
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416824
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416828
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416833
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416836
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416845
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416849
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416853
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416857
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416862
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416870
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416889
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416896
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416903
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416910
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416915
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416921
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416925
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416930
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416939
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416942
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416946
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416950
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416964
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416969
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416977
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416982
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416987
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416991
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416994
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731416998
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417001
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417006
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417010
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417015
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417019
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417023
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417027
+error,log,,,"Resource '/GmailLogin/for%20java/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/etc/tagdiff.xsl' does not exist.",1440731417031

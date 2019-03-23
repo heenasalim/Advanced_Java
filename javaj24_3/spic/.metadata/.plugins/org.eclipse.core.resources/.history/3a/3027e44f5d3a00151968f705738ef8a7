@@ -1,0 +1,17 @@
+package ch6;
+
+public class File {
+
+	//File  f;
+	String  fname,path,abspath;
+  double  size;
+  File()
+  
+  {
+	  File f=  new  File("console.txt");
+	  
+			
+  }
+	
+	
+}

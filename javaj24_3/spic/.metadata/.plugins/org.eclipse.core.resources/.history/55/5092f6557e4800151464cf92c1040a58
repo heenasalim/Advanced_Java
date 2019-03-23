@@ -1,0 +1,10 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+public class Preparestatement1 {
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	System.out.println("got  driver");
+	Connection  con=DriverManager.getConnection("jdbc:oracle:thin:@oracle-server:1521:orcl","java","java");
+	System.out.println("got   connection+");
+}

@@ -1,0 +1,28 @@
+package ch6;
+
+public class calculater {
+
+	int a,b,c;
+	public    int  add(int  a,int  b)
+	{
+		
+		return c=a+b;
+	}
+	public    int  sub(int  a,int b)
+	{
+		
+		return c=a-b;
+	}
+	public    int  mul(int  a,int  b)
+	{
+		
+		return c=a*b;
+	}
+	public    int  add(int  a,int  b)
+	{
+		
+		return c=a/b;
+	}
+}
+
+

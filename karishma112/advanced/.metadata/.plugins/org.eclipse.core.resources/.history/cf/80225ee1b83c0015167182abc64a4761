@@ -1,0 +1,18 @@
+package collectionpk;
+
+import java.util.Scanner;
+
+public class SearhUtil {
+	boolean flag=true;
+	
+	static int seachid;
+	public static void searchInfo(Employee[] e5)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("\nEnter ur choice=");
+		seachid=s.nextInt();
+		if()
+		
+	}
+
+}

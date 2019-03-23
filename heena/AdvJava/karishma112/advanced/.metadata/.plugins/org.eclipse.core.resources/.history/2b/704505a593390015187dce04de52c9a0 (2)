@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class Account {
+
+	int balance;
+	LessBalanceException()throws Exception
+	{
+		
+	}
+	void show()throws Exception
+	{
+	
+	Scanner s=new Scanner(System.in);
+	balance=s.nextInt();
+	if(balance<1000)
+	{
+		throw new LessBalanceException();
+	}
+	
+	}
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Account a=new Account();
+		a.show();
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package Applet;
+
+import javax.swing.JApplet;
+
+public class AppletClass extends  JApplet
+{
+
+	public void init() 
+	{
+		super.init();
+		System.out.println("Hello");
+		
+		//String type=getParameter("Font");
+		//int size=Integer.parseInt(ge)
+		
+	}
+
+
+	
+
+}

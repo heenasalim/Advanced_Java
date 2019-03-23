@@ -1,0 +1,22 @@
+
+public class DivisionDemo {
+	int no1=10,no2=0;
+	
+	void check()throws Exception
+	{
+		
+	if(no2==0)
+	{
+	throw new RunTimeException();
+	}
+	
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DivisionDemo d=new DivisionDemo();
+		d.check();
+
+	}
+
+
+}

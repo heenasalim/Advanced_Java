@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	<s:property value="bean.user"></s:property>
+}
+

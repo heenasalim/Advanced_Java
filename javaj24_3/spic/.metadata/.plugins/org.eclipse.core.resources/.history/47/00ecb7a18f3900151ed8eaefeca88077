@@ -1,0 +1,17 @@
+package ch6;
+
+public class Stringdemo {
+
+	public Stringdemo(String name) {
+		super();
+		this.name = name;
+	}
+
+	String  name;
+	
+	
+	public static  void  main(String  args[])
+	{
+		
+	}
+}

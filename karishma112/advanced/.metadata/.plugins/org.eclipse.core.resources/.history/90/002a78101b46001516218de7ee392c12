@@ -1,0 +1,30 @@
+package Applet;
+
+import java.awt.Graphics;
+
+import javax.swing.JApplet;
+
+public class AppletClass extends  JApplet
+{
+
+	public void init() 
+	{
+		super.init();
+	}
+	public void paint(Graphics g)
+	{
+		super.paint(g);
+		System.out.println("Hello");
+		
+		//String type=getParameter("Font");
+		//int size=Integer.parseInt(ge)
+	}
+	public void start()
+	{
+		super.start();
+	}
+
+
+	
+
+}

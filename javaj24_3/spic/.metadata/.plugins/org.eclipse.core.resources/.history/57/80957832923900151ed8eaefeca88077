@@ -1,0 +1,11 @@
+package ch6;
+
+public class calculater {
+
+	int a,b,c;
+	public    int  add()
+	{
+		
+		return c=a+b;
+	}
+}

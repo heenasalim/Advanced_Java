@@ -1,0 +1,24 @@
+package balls;
+
+public class Synchrinizedtransaction   extends   Thread {
+
+	
+	Synchrinizedtransaction()
+	{
+		Thread  t1=new  Thread(this,"thread1");
+		Thread   t2=new  Thread(this,"thrad  2");
+		t1.start();
+		t2.start();
+	}
+	
+	 public  void  run()
+	{
+		if(Thread.currentThread()==t1)
+	}
+	
+	
+	
+	
+	
+	
+}

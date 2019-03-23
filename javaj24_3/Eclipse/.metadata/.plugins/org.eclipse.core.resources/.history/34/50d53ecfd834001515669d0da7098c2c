@@ -1,0 +1,18 @@
+
+public class emploee {
+	
+	int  empid;
+	String  empname;
+   
+	Date d;
+    
+    
+    emploee( int  empid,String  empname,Date d)
+    {
+    	super();
+    	this.empid=empid;
+    	this.empname=empname;
+    	this.d=d;
+    }
+
+}

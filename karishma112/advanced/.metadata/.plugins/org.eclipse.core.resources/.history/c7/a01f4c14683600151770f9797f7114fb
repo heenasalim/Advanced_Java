@@ -1,0 +1,16 @@
+package pk2;
+
+public  class Shape {
+	
+public  double area();
+public void show()
+{
+	System.out.println("\n ************Area******** ");
+}
+
+/*public static void main(String args[])
+{
+	Shape s;
+	s.area();
+}*/
+}

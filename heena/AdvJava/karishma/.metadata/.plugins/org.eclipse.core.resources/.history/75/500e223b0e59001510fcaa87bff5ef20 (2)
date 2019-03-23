@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<package name="testProj" namespace="/struts" extends="struts-default">
+
+<action name="login" class="login">
+<interceptor-ref name="timer"></interceptor-ref>
+<interceptor-ref name="logger"></interceptor-ref>
+<interceptor-ref name="defaultStack">
+<!-- 
+<interceptor-ref name="wait"></interceptor-ref>
+<interceptor-ref name="defaultStack">
+<param name="delay">10</param>
+<param name="delaySleepInterval">5</param>
+</interceptor-ref>
+ -->
+<result name="success">/welcome.jsp</result>
+<result name="error">/error.jsp</result>
+<result name="input">/Login.jsp</result>
+</action>
+</package>
+</struts>

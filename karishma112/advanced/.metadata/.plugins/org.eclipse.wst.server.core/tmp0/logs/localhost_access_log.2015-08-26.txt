@@ -1,0 +1,7 @@
+127.0.0.1 - - [26/Aug/2015:09:24:26 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [26/Aug/2015:09:24:28 +0530] "GET /advancedJava/login.html HTTP/1.1" 200 1355
+0:0:0:0:0:0:0:1 - - [26/Aug/2015:09:24:44 +0530] "GET /advancedJava/register.html HTTP/1.1" 404 1033
+0:0:0:0:0:0:0:1 - - [26/Aug/2015:09:25:08 +0530] "GET /advancedJava/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Aug/2015:09:25:21 +0530] "GET /advancedJava/home.html HTTP/1.1" 200 668
+0:0:0:0:0:0:0:1 - - [26/Aug/2015:09:26:26 +0530] "GET /advancedJava/login.html HTTP/1.1" 200 1363
+0:0:0:0:0:0:0:1 - - [26/Aug/2015:09:26:52 +0530] "GET /advancedJava/register.html HTTP/1.1" 404 1033

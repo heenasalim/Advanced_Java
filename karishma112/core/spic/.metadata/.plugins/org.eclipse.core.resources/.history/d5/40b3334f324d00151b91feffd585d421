@@ -1,0 +1,9 @@
+
+public class Servlet11 {
+
+	  try
+	  {
+		  Class.forName("oracle.jdbc.driver.OracleDriver");
+		  
+	  }
+}

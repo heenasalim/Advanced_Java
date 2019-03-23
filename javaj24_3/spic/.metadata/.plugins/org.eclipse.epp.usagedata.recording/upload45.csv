@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1440127469763
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20110803_r371,"org.eclipse.jdt.launching",1440127469763
+started,bundle,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui",1440127469763
+started,bundle,org.eclipse.jem,2.0.500.v201104271400,"org.eclipse.jem",1440127469763
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1440127469763
+started,bundle,org.eclipse.jface,3.7.0.I20110522-1430,"org.eclipse.jface",1440127469779
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1440127469779
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1440127469779
+started,bundle,org.eclipse.jst.j2ee,1.1.501.v201108231845,"org.eclipse.jst.j2ee",1440127469779
+started,bundle,org.eclipse.jst.j2ee.core,1.2.101.v201108110300,"org.eclipse.jst.j2ee.core",1440127469779
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.501.v201107261503,"org.eclipse.jst.j2ee.navigator.ui",1440127469779
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.501.v201108231700,"org.eclipse.jst.j2ee.ui",1440127469779
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1440127469779
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1440127469779
+started,bundle,org.eclipse.jst.jee.ui,1.0.400.v201105122000,"org.eclipse.jst.jee.ui",1440127469779
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.301.v201108240656,"org.eclipse.jst.ws.jaxrs.core",1440127469779
+started,bundle,org.eclipse.jst.ws.jaxws.utils,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.utils",1440127469779
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r371_v20110824-0800,"org.eclipse.ltk.core.refactoring",1440127469779
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring",1440127469779
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.2.v20110903-0100,"org.eclipse.mylyn.bugzilla.core",1440127469779
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1440127469779
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1440127469779
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1440127469779
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1440127469779
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1440127469779
+started,bundle,org.eclipse.mylyn.context.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.context.ui",1440127469794
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1440127469794
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.2.v20110826-0100,"org.eclipse.mylyn.tasks.ui",1440127469794
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1440127469794
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1440127469794
+started,bundle,org.eclipse.pde.ui,3.6.100.v20110603,"org.eclipse.pde.ui",1440127469794
+started,bundle,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search",1440127469794
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1440127469794
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1440127469794
+started,bundle,org.eclipse.team.cvs.ui,3.3.400.I20110510-0800,"org.eclipse.team.cvs.ui",1440127469794
+started,bundle,org.eclipse.team.ui,3.6.100.I20110525-0800,"org.eclipse.team.ui",1440127469794
+started,bundle,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui",1440127469794
+started,bundle,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console",1440127469794
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110517-0800,"org.eclipse.ui.editors",1440127469794
+started,bundle,org.eclipse.ui.forms,3.5.100.v20110425,"org.eclipse.ui.forms",1440127469794
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.ide",1440127469794
+started,bundle,org.eclipse.ui.navigator,3.5.100.v20110809-2227,"org.eclipse.ui.navigator",1440127469794
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.resources",1440127469794
+started,bundle,org.eclipse.ui.net,1.2.100.I20110511-0800,"org.eclipse.ui.net",1440127469794
+started,bundle,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views",1440127469810
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1440127469810
+started,bundle,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"org.eclipse.ui.workbench",1440127469810
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.workbench.texteditor",1440127469810
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1440127469810
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1440127469872
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1440127469888
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1440127469888
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1440127469888
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1440127469888
+started,bundle,org.eclipse.wst.common.frameworks,1.2.101.v201107192200,"org.eclipse.wst.common.frameworks",1440127469888
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1440127469888
+started,bundle,org.eclipse.wst.common.modulecore,1.2.101.v201108231700,"org.eclipse.wst.common.modulecore",1440127469888
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.200.v201103170332,"org.eclipse.wst.common.project.facet.core",1440127469888
+started,bundle,org.eclipse.wst.validation,1.2.302.v201107140600,"org.eclipse.wst.validation",1440127469888
+started,bundle,org.eclipse.wst.web,1.1.500.v201104251400,"org.eclipse.wst.web",1440127469888
+started,bundle,org.eclipse.wst.xml.core,1.1.601.v201108302147,"org.eclipse.wst.xml.core",1440127469888
+os,sysinfo,,,"win32",1440127469888
+arch,sysinfo,,,"x86",1440127469888
+ws,sysinfo,,,"win32",1440127469888
+locale,sysinfo,,,"en_US",1440127469888
+processors,sysinfo,,,"2",1440127469888
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1440127469888
+java.runtime.version,sysinfo,,,"1.7.0-b147",1440127469888
+java.specification.name,sysinfo,,,"Java Platform API Specification",1440127469888
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1440127469888
+java.specification.version,sysinfo,,,"1.7",1440127469888
+java.vendor,sysinfo,,,"Oracle Corporation",1440127469888
+java.version,sysinfo,,,"1.7.0",1440127469888
+java.vm.info,sysinfo,,,"mixed mode, sharing",1440127469888
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1440127469888
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1440127469888
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1440127469888
+java.vm.specification.version,sysinfo,,,"1.7",1440127469888
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1440127469888
+java.vm.version,sysinfo,,,"21.0-b17",1440127469888
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440127493207
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.100.v201101252155,"org.eclipse.jst.ws.jaxws.dom.integration",1440127493456
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1440127493472
+started,bundle,org.eclipse.jst.servlet.ui,1.1.501.v201108220630,"org.eclipse.jst.servlet.ui",1440127493565
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127503891
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127503923
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1440127505903
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127507994
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127532685
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127532685
+error,log,,,"Could not write: Z:\\spic\\.metadata\\.mylyn\\repositories.xml.zip",1440127553867
+started,bundle,org.eclipse.mylyn.ide.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.ide.ui",1440127588463
+started,bundle,org.eclipse.jpt.jaxb.ui,1.1.1.v201108080010,"org.eclipse.jpt.jaxb.ui",1440127588479
+started,bundle,org.eclipse.jpt.jpa.ui,3.0.1.v201108080010,"org.eclipse.jpt.jpa.ui",1440127588510
+started,bundle,org.eclipse.jpt.common.core,1.0.1.v201108080010,"org.eclipse.jpt.common.core",1440127588557
+started,bundle,org.eclipse.jpt.jpa.core,3.0.1.v201109073010,"org.eclipse.jpt.jpa.core",1440127588572
+started,bundle,org.eclipse.jst.ws.jaxws.ui,1.0.100.v201104032053,"org.eclipse.jst.ws.jaxws.ui",1440127588604
+started,bundle,org.eclipse.mylyn.java.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.ui",1440127588604
+started,bundle,org.eclipse.pde.api.tools,1.0.301.v20110728_r371,"org.eclipse.pde.api.tools",1440127588666
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1440127588666
+started,bundle,org.eclipse.jpt.jaxb.core,1.0.1.v201108080010,"org.eclipse.jpt.jaxb.core",1440127588962
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440127589274
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1440127590257
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127605730
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127607960
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127623434
+started,bundle,org.eclipse.wst.sse.core,1.1.601.v201108151912,"org.eclipse.wst.sse.core",1440127625368
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127633416
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1440127640201
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1440127641917
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127643602
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.selectAll",1440127662319
+started,bundle,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui",1440127700456
+started,bundle,org.eclipse.wst.server.core,1.1.303.v20110816_1717,"org.eclipse.wst.server.core",1440127700565
+started,bundle,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.ui",1440127700581
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20110802_r371,"org.eclipse.jdt.debug",1440127700674
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1440127700721
+started,bundle,org.eclipse.wst.jsdt.debug.rhino.ui,1.0.0.v201103232243,"org.eclipse.wst.jsdt.debug.rhino.ui",1440127700752
+started,bundle,org.eclipse.wst.jsdt.core,1.1.101.v201108151912,"org.eclipse.wst.jsdt.core",1440127701205
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.DebugLast",1440127702290
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127702370
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127703602
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127703867
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127704709
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127706035
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127707298
+opened,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127707376
+opened,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1440127707563
+opened,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.VariableView",1440127707641
+opened,view,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views.ContentOutline",1440127708094
+activated,perspective,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugPerspective",1440127708125
+opened,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.BreakpointView",1440127708905
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127715674
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127724082
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127724191
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127725532
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127734907
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127736934
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127741208
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127741458
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127742862
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127747447
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127748321
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127748571
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127756682
+error,log,,,"Unexpected runtime error while computing a text hover",1440127762563
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127770893
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127772203
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127773654
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1440127778021
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1440127778630
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1440127779191
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127782046
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127796912
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127798300
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127798565
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127803807
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127812604
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127813696
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127813977
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127831011
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127838015
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127839793
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127840059
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127848123
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127866218
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127868050
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1440127868060
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127885341
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127891862
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1440127891877
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1440127891877
+activated,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1440127893094
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127896838
+opened,view,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.ui.ServersView",1440127896869
+closed,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1440127896869
+activated,view,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.ui.ServersView",1440127897665
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127897680
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127899100
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127899162
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127906072
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127906072
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127944212
+error,log,,,"Unexpected runtime error while computing a text hover",1440127962151
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127963695
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1440127974100
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127976174
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440127980636
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440127980870
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440127982788
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1440128004954
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440128009587
+activated,view,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views.ContentOutline",1440128009681
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1440128011366
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440128035716
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440128043541
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1440128043541
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.views.showView",1440128043541
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440128055895
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1440128069186
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\81\\90368605b64700151721cbc14e03bc79.",1440128280775
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\1f\\40bfa205b64700151721cbc14e03bc79.",1440128280900
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\f6\\307aa705b64700151721cbc14e03bc79.",1440128280931
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\6\\001cb805b64700151721cbc14e03bc79.",1440128281040
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\ab\\f047bf05b64700151721cbc14e03bc79.",1440128281149
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\2e\\d09fcd05b64700151721cbc14e03bc79.",1440128281243
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\c3\\a0d0db05b64700151721cbc14e03bc79.",1440128281274
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\b1\\906de505b64700151721cbc14e03bc79.",1440128281368
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\ae\\70e3ee05b64700151721cbc14e03bc79.",1440128281446
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\f8\\50cafa05b64700151721cbc14e03bc79.",1440128281477
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\1d\\40670406b64700151721cbc14e03bc79.",1440128281555
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\8c\\20dd0d06b64700151721cbc14e03bc79.",1440128281633
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\f5\\00531706b64700151721cbc14e03bc79.",1440128281726
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\84\\e0aa2506b64700151721cbc14e03bc79.",1440128281882
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\3e\\a0783d06b64700151721cbc14e03bc79.",1440128281914
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\d\\90334206b64700151721cbc14e03bc79.",1440128282007
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\d3\\60d55206b64700151721cbc14e03bc79.",1440128282116
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\67\\402d6106b64700151721cbc14e03bc79.",1440128282148
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\3\\20856f06b64700151721cbc14e03bc79.",1440128282257
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\7a\\008a7606b64700151721cbc14e03bc79.",1440128282319
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\4e\\e0708206b64700151721cbc14e03bc79.",1440128282397
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\d6\\d00d8c06b64700151721cbc14e03bc79.",1440128282553
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\be\\906aa106b64700151721cbc14e03bc79.",1440128282600
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\68\\60eeb606b64700151721cbc14e03bc79.",1440128282725
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\7b\\40f3bd06b64700151721cbc14e03bc79.",1440128282756
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\fe\\20ec960eb64700151721cbc14e03bc79.",1440128296000
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\33\\0044a50eb64700151721cbc14e03bc79.",1440128296078
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\dc\\d056b80eb64700151721cbc14e03bc79.",1440128296171
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\dc\\b05bbf0eb64700151721cbc14e03bc79.",1440128296187
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\ca\\806ed20eb64700151721cbc14e03bc79.",1440128296468
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\db\\30f7ee0eb64700151721cbc14e03bc79.",1440128296499
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\6a\\000a020fb64700151721cbc14e03bc79.",1440128296624
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\8a\\e0f00d0fb64700151721cbc14e03bc79.",1440128296764
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\44\\b003210fb64700151721cbc14e03bc79.",1440128296873
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\15\\8016340fb64700151721cbc14e03bc79.",1440128296951
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\9\\608c3d0fb64700151721cbc14e03bc79.",1440128297045
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\3c\\5029470fb64700151721cbc14e03bc79.",1440128297107
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\e1\\3010530fb64700151721cbc14e03bc79.",1440128297154
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\ac\\10155a0fb64700151721cbc14e03bc79.",1440128297201
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\7b\\00b2630fb64700151721cbc14e03bc79.",1440128297279
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\25\\f0dd6a0fb64700151721cbc14e03bc79.",1440128297341
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\40\\c07f7b0fb64700151721cbc14e03bc79.",1440128297451
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\2f\\a0f5840fb64700151721cbc14e03bc79.",1440128297497
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\43\\70799a0fb64700151721cbc14e03bc79.",1440128297653
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\41\\50efa30fb64700151721cbc14e03bc79.",1440128297716
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\58\\2091b40fb64700151721cbc14e03bc79.",1440128297825
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\d0\\102ebe0fb64700151721cbc14e03bc79.",1440128297903
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\6a\\e05ecc0fb64700151721cbc14e03bc79.",1440128297965
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\2e\\c0b6da0fb64700151721cbc14e03bc79.",1440128298059
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\51\\a0bbe10fb64700151721cbc14e03bc79.",1440128298106
+error,log,,,"Could not write file: Z:\\spic\\Applet1\\oracle\\jdbc\\driver\\OracleSql.class.",1440128298215
+error,log,,,"Could not write file: Z:\\spic\\Applet1\\oracle\\jdbc\\driver\\OracleSqlReadOnly.class.",1440128298262
+error,log,,,"Could not write file: Z:\\spic\\Applet1\\oracle\\jdbc\\driver\\OracleTimeoutPollingThread.class.",1440128298355
+error,log,,,"Could not write file: Z:\\spic\\Applet1\\oracle\\jdbc\\driver\\OracleTimeoutThreadPerVM.class.",1440128298402
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\c1\\10f41a10b64700151721cbc14e03bc79.",1440128298496
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\a6\\f0da2610b64700151721cbc14e03bc79.",1440128298574
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\c0\\b0373c10b64700151721cbc14e03bc79.",1440128298698
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\9d\\a0d44510b64700151721cbc14e03bc79.",1440128298745
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\1a\\70765610b64700151721cbc14e03bc79.",1440128298854
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\a4\\60a25d10b64700151721cbc14e03bc79.",1440128298901
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\1e\\30446e10b64700151721cbc14e03bc79.",1440128299010
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\14\\20707510b64700151721cbc14e03bc79.",1440128299088
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\9f\\00578110b64700151721cbc14e03bc79.",1440128299166
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\ef\\d0878f10b64700151721cbc14e03bc79.",1440128299229
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\59\\a09aa210b64700151721cbc14e03bc79.",1440128299354
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\d3\\90c6a910b64700151721cbc14e03bc79.",1440128299416
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\95\\6068ba10b64700151721cbc14e03bc79.",1440128299525
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\2f\\5094c110b64700151721cbc14e03bc79.",1440128299572
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\17\\2036d210b64700151721cbc14e03bc79.",1440128299681
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\6b\\1062d910b64700151721cbc14e03bc79.",1440128299790
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\f5\\e003ea10b64700151721cbc14e03bc79.",1440128299837
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\67\\b016fd10b64700151721cbc14e03bc79.",1440128299962
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\3c\\908c0611b64700151721cbc14e03bc79.",1440128300024
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\4\\609f1911b64700151721cbc14e03bc79.",1440128300134
+error,log,,,"Could not write file: Z:\\spic\\.metadata\\.plugins\\org.eclipse.core.resources\\.history\\31\\50cb2011b64700151721cbc14e03bc79.",1440128300196

@@ -1,0 +1,265 @@
+Which design pattern is implemented by Struts 2?
+
+Select one or more:
+a. Intercepting Filters Pattern
+b. Factory Pattern
+c. Front Controller Pattern Correct
+d. Singleton Pattern
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Front Controller Pattern, Intercepting Filters Pattern
+
+
+Which XML file is used to provide struts frame configurations ?
+
+Select one:
+a. struts.xml Correct
+b. web.xml
+c. struts-default.xml
+d. application.xml
+Your answer is correct.
+
+The correct answer is: struts.xml
+
+Which custom tag is used to display a password field on a JSP?
+
+ 
+
+*Assume "s" as a prefix for custom tags.
+
+Select one:
+a. s:pass
+b. s:textfield type="password"
+c. s:password Correct
+d. s:text
+
+
+
+Your answer is correct.
+
+The correct answer is: s:password
+
+
+Suggest true / false as applicable
+
+It is not mandatory to extend some class for Struts Action class
+
+Select one:
+True Correct
+False
+
+
+What is the return type of the execute() method in Action class?
+
+Select one:
+a. boolean
+b. String Correct
+c. Integer
+d. int
+
+
+Your answer is correct.
+
+The correct answer is: String
+
+
+
+Specify True / False
+
+It is mandatory to use custom tags for generating User Interface in Struts 2
+
+Select one:
+True
+False Correct
+
+The correct answer is 'False'.
+
+Which of the following code lines will link Struts2 custom tags with the JSP?
+
+Select one:
+a.
+<%@ taglib prefix="s" url="/struts-tags" %>
+ b.
+<% taglib suffix="s" uri="/struts-tags" %>
+ Incorrect
+c.
+<%@ taglib prefix="s" uri="/struts-tags" %>
+ d. None of the above
+
+Your answer is incorrect.
+
+The correct answer is:
+<%@ taglib prefix="s" url="/struts-tags" %>
+
+
+Which GUI components will suitable if I want to add student's address through the browser?
+
+Select one or more:
+a. <s:text>
+b. <s:textarea> Correct
+c. <s:textfield>
+
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: <s:textfield>, <s:textarea>
+
+
+*]Match the UI components with their usage
+
+Your answer is partially correct.
+
+You have correctly selected 2.
+The correct answer is: User wants to choose from a list of options available – s:select, User wishes to enter a password – s:password, User wants choose more than one option from a group of choices – s:checkbox,
+ User wishes to transfer data from one list to another – s:optiontransferselect
+
+
+Which of the following interfaces are implemented by the ActionSupport class?
+
+Select one or more:
+a. LocaleProvider
+b. SessionAware
+c. ActionAware
+d. Action Correct
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Action, LocaleProvider
+
+Is it mandatory for the Action class to have an execute() method?
+
+Select one:
+a. Yes, it is mandatory, and if developer does not provide the execute() method, compiler will complain
+b. No, it is not mandatory, but an alternate method needs to be configured through the configuration file.
+c. Yes, it is mandatory, but if developer does not provide the execute() method, error will be generated at runtime
+d. No, it is not mandatory Incorrect
+Your answer is incorrect.
+
+The correct answer is: No, it is not mandatory, but an alternate method needs to be configured through the configuration file.
+
+Assuming UserAction as the action class having the following data member
+
+class User
+
+{
+
+     String username;
+
+     String password;
+
+/* Assume the associated get and set method to be implemented
+
+}
+
+public class UserAction extends ActionSupport
+
+{
+
+     User user;
+
+// other class implementation
+
+}
+
+How do I set values to the username variable in the instance variable "user"
+
+Select one:
+a. In the JSP add the following lines of code
+<s:form ....
+//other HTML code
+<s:input type="text" name="user.username"/>
+//other HTML code Correct
+b. It is not possible to store data in a variable of a variable
+c. It is not possible through standard Java code, but OGNL can be used to store it.
+Feedback
+Your answer is correct.
+
+The correct answer is: In the JSP add the following lines of code
+<s:form ....
+//other HTML code
+<s:input type="text" name="user.username"/>
+//other HTML code
+
+
+Match the interfaces with their usage
+Your answer is correct.
+
+The correct answer is: RequestAware – Makes the request data available as a Map object in Action class, SessionAware – Makes the session data available as a Map object in Action class, ApplicationAware – Makes the ServletContext data available as a Map object in Action class
+
+
+Data from the Session is transported to the Action class using __________________ method
+
+Select one:
+a. getSession()
+b. SetSession()
+c. setSession()
+d. session.getData() Incorrect
+Feedback
+Your answer is incorrect.
+
+The correct answer is: setSession()
+
+
+
+
+
+Where do I configure the interceptors?
+
+Select one:
+a. struts-defaults.xml
+b. struts.xml Correct
+c. struts.properties
+d. web.xml
+Feedback
+Your answer is correct.
+
+The correct answer is: struts.xml
+
+_____________________ interceptors is responsible for validation routines
+
+Select one:
+a. workflow
+b. Validate Incorrect
+c. Exceptions
+d. Parameters
+Feedback
+Your answer is incorrect.
+
+The correct answer is: workflow
+
+
+State True  / False:
+
+Developers cannot create a custom interceptor to suit their requirements.
+
+Select one:
+True Incorrect
+False
+Feedback
+The correct answer is 'False'.
+
+Where will you write the interceptor task?
+
+Hint: Name the method.
+
+Select one:
+a. execute()
+b. doIntercept()
+c. intercept() Correct
+d. doFilter()
+Feedback
+Your answer is correct.
+
+The correct answer is: intercept()
+
+
+State true or false:
+
+An interceptor can terminate a valid Action class process execution.
+
+Select one:
+True
+False Incorrect
+Feedback
+The correct answer is 'True'.

@@ -1,0 +1,59 @@
+import java.beans.Statement;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+public class Database1  
+{
+	
+
+ public  static  void  main(String  args[])throws  Exception 
+{
+	
+try
+{
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	System.out.println("got  driver");
+	Connection  con=DriverManager.getConnection("jdbc:oracle:thin:@oracle-server:1521:orcl","java","java");
+	System.out.println("got   connection+");
+	java.sql.Statement  smt=con.createStatement();
+	//create  table   properly  fill  it  and  press  commit button 
+	int  i=smt.executeUpdate("Update  heena set  ename='pqr'  where  eid=4 ");  //return  type  integer 
+	System.out.println(i);
+	ResultSet   rs=smt.executeQuery("select  * from heena");
+	while(rs.next())
+	{
+		System.out.println(rs.getInt(1));
+		System.out.println("\t"  +rs.getString(2));
+		System.out.println("\t"+rs.getInt(3));
+	}
+		PreparedStatement  psmt=con.prepareStatement("Update heena   set  esal=?   where eid=?");
+		psmt.setInt(1, 40000);
+		psmt.setInt(2, 1);
+		i=psmt.executeUpdate();
+		System.out.println(i);
+		System.out.println("done");
+		psmt=con.prepareStatement("select  *from  heena");
+		
+		System.out.println("printing  using  psmt  statement");
+	     rs=psmt.executeQuery();
+		   while(rs.next())
+		   {
+			   System.out.println(rs.getInt(1));
+			   System.out.println(rs.getString(2));
+			   System.out.println(rs.getInt(3));
+		   }
+		
+		
+	
+	con.close();
+	
+}
+ catch(Exception e)
+ {
+ e.printStackTrace();
+ }
+ }
+ }

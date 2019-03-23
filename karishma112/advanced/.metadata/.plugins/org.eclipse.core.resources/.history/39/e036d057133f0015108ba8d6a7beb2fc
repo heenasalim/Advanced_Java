@@ -1,0 +1,63 @@
+package salaryDe;
+import javax.swing.*;
+
+public class SalaryDetails {
+	
+	JFrame f;
+	JPanel p;
+	JButton b1;
+	JTextField t1,t2,t3,t4,t5,t6,t7,t8;
+	JLabel l1,l2,l3,l4,l5,l6,l7,l8;
+	SalaryDetails()
+	{
+		f=new JFrame("salaryDetails");
+		p=new JPanel();
+		b1=new JButton("Calculate");
+		l1=new JLabel("Name");
+		l2=new JLabel("BasicSalary");
+		l3=new JLabel("HRA");
+		l4=new JLabel("DA");
+		l5=new JLabel("Totalsalary");
+		l6=new JLabel("PF");
+		l7=new JLabel("ITax");
+		l8=new JLabel("Salary in Hand");
+		
+		
+		t1=new JTextField(5);
+		t2=new JTextField(5);
+		t3=new JTextField(5);
+		t4=new JTextField(5);
+		t5=new JTextField(5);
+		t6=new JTextField(5);
+		t7=new JTextField(5);
+		t8=new JTextField(5);
+		f.add(p);
+		f.setVisible(true);
+		f.setSize(300,300);
+		p.add(l1);
+		p.add(t1);
+		p.add(l2);
+		p.add(t1);
+		p.add(l3);
+		p.add(t3);
+		p.add(l4);
+		p.add(t4);
+		p.add(l5);
+		p.add(t5);
+		p.add(l6);
+		p.add(t6);
+		p.add(l7);
+		p.add(t7);
+		p.add(l8);
+		p.add(t8);
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SalaryDetails ss=new SalaryDetails();
+	}
+
+}

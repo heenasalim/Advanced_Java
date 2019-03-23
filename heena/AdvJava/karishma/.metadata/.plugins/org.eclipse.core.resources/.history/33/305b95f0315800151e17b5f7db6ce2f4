@@ -1,0 +1,44 @@
+import com.opensymphony.xwork2.ActionSupport;
+
+
+public class login extends ActionSupport{		
+	Bean bean;
+	String User1="eneter correct username";
+	String pass1="enter correct password";
+
+public Bean getBean() {
+		return bean;
+	}
+
+	public void setBean(Bean bean) {
+		this.bean = bean;
+	}
+
+	public void validate()
+	{
+		if(bean.getUser()==""&&bean.getPwd()=="")
+		{
+			addFieldError("bean.user",getText(User1));
+			
+		}
+		else
+		{
+			addFieldError("bean.pass",getText(pass1));
+		}
+	}
+public String  Login()
+{
+	if(bean.user.equals("admin")&&bean.pwd.equals("123"))
+	{
+		
+	return SUCCESS;
+	}
+	else
+	{
+		
+	return ERROR;
+	}
+	
+}
+
+}

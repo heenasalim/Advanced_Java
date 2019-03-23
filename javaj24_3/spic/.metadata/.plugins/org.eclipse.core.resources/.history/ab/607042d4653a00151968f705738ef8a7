@@ -1,0 +1,41 @@
+package ch7;
+
+import java.io.*;
+
+
+public class FileDemo
+{
+	  public  void  calculate()
+	  {           
+		  int  a=0;
+			int c;
+			int  b=10;
+			c=b/a;
+			System.out.println(" division  is"+c);
+	  }
+	void method()
+	{
+		
+		try 
+		{  
+			c=b/a;
+			FileInputStream f= new  FileInputStream("file12.txt");
+			
+		
+			  
+          }
+		catch (FileNotFoundException  ex)
+		{
+			
+			System.out.println("file  does  not   exist");
+			ex.printStackTrace("enter  valid  file");
+		}
+		catch(ArithmeticException e)
+		{
+		System.err.println("  divide  by   zero  error");
+		}
+		
+}
+	public  static  void  main(String  args)
+	}
+}

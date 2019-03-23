@@ -1,0 +1,59 @@
+package Multithreding;
+
+import java.util.Scanner;
+import java.lang.Thread;
+
+public class ThreadClass extends Thread {
+	Thread t1,t2;
+
+	public ThreadClass() {
+		t1=new Thread(this,"Thread-1");
+		t2=new Thread(this,"Thread-2");
+		t1.start();
+		t2.start();
+		
+	}
+	
+public void run()
+{
+	int i=0;
+	//Scanner s=new Scanner(System.in);
+	//int no1=s.nextInt();
+	//int no2=s.nextInt();
+	for(i=0;i<5;i++)
+	{
+		
+		
+		if(Thread.currentThread()==t1)
+		{
+			System.out.println("thread1");
+		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			}
+		}
+		if(Thread.currentThread()==t2)
+		{
+			System.out.println("thread2");
+		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+	}
+	}
+
+	
+	
+	public static void main(String[] args) {
+		ThreadClass ts=new ThreadClass();
+		
+	}
+
+}

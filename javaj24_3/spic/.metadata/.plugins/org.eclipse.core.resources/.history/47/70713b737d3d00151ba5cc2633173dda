@@ -1,0 +1,17 @@
+package ch7;
+
+import javax.xml.datatype.DatatypeConstants.Field;
+
+public class reflectionDemo {
+  public static void main(String[] args) {
+	  
+	   Employee12 m=new   Employee12(1, 677433, "heena");
+	   Class  c=m.getClass();
+	   Field  f[]=c.getDeclaredField[];
+	 for(int  i=0;i<f.length;i++)
+	{
+		
+	}
+}
+
+}

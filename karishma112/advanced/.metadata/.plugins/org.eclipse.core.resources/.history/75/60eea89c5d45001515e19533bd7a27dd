@@ -1,0 +1,62 @@
+package Multithreding;
+
+public class Transaction extends Thread{
+	AccountDemo a;
+	Thread t1,t2;
+
+	public Transaction(AccountDemo a) {
+		
+		this.a=a;
+		t1=new Thread(this,"t1");
+		t2=new Thread(this,"t2");
+		t1.start();
+		t2.start();
+	}
+public void run()
+{
+	if(Thread.currentThread()==t1)
+	{
+		withdraw(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	if(Thread.currentThread()==t2)
+	{
+		deposit(3000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
+	
+	private void  deposit(int i) {
+	
+		int bal=a.getBalance();
+		bal=bal+i;
+		a.setBalance(bal);
+		System.out.println("after the deposit"+a.getBalance());
+}
+	private  void withdraw(int i) {
+	// TODO Auto-generated method stub
+		int bal=a.getBalance();
+		bal=bal-i;
+		a.setBalance(bal);
+		System.out.println("after the withdraw"+a.getBalance());
+	
+}
+	public static void main(String[] args) {
+		
+		AccountDemo a=new AccountDemo(20000);
+		Transaction t=new Transaction(a);
+	
+
+	}
+
+}

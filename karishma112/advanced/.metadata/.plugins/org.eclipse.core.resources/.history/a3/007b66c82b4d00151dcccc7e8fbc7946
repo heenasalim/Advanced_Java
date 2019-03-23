@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+
+<script type="text/javascript">
+function validation() {
+alert("hello");
+var user=document.getElementById("user").value;
+alert(user);
+
+var pwd=document.getElementById("pwd").value;
+alert(pwd);
+
+
+var len=pwd.length;
+alert(len);
+
+var passw=/^[A-Za-z0-9]\wd{7,14}$/;
+
+
+
+	if(user==""&& pwd=="")
+		{
+		alert("username and password shouldnot blank")
+		}
+	if(pwd.match(passw))
+		{
+		alert("correct password");
+		}
+	else
+		{
+		alert("wrong password");
+		}
+	
+
+
+
+
+}
+</script>
+</head>
+
+<body>
+<form action="HelloServlet1" method="post">
+userName<input type="text" name="user" id="user"><br>
+PassWord<input type="text" name="pwd" id="pwd"><br>
+
+
+<input type="button" value="Submit" onclick= "return validation();">
+
+<a href="register.html">Register new user</a>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+package pk6;
+
+import java.util.Scanner;
+
+public class Calculator {
+	
+	public static void main(String args[])
+	{
+		String ss,ch;
+		int no1,no2;
+System.out.println("**********menu***************");
+System.out.println("\nADD");
+System.out.println("\nSUB");
+System.out.println("\nMUL");
+System.out.println("\nDIVIDE");
+System.out.println("\nExit");
+System.out.println("\n enter ur choice= ");
+do
+{
+Scanner s=new Scanner(System.in);
+ch=s.next();
+System.out.println("\n enter numbers= ");
+Scanner s1=new Scanner(System.in);
+no1=s.nextInt();
+Scanner s2=new Scanner(System.in);
+no2=s.nextInt();
+//System.out.println("\n");
+	
+switch(ch)
+	{
+	case 1:System.out.println("Addition= "+(no1+no2));
+			break;
+	case 2:System.out.println("Substraction= "+(no1-no2));
+			break;
+	case 3:System.out.println("|Multiplication= "+(no1*no2));
+			break;
+	case 4:System.out.println("Division= "+(no1/no2));
+			break;
+	case 5:break;
+	//default:break;
+	
+	}
+}while(ch==5);
+}
+
+	private static void exit() {
+		// TODO Auto-generated method stub
+		
+	}
+}

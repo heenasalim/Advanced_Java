@@ -1,0 +1,40 @@
+package collectionpk;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Scanner;
+
+public class UtilityReport {
+	static int i;
+	static int id;
+	static String name;
+	
+	public String toString()
+	{
+		return "\nid="+id+"\tname= "+name;
+	}
+	
+	static	void showReport(Employee[] e3)
+	{
+		//Scanner s=new Scanner(System.in);
+		Map m=new HashMap();
+		m.put(1,"karishma");
+		m.put(2,"Hina");
+		m.put(5,"kkkk");
+		m.put(1,"hhhhh");
+		m.put(3,"karishma");
+		for(i=0;i<e3.length;i++)
+		{
+			e3[i]=new Employee(id,name);
+		}
+		for(i=0;i<e3.length;i++)
+		{
+			m.put(e3[i].id,e3[i].name);
+		}
+		
+		System.out.println(m);
+		
+	}
+
+}

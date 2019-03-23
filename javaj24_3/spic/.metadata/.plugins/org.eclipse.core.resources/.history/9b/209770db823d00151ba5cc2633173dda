@@ -1,0 +1,15 @@
+package ch7;
+  import java.lang.annotation.Documented;
+  import java.lang.annotation.Inherited;
+@Documented
+  public  @interface  Test_Documented
+  {
+	String doTest();
+  }
+
+
+
+public class ReflectionDemo1 {
+
+	
+}

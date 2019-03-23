@@ -1,0 +1,6 @@
+package balls;
+
+public class SynchronizedAccount  {
+   private  int  balance;
+   public  SynchronizedAccount
+}

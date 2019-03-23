@@ -1,0 +1,8 @@
+
+public class emploee {
+	
+	int  empid;
+	String  empname;
+    Date d;
+
+}

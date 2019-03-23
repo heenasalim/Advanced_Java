@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function valid1()
+{
+	var uname=document.getElementById("user").value;
+	var pass1=document.getElementById("pwd").value;
+	var fname1=document.getElementById("fname").value;
+	var lname1=document.getElementById("lname").value;
+	var cpass1=document.getElementById("cpwd").value;
+	
+	var pin1=document.getElementById(pid).value;
+	var pinmatch=/^[0-9]\wd{7-14}$/;
+	if(uname==""&&pass1==""&&fname1==""&&lname1=="")
+	{
+	alert("username,password,firstname and lastname shouldnot blank");
+	}
+	if(pass1==cpass1)
+	{
+		alert("password matched");
+	}
+	if(pass1!=cpass1)
+	{
+		alert("password not matched");
+	}
+	if(pin1.match(pinmatch))
+		{
+		alert("pin code must be 6 digit");
+		}
+	
+}
+fuction valid2()
+{
+	uname="";
+	pass1="";
+	fname1="";
+	lname1="";
+	cpass1="";
+	pin1="";
+}
+</script>
+</head>
+<body style="background-color:pink;">
+<center>
+<font style="Times new Roman" color="red;">
+<h1 ><marquee>Register</marquee></h1>
+</font>
+</center>
+<form >
+userName<input type="text" name="user" id="user"><br><br>
+PassWord<input type="password" name="pwd" id="pwd"><br><br>
+ConfirmPassWord<input type="password" name="cpwd" id="cpwd"><br><br>
+FirstName<input type="text" name="fname" id="fname"><br><br>
+LastName<input type="text" name="lname" id="lname"><br><br>
+LocalAddress<input type="textarea" name="address" id="address"><br><br>
+PermanentAddress<input type="textarea" name="paddress" id="aadd"><br><br>
+city<input type="combobox" name="city" id="city"><br><br>
+state<input type="list" name="state" id="state"><br><br>
+PinCode<input type="text" name="pid" id="pid"><br><br>
+mobileNo<input type="text" name="mno" id="mno"><br><br>
+EmailAddress<input type="text" name="eid" id="eid"><br><br>
+<input type="button" value="click" onclick="return valid1();">
+<input type="reset" value="Reset">
+
+
+
+</form>
+
+</body>
+</html>

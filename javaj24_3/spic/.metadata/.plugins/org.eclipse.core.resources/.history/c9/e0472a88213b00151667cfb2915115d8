@@ -1,0 +1,6 @@
+package ch7;
+
+public class Account   extends  Exception {
+
+	
+}

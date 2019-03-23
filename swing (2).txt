@@ -1,0 +1,853 @@
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java Swing(Basic Controls)knowledge Check-Java Swing(Basic Controls)
+Started on	Wednesday, 16 September 2015, 10:13 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:15 AM
+Time taken	2 mins 8 secs
+Marks	1.50/5.00
+Grade	3.00 out of 10.00 (30%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+which of the following statement is incorrect about Swing?
+
+Select one:
+a. Swings eases programming efforts.
+b. Swing components are heavy weight as compared with AWT. Correct
+c. 2D graphics rendering is simpler with swings
+d. Swing components implements MVC design pattern
+Feedback
+Your answer is correct.
+
+The correct answer is: Swing components are heavy weight as compared with AWT.
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+_________________ is a light weight container which is on top of all other containers.
+
+Select one:
+a. Root Pane
+b. Glass Pane Incorrect
+c. Layered Pane
+d. Content Pane
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Root Pane
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Container class cannot be initialized directly.
+
+Select one:
+True
+False Incorrect
+Feedback
+The correct answer is 'True'.
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following layout is used for visibility control mechanism?
+
+Select one:
+a. GridLayout
+b. FlowLayout
+c. BorderLayout Incorrect
+d. CardLayout
+e. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: CardLayout
+Question 5
+Partially correct
+Mark 0.50 out of 1.00
+ Not flaggedFlag question
+Question text
+For creating GUI of calculator which of the following containers are required?
+
+Select one or more:
+a. JFrame
+b. JPanel Correct
+c. Window
+d. JDialog
+e. All of the above
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: JFrame, JPanel
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java Swing(Menu, Dialog, GridBag)Knowledge Check-(Menu, Dialog, GridBag)
+Knowledge Check-(Menu, Dialog, GridBag)
+
+Java Swing(Menu, Dialog, GridBag)
+
+Attempts allowed: 3
+
+Grading method: Highest grade
+
+Summary of your previous attempts
+
+Attempt	State	Marks / 5.00	Grade / 10.00	Review
+1	Finished
+Submitted Wednesday, 16 September 2015, 10:18 AM
+3.00	6.00	Review
+Highest grade: 6.00 / 10.00.
+
+
+Skip Administration
+Show Administration block
+Administration
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java Swing(Containers,MVC)Knowledge Check-(Containers,MVC)
+Started on	Wednesday, 16 September 2015, 10:19 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:19 AM
+Time taken	12 secs
+Marks	1.00/2.00
+Grade	5.00 out of 10.00 (50%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+when application want to use only subset of events______________can be used.
+
+Select one:
+a. Adpater classes Correct
+b. static inner class
+c. super class
+d. method local inner class
+Feedback
+Your answer is correct.
+
+The correct answer is: Adpater classes
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following statements are incorrect about need of MVC in Swing?
+
+Select one:
+a. Decouple business logic from the presentation. Incorrect
+b. cross platform consistency and easier maintenance
+c. Multiple look and feel to single application
+d. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: None of the above
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java Multithreading BasicsKnowledge Check-Java Multithreading Basics
+Question 1
+Answer saved
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following method is used to put delay in execution of thread?
+
+Select one:
+a. stop()
+b. suspend()
+c. sleep()
+d. block()
+Question 2
+Answer saved
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following method decides behavior of the thread?
+
+ 
+Select one:
+a. start()
+b. notify()
+c. isAlive()
+d. run()
+Question 3
+Answer saved
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following constructors can be used to create Custom thread?
+
+Select one or more:
+a. Thread(Runnable r, String name)
+b. Thread(Runnable r)
+c. Thread()
+d. Thread(int priority)
+Question 4
+Answer saved
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Thread execution starts with run() method.
+
+Select one:
+True
+False
+Question 5
+Answer saved
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Thread enters a block state in which of the following events?
+
+Select one or more:
+a. when someone calls sleep() method of the thread
+b. The thread calls wait() method
+c. Thread calls an operation that is blocking on input/output
+d. when stop() method is called on thread
+Question 6
+Answer saved
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following method cannot cause thread to enter blocking state?
+
+Select one:
+a. suspend()
+b. sleep()
+c. block()
+d. yield()
+
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page Question 6 This page
+Finish attempt ...
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java Thread CommunicationKnowledge Check-Java Thread Communication
+Started on	Wednesday, 16 September 2015, 10:20 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:21 AM
+Time taken	20 secs
+Marks	1.83/6.00
+Grade	3.06 out of 10.00 (31%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Thread Safety does not always mean synchronization.
+
+Select one:
+True Correct
+False
+Feedback
+The correct answer is 'True'.
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+One of the business rule out of entire method is in need of thread safety. Which of the following option is appropriate in this case.
+
+Select one:
+a. synchronized method Incorrect
+b. synchronized block
+c. multiprocessing
+d. local variable declaration
+Feedback
+Your answer is incorrect.
+
+The correct answer is: synchronized block
+Question 3
+Partially correct
+Mark 0.50 out of 1.00
+ Not flaggedFlag question
+Question text
+Implementing lock interface enables
+
+Select one or more:
+a. Lock acquisition  and released in different scopes Correct
+b. Allows multiple locks to be acquired and released in any order
+c. SingleThreadModel interface implementation
+d. none of the above
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Lock acquisition  and released in different scopes, Allows multiple locks to be acquired and released in any order
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+__________________method allows thread to wait inside a synchronized method.
+
+Select one:
+a. wait()
+b. notify() Incorrect
+c. notifyAll()
+d. sleep()
+Feedback
+Your answer is incorrect.
+
+The correct answer is: wait()
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+wait(), notify(), notifyAll() methods can be only called in synchronized method or block.
+
+Select one:
+True
+False Incorrect
+Feedback
+The correct answer is 'True'.
+Question 6
+Partially correct
+Mark 0.33 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following methods are provided by Condition interface?
+
+Select one or more:
+a. wait()
+b. aWait()
+c. awaitNanos()
+d. signal() Correct
+e. notify()
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: aWait(), awaitNanos(), signal()
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page Question 6 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java AppletsKnowledge Check-Java Applets
+Started on	Wednesday, 16 September 2015, 10:21 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:21 AM
+Time taken	24 secs
+Marks	1.25/5.00
+Grade	2.50 out of 10.00 (25%)
+Question 1
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Applets are client side programs runs on client side.
+
+Select one:
+True Incorrect
+False
+Feedback
+The correct answer is 'False'.
+Question 2
+Partially correct
+Mark 0.25 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following are applet life cycle methods?
+
+Select one or more:
+a. init()
+b. service()
+c. destroy()
+d. start() Correct
+e. stop()
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: init(), destroy(), start(), stop()
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+______________ tag tells browser to serach for applet class files in the directory specified by the URL.
+
+Select one:
+a. NAME
+b. CODE Incorrect
+c. CODEBASE
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: CODEBASE
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+_________________ is encapsulation of the environment under which the applet is currently running.
+
+Select one:
+a. AppletViewer
+b. AppletContext Correct
+c. browser
+d. JVM
+Feedback
+Your answer is correct.
+
+The correct answer is: AppletContext
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following is invalid applet security restriction?
+
+Select one:
+a. cannot read/write files on users file system.
+b. cannot communicate with other internet site other than the one that served the web page that included the applet. Incorrect
+c. cannot run any executable program
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: none of the above
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java AppletsKnowledge Check-Java Applets
+Started on	Wednesday, 16 September 2015, 10:21 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:21 AM
+Time taken	24 secs
+Marks	1.25/5.00
+Grade	2.50 out of 10.00 (25%)
+Question 1
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Applets are client side programs runs on client side.
+
+Select one:
+True Incorrect
+False
+Feedback
+The correct answer is 'False'.
+Question 2
+Partially correct
+Mark 0.25 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following are applet life cycle methods?
+
+Select one or more:
+a. init()
+b. service()
+c. destroy()
+d. start() Correct
+e. stop()
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: init(), destroy(), start(), stop()
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+______________ tag tells browser to serach for applet class files in the directory specified by the URL.
+
+Select one:
+a. NAME
+b. CODE Incorrect
+c. CODEBASE
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: CODEBASE
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+_________________ is encapsulation of the environment under which the applet is currently running.
+
+Select one:
+a. AppletViewer
+b. AppletContext Correct
+c. browser
+d. JVM
+Feedback
+Your answer is correct.
+
+The correct answer is: AppletContext
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which of the following is invalid applet security restriction?
+
+Select one:
+a. cannot read/write files on users file system.
+b. cannot communicate with other internet site other than the one that served the web page that included the applet. Incorrect
+c. cannot run any executable program
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: none of the above
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Input-Output(File IO)Knowledge Check-Input-Output(File IO)
+Started on	Wednesday, 16 September 2015, 10:23 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:23 AM
+Time taken	15 secs
+Marks	1.00/5.00
+Grade	2.00 out of 10.00 (20%)
+Question 1
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+What is the outcome of following statement.
+
+File f=new File("c://data.txt");
+
+Select one:
+a. new file data.txt will be created on c drive
+b. new file data.txt will be created by overriding existing file data.txt Incorrect
+c. file will not be created unless createNewFile() method will not be invoked.
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: file will not be created unless createNewFile() method will not be invoked.
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+which of the following methods are provided by File class?
+
+Select one or more:
+a. read() Incorrect
+b. close()
+c. delete()
+d. exists()
+Feedback
+Your answer is incorrect.
+
+The correct answer is: delete(), exists()
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Serialization is required for encrypting data for security purpose.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 4
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+InputStream and OutputStream are designed for Character data.
+
+Select one:
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+_____________ is generally used for secure password entry.
+
+Select one:
+a. Scanner Incorrect
+b. Formatter
+c. File
+d. Console
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Console
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Input-Output(File IO)Knowledge Check-Input-Output(File IO)
+Started on	Wednesday, 16 September 2015, 10:23 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:23 AM
+Time taken	15 secs
+Marks	1.00/5.00
+Grade	2.00 out of 10.00 (20%)
+Question 1
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+What is the outcome of following statement.
+
+File f=new File("c://data.txt");
+
+Select one:
+a. new file data.txt will be created on c drive
+b. new file data.txt will be created by overriding existing file data.txt Incorrect
+c. file will not be created unless createNewFile() method will not be invoked.
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: file will not be created unless createNewFile() method will not be invoked.
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+which of the following methods are provided by File class?
+
+Select one or more:
+a. read() Incorrect
+b. close()
+c. delete()
+d. exists()
+Feedback
+Your answer is incorrect.
+
+The correct answer is: delete(), exists()
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Serialization is required for encrypting data for security purpose.
+
+Select one:
+True
+False Correct
+Feedback
+The correct answer is 'False'.
+Question 4
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+InputStream and OutputStream are designed for Character data.
+
+Select one:
+True
+False
+Feedback
+The correct answer is 'False'.
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+_____________ is generally used for secure password entry.
+
+Select one:
+a. Scanner Incorrect
+b. Formatter
+c. File
+d. Console
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Console
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ2_v1Java Database Connectivity(JDBC)Knowledge Check-Java Database Connectivity(JDBC)
+Started on	Wednesday, 16 September 2015, 10:24 AM
+State	Finished
+Completed on	Wednesday, 16 September 2015, 10:24 AM
+Time taken	13 secs
+Marks	1.00/6.00
+Grade	1.67 out of 10.00 (17%)
+Question 1
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+To work with dynamic queries which of the following statements can be used?
+
+Select one or more:
+a. Statement Incorrect
+b. PreparedStatement
+c. CallableStatement
+d. All of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: PreparedStatement, CallableStatement
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which method do you use when type of query is unknown?
+
+Select one:
+a. execute() Correct
+b. executeQuery()
+c. executeUpdate()
+d. All of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: execute()
+Question 3
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+ResultSet can never ever be null.
+
+Select one:
+True
+False
+Feedback
+The correct answer is 'True'.
+Question 4
+Not answered
+Marked out of 1.00
+ Not flaggedFlag question
+Question text
+Stored procedures can be invoked by calling________________.
+
+Select one:
+a. execute() method method on CallableStatement object
+b. executeProcedure() method on StoredProcedute object
+c. executeProcedure() method on CallableStatement object
+d. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: execute() method method on CallableStatement object
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which is the most efficient driver out of the following given options?
+
+Select one:
+a. Type-1
+b. Type-2 Incorrect
+c. Type-3
+d. Type-4
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Type-3
+Question 6
+Incorrect
+Mark 0.00 out of 1.00
+ Not flaggedFlag question
+Question text
+Which is the fastest driver out of given options?
+
+Select one:
+a. Type-1 Incorrect
+b. Type-2
+c. Type-3
+d. Type-4
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Type-4
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page Question 6 This page
+Finish review
+J2_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)

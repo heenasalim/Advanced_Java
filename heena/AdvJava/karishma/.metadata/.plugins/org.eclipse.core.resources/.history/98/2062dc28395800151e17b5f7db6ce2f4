@@ -1,0 +1,4 @@
+{
+user1="Username should not blank";
+pass1="Password shouldnot blank";
+}

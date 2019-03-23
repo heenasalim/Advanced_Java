@@ -1,0 +1,28 @@
+import java.awt.Canvas;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.applet.*;
+
+public class changing  extends  Applet {
+Canvas  c;
+Color  c1;
+
+public void  change(Color  c1)
+{
+	c.setBackground(c1);
+	repaint();
+}
+public  void  init()
+{
+	c1=Color.black;
+	System.out.println("init  called");
+	c=new Canvas();
+	c.setSize(50,50);  //  setting  attributes  of  canvas
+	c.setBackground(Color.black);
+	add(c);
+}
+public void  paint(Graphics  g)
+{
+	c.setBackground(c1);
+}
+}

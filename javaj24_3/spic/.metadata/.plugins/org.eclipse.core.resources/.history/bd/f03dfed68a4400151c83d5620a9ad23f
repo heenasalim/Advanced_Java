@@ -1,0 +1,6 @@
+package balls;
+
+public class Transaction  extends Thread {
+  Thread  t1,t2;
+  Accfount  a;
+}

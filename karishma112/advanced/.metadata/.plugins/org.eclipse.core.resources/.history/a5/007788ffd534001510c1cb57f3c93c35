@@ -1,0 +1,30 @@
+package pk1;
+
+public class Employee {
+	int id;
+	String name;
+	double basic;
+	double gs,pf,pt;
+	JoinDate d1;
+
+	public Employee(int id,String name,double basic,JoinDate d) {
+		// TODO Auto-generated constructor stub
+		this.id=id;
+		this.name=name;
+		this.basic=basic;
+		d1=d;
+	}
+public String toString()
+{
+	return "empid="+id+"name="+name+"basic="+basic+"DOB="+d1;
+}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Employee e=new Employee(1,"abc",30000,new JoinDate(2,2,2015));
+		System.out.println(""+e);
+	
+	}
+
+}

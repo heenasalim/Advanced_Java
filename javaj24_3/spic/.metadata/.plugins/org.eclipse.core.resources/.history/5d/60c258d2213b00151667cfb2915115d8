@@ -1,0 +1,14 @@
+package ch7;
+
+import java.util.Scanner;
+
+public class Account   extends  Exception {
+
+int   balance,amount ;
+public  void  withdraw()
+{
+  System.out.println("enter  the  amount  u  want  to  withdraw");	
+  Scanner  s=new  Scanner(System.in);
+  
+}
+}

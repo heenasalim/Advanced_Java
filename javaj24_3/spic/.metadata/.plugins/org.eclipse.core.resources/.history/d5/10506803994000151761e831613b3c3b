@@ -1,0 +1,27 @@
+package ch7;
+import  javax.swing.*;
+public class BusDemo   extends JFrame  implements Runnable {
+	
+	Thread t1,t2;
+	int  x1,x2=500;
+	public  BusDemo()
+	{
+		t1=new  Thread(this,"thread 1");
+		t2=new  Thread(this,"thread 2");
+		t1.start();
+		t2.start();
+		
+		
+	}
+public static void main(String[] args) {
+	BusDemo  j=new  BusDemo();
+	
+}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

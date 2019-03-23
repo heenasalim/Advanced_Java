@@ -1,0 +1,16 @@
+package ch7;
+
+public class Collection {
+  public Collection(int empid, String empname, double sal,String...X) {
+		super();
+		this.empid = empid;
+		this.empname = empname;
+		this.sal = sal;
+	}
+int  empid;     
+String    empname;
+double  sal;
+Set skillsets;
+  
+  
+}

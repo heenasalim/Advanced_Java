@@ -1,0 +1,30 @@
+package swingPK;
+import javax.swing.*;
+
+public class Student {
+	
+JLabel l1,l2,l3,l4;
+JTextField t1;
+JList ls;
+JButton b1,b2,b3,b4,b5;
+JComboBox c;
+JRadioButton rb;
+JFrame f1;
+JPanel p;
+
+
+	public Student() {
+		f1=new JFrame("StudentDetails");
+		p=new JPanel();
+		l1=new JLabel("Name");
+		l2=new JLabel("Qualification");
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

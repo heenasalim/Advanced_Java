@@ -1,0 +1,25 @@
+
+public class hashcode {
+
+	int  dd,mm,yy;
+
+	public hashcode(int dd, int mm, int yy) {
+		super();
+		this.dd = dd;
+		this.mm = mm;
+		this.yy = yy;
+	}
+
+	@Override
+	public String toString() {
+		return "hashcode [dd=" + dd + ", mm=" + mm + ", yy=" + yy + "]";
+	}
+	@Override
+	public  boolean equals(Object o)
+	{
+		
+	}
+	
+	
+	
+}

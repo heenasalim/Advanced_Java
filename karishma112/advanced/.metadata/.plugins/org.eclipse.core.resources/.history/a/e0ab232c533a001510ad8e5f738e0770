@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class Account extends Exception {
+
+	int balance;
+	String msg1;
+	Account(String msg)
+	{
+		super(msg);
+		msg1=msg;
+	}
+	
+	void show()throws Exception
+	{
+	
+	Scanner s=new Scanner(System.in);
+	balance=s.nextInt();
+	if(balance<1000)
+	{
+		throw new  Account("balance is less");
+	}
+	
+	}
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Account a=new Account());
+		a.show();
+		
+
+	}
+
+}

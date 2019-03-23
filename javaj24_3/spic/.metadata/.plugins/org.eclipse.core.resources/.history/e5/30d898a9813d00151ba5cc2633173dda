@@ -1,0 +1,19 @@
+package ch7;
+
+public class Employee {
+  
+   String Cityname;
+   int  zip;
+@Override
+public String toString() {
+	return "Employee [Cityname=" + Cityname + ", zip=" + zip + "]";
+}
+public Employee(String cityname, int zip) {
+	super();
+	Cityname = cityname;
+	this.zip = zip;
+}
+   
+   
+   
+}

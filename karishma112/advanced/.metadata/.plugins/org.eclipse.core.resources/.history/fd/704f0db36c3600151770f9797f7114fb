@@ -1,0 +1,22 @@
+package pk6;
+
+import java.util.Scanner;
+
+public class Calculator {
+	
+	public static void main(String args[])
+	{
+		String ss,ch;
+System.out.println("**********menu***************");
+System.out.println("\nADD");
+System.out.println("\nSUB");
+System.out.println("\n enter ur choice= ");
+Scanner s=new Scanner(System.in);
+ch=s.next();
+//System.out.println("\n");
+	switch(ch)
+	{
+	
+	}
+
+}

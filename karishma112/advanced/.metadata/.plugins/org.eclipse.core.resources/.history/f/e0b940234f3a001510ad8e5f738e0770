@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class LessBalanceException extends Exception {
+	int balance;
+	String msg1;
+
+	public LessBalanceException(String msg) {
+		
+		
+			super(msg);
+			msg1=msg;
+		}
+		
+		void show()
+		{
+		
+		Scanner s=new Scanner(System.in);
+		balance=s.nextInt();
+		if(balance<1000)
+		{
+			throw new LessBalanceException();
+		}
+		
+		}
+		// TODO Auto-generated constructor stub
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LessBalanceException l=new LessBalanceException("Less balance");
+		l.show();
+
+	}
+
+}

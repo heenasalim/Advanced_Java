@@ -1,0 +1,27 @@
+package ch7;
+
+import java.util.Scanner;
+
+public class diviextends  Exception{
+	public class DivisionDemo 
+	{
+	static  int a,b;
+	   static double  c;
+	public  static  void division()
+	{  
+		Scanner  s=new Scanner(System.in);
+		System.out.println("enter  the  two  numbers  u  want  to    divide");
+		  a=s.nextInt();
+		  b=s.nextInt();
+		  try
+		  {
+			 c=b/a;
+			 
+		  }
+         }
+	public  divi(String   str)
+	{
+		
+	}
+	}}
+

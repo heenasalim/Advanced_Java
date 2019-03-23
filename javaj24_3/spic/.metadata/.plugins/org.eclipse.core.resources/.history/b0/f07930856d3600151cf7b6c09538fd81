@@ -1,0 +1,20 @@
+
+public class Testhash {
+
+	public  static  void  main(String  args[])
+	{
+	hashcode  h1=new  hashcode(18,4,1994);
+	hashcode h2=new  hashcode(18,4,1994);
+	hashcode h3=  new  hashcode(13,6,1998);
+	hashcode h4=new  hashcode(236,348,34949);
+	if(h1.equals(h2))
+	{
+	System.out.println("Dates  are  same");
+	
+	}
+	else
+	{
+		System.out.println("Dates  are  not same");
+	}
+	}
+}

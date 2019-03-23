@@ -1,0 +1,25 @@
+package Multithreding;
+
+import javax.swing.JFrame;
+
+public class BannerClass extends JFrame implements Runnable {
+
+	public BannerClass() {
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		 BannerClass b=new  BannerClass();
+		
+	}
+
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

@@ -1,0 +1,77 @@
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+
+import  javax.swing.*;
+public class BusDemo   extends JFrame  implements Runnable {
+	
+	Thread t1,t2;
+	int  x1,x2=1000;
+	public  BusDemo()
+	{
+		t1=new  Thread(this,"thread 1");
+		t2=new  Thread(this,"thread 2");
+		t1.start();
+		t2.start();
+		
+		
+	}
+public static void main(String[] args) {
+	BusDemo  j=new  BusDemo();
+	j.setVisible(true);
+	j.setSize(500,500);
+}
+
+public  void paint (Graphics  g)
+{
+	super.paint(g);
+	g.setFont(new Font("Times New Roman",Font.BOLD,40));
+	g.drawString("HEENAs  JAVA  APPLICATION", 10, 25);
+	g.setColor(Color.red);
+    g.fill3DRect(x1, 250, 200,50, true);
+    g.setColor(Color.blue);
+    g.fillOval(x1+20, 300, 30,30);
+    g.setColor(Color.blue);
+    g.fillOval(x1+170, 300, 30,30);
+    g.setColor(Color.red);
+    g.fill3DRect(x2, 250, 200,50, true);
+    g.setColor(Color.green);
+    g.fillOval(x2+20, 300, 30,30);
+    g.setColor(Color.green);
+    g.fillOval(x2+170, 300, 30,30);
+    g.setColor(Color.yellow);
+   g.fill3DRect(1000, y, width, height, raised)
+
+}
+@Override
+	public void run() {
+		// TODO Auto-generated method stub
+while(true)
+{
+	try
+	{
+		if(Thread.currentThread()==t1)
+		{
+			x1++;
+			repaint();
+			Thread.sleep(100);
+			
+		}
+		if(Thread.currentThread()==t2)
+		{
+			x2--;
+			repaint();
+			Thread.sleep(100);
+		}
+	}
+	catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+    }
+		
+	}
+	
+
+}

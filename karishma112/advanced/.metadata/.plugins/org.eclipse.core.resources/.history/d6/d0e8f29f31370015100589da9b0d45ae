@@ -1,0 +1,11 @@
+package wrapper;
+
+public class WrapperDemo {
+	int i;
+	Integer I=new Integer(i);
+	System.out.println(""+i);
+	public static void main(String[] args) {
+		
+	}
+
+}

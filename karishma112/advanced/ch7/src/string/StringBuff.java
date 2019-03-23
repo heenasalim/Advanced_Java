@@ -1,0 +1,38 @@
+package string;
+
+public class StringBuff {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer s=new StringBuffer("abc");
+		System.out.println("string1 capacity= "+s.capacity());//by default capacity of string buffer is 16
+		
+		
+		
+		System.out.println("string1 memory loc= "+s.hashCode());
+		
+		
+		StringBuffer s1=new StringBuffer("xyz");
+		System.out.println("string1= "+s);
+		System.out.println("string1 memory loc= "+s.hashCode());
+		System.out.println("string2= "+s1);
+		System.out.println("string2 memory loc= "+s1.hashCode());
+		
+		System.out.println("string1 reverse= "+s.reverse());//changes is on s memory loc is performed
+		System.out.println("string1 memory loc= "+s.hashCode());
+		
+		System.out.println("string1 append to string2="+s.append(s1));//doesnot change memory loc
+		System.out.println("string1 memory loc= "+s.hashCode());
+		System.out.println("string2 memory loc= "+s1.hashCode());
+		
+		s.capacity();
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package ch7;
+
+public class Employee {
+  
+   String Cityname;
+   int  zip;
+   
+
+}
+   
+   
+}

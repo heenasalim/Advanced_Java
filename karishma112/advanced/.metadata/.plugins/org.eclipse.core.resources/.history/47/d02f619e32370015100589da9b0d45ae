@@ -1,0 +1,21 @@
+package wrapper;
+
+public class WrapperDemo {
+	WrapperDemo()
+	{
+	int i=20;
+	Integer I=new Integer(i);
+	
+	System.out.println("integer i="+I);
+	
+	int y=I.intValue();
+	System.out.println("integer y="=y);
+	
+	
+	}
+	public static void main(String[] args) {
+		WrapperDemo w=new WrapperDemo();
+		
+	}
+
+}

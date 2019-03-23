@@ -1,0 +1,10 @@
+package ch7;
+
+public class DivisionDemo {
+
+	
+public  static  void division()
+{
+	
+}
+}

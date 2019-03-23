@@ -1,0 +1,22 @@
+package ch7;
+
+public class Employee {
+  int empid;
+   String  empname;
+   double  sal;
+   String Cityname;
+   int  zip;
+@Override
+public String toString() {
+	return "Employee [empid=" + empid + ", empname=" + empname + ", sal=" + sal
+			+ "]";
+}
+public Employee(int empid, String empname, double sal) {
+	super();
+	this.empid = empid;
+	this.empname = empname;
+	this.sal = sal;
+}
+   
+   
+}

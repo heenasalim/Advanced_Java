@@ -1,0 +1,23 @@
+package ch7;
+
+public class Employee {
+  @city_info(msg="city  name  is   and  zip")
+	int empid;
+   String  empname;
+   double  sal;
+ 
+@Override
+public String toString() {
+	return "Employee [empid=" + empid + ", empname=" + empname + ", sal=" + sal
+			+ "]";
+}
+@city_info(msg="parameters  of  constructor  is ")
+public Employee(int empid, String empname, double sal) {
+	super();
+	this.empid = empid;
+	this.empname = empname;
+	this.sal = sal;
+}
+ 
+   
+}

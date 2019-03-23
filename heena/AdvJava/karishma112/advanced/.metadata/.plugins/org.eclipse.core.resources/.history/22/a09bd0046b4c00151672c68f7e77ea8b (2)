@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!Element book(id,name,price,auther)>
+<!Element1 id(#PCDATA)>
+<!Element2 name(#PCDATA)>
+<!Element3 price(#PCDATA)>
+<!Element4 auther(#PCDATA)>
+

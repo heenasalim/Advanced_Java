@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class FileDemo2 {
+	File f;
+
+	/**
+	 * 
+	 */
+	public FileDemo2() {
+		// TODO Auto-generated constructor stub
+		f=new File("myfile.txt");
+		if(f.exists())
+		{
+			System.out.println("file is present");
+		}
+		else
+		{
+			System.out.println("file isnot present");
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileDemo2 ff=new FileDemo2();
+
+	}
+
+}

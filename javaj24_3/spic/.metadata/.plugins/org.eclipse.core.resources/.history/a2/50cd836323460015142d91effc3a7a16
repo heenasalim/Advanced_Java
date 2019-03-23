@@ -1,0 +1,32 @@
+import  java.applet.*;
+import java.awt.Button;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+public class Changer  implements  ActionListener {
+		
+	Button  red,green ,blue;
+	public void  init()
+	{
+		System.out.println("init()  called");
+		  red=new  Button("red");
+		  green=new  Button("green");
+		  blue=new  Button("blue");
+		  add(red);
+		  add(green);
+		  add(blue);
+		  red.addActionListener(this);
+		  green.addActionListener(this);
+		  blue.addActionListener(this);
+	}
+	
+ 
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		  AppletContext  ctx=null;
+		  if(e.getSource()==red)
+		  {
+			  
+		  }
+	}
+}

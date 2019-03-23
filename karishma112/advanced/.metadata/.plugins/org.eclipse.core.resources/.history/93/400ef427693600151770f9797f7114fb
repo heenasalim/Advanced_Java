@@ -1,0 +1,24 @@
+package pk4;
+
+public class AccountA {
+	
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Shape s=new Shape()
+		{
+			public double area()
+			{
+				super.area();
+				System.out.println("Inside the Shape class");
+				return 0;
+			}
+		};
+		
+
+	}
+
+}

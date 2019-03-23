@@ -1,0 +1,35 @@
+package ch7;
+
+import java.util.Scanner;
+
+public class Account   extends  Exception {
+	int   balance=5000,amount ;
+	
+public Account(String  s) {
+		super(s);
+		    }
+
+
+
+public  void  withdraw()
+{
+  System.out.println("enter  the  amount  u  want  to  withdraw");	
+  Scanner  s=new  Scanner(System.in);
+   amount= s.nextInt();
+
+}
+   public  void  checkbalance() throws Exception
+   {   
+  
+ if(amount >balance)  
+ {
+	 throw  new Account("cannot  withdraw   amount  balance  is  not  sufficient");
+ }
+	
+ }
+  
+public static void main(String[] args) {
+	  Account  a=new  Account("");
+}
+}
+

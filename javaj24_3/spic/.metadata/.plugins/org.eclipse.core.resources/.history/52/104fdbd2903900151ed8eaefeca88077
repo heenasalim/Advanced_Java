@@ -1,0 +1,21 @@
+package ch6;
+
+public class Stringdemo {
+
+	public Stringdemo(StringBuffer name) {
+		super();
+		this.name = name;
+	}
+
+	StringBuffer  name;
+  public  void  reverse1()
+  {
+	System.out.println("reverse  of  string  is" +reverse());
+  }
+	
+	public static  void  main(String  args[])
+	{
+		  Stringdemo=new  Stringdemo("good");
+		  
+	}
+}

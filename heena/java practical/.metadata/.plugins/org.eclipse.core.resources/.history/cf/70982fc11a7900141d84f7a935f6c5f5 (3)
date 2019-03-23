@@ -1,0 +1,35 @@
+package pk1;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class HelloWorld extends ActionSupport {
+	static final String GREETING="Hello";
+	String name;
+	String customGreeting;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCustomGreeting();
+	public void setCustomGreeting(String customGreeting) {
+		this.customGreeting = customGreeting;
+	}
+	public static String getGreeting() {
+		return GREETING;
+	} public String execute()
+	{
+		setCustomGreeting(GREETING+" "+getName());
+		if(name.equals("riya"))
+		{
+			return "success";
+			
+		}
+		else
+		{
+			return "error";
+		}
+	}
+	
+
+}

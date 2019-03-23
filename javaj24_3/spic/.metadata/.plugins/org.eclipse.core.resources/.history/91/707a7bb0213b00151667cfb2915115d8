@@ -1,0 +1,10 @@
+package ch7;
+
+public class Account   extends  Exception {
+
+int   balance;
+public  void  withdraw()
+{
+  System.out.println("enter  the  amount  u  want  to  withdraw");	
+}
+}

@@ -1,0 +1,83 @@
+package collectionpk;
+
+import java.awt.List;
+import java.util.*;
+
+public class Employee {
+	int id;
+	String name;
+	double salary;
+	Set skillset;
+	int ch;
+	
+	
+	
+	Employee (int id,String name,double salary,String... X)
+	{
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
+		skillset=new HashSet();
+	
+		for(int i=0;i<X.length;i++)
+		 {
+			 skillset.add(X[i]);
+		 }
+		
+	}
+	public String toString()
+	{
+		return "\nid="+id+"\tname= "+name+"\tsalary= "+salary+"\tskills= "+skillset;
+	}
+		
+		
+
+	
+
+	
+	public static void main(String[] args) {
+		
+		Employee e[]=new Employee[5];
+		ArrayList l=new ArrayList();
+		e[0]=new Employee(1,"abc",1000,"c");
+		l.add(e[0]);
+		e[1]=new Employee(3,"xyz",2000,"c++");
+		l.add(e[1]);
+		e[2]=new Employee(2,"xyz",2000,"java","c++");
+		l.add(e[2]);
+		e[3]=new Employee(1,"xyz",2000,"java","c++","c");
+		l.add(e[3]);
+		e[4]=new Employee(4,"xyz",2000,"c");
+		l.add(e[4]);
+		System.out.println(l);
+		
+		/*Iterator it=l.iterator();
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
+		*/
+		// TODO Auto-generated method stub
+		/*int ch;
+		System.out.println("****************MENU******************");
+		System.out.println("\n1.insert\n2.Print\n3.Exit");
+		Scanner s=new Scanner(System.in);
+		System.out.println("\nEnter ur choice=");
+		ch=s.nextInt();
+		switch(ch)
+		{
+		case 1:		
+			Employee e[]=new Employee [5];
+			e[0]=new Employee(1,"karishma",20000,"c","c++");
+			e[1]=new Employee(2,"hina",40000,"java");
+			break;
+		case 2:UtilityList.printReport(e);
+				break;
+		}
+		*/
+		//UtilityList.printReport(e);
+		//UtilityReport.showReport(e);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package ch7;
+
+public class SearchUtilDemo {
+
+	
+	  public  static  void   searchEmpInfo(  Collection c[])
+	  {
+		  for(  int  i=0;i<c.length;i++)
+		  {
+			  
+		  
+		      if(c[i].empid!=null)
+		      {
+		    	  System.out.println("    employee  details  are"+c);
+		      }
+		  }
+	  }
+}

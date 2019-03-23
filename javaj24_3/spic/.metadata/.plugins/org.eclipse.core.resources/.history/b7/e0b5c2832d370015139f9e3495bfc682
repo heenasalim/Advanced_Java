@@ -1,0 +1,12 @@
+package abstract1;
+
+public class Testabstract {
+
+	public  static  void  main(String  args[])
+	{
+		Rectangle r1=new Rectangle();
+		Circle c1=new  Circle();
+		shape s1=new  Rectangle();
+		shape s2=new Circle();
+	}
+}

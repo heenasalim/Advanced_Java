@@ -1,0 +1,21 @@
+package pk2;
+
+public class test {
+	public void showDetails(Employee e)
+	{
+		e.toString();
+	}
+	//Employee e=new Employee();
+	public static void main(String args[])
+	{
+		Manager m1=new Manager();
+		test t=new test();
+		MarketingExe me1=new  MarketingExe(12,2000);
+		t.showDetails(m1);
+		t.showDetails(me1);
+		//System.out.println(""+showDetails(m1));
+		//System.out.println(""+showDetails(me1));
+		
+	}
+
+}

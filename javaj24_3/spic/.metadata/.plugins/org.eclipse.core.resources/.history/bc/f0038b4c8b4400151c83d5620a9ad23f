@@ -1,0 +1,14 @@
+package balls;
+
+public class Transaction  extends Thread {
+  Thread  t1,t2;
+  Account  a;
+  public  Transaction(Account a)
+  {
+	  this.a=a;
+	  t1=new  Thread(this,"t1");
+	  t2=new  Thread(this,"t2");
+	  t1.start();
+	  t2.start();
+  }
+}

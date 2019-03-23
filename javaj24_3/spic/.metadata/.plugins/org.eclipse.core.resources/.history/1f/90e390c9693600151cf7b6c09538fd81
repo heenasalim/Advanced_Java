@@ -1,0 +1,42 @@
+package ch5;
+
+public  class Manager  extends baseemp
+	{
+		double pea;
+		double fa;
+		double oa;
+	    int  pf =1000;
+		int  pt=199;
+		int  hra=890;
+		int  medical=23828;
+		  
+	public Manager(int empid, String empname, int sal, int pea, int fa, int oa) 
+	{
+			super(empid, empname, sal);
+			this.pea = pea;
+			this.fa = fa;
+			this.oa = oa;
+	}
+	@Override
+	public String toString() 
+	{
+		return "Manager [pea=" + pea + ", fa=" + fa + ", oa=" + oa + "]";
+	}
+
+
+	public void  show()
+	{
+		pea=(0.08*Sal);
+		fa=(0.013*Sal);
+		oa=(0.03*Sal);
+		
+	   double  gs=Sal+hra+medical;
+	   double ns=gs-(pt+pf);
+	}
+	//System.out.println("total  petrol  allowance  is"+pea +"food  allowance"+fa+"other allowance"+oa);
+
+	}
+
+	
+
+	

@@ -1,0 +1,38 @@
+package ch4;
+java.util.Date.*;
+public class emploee {
+	
+	int  empid;
+	String  empname;
+   
+  Date d;
+    
+    
+    emploee( int  empid,String  empname,Date d)
+    {
+    	super();
+    	this.empid=empid;
+    	this.empname=empname;
+    	this.d=d;
+    }
+
+   public  static  void  main(String  args[]) 
+   {
+	   emploee e= new  emploee(1,"heena",new  Date(28,7,1015));
+	  Date  d= new  Date();
+	 System.out.println(e.empid);
+	 System.out.println(e.empname);
+	 System.out.println(e.d);
+	int currentyear=d.getYear();
+	currentyear=2000+(currentyear-100);
+    int  age= currentyear-e.d.yy;
+    System.out.println("age  of  employee  is" +age)
+  
+	
+	
+	
+	 
+	 
+   }
+    
+}

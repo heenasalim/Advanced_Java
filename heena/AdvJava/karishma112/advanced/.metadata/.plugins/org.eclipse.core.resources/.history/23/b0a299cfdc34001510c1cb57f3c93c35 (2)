@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package pk2;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class Manager {
+	double pa,fa,oa;
+	public double petrolAll()
+	{
+		pa=8*basicSal/100;
+	}
+
+	/**
+	 * 
+	 */
+	public Manager() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

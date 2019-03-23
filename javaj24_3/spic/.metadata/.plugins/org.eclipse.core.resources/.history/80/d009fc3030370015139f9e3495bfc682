@@ -1,0 +1,7 @@
+
+public class Shape {
+double area1;
+int  r=789;
+area1=(3.14*r*r);
+System.out.println("Shape area of  the  circle is");
+}

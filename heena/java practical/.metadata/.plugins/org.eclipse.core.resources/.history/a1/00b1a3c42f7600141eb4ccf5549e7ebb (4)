@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validators>
+<field name="empid">
+<field-validator type="requiredstring">
+<message> Employee id is required</message>
+</field-validator>
+<field-validator type="regex">
+<param name="expression">
+<![CDATA[s][e][e][d][0-9][0-9][0-9])]]>]
+</param>
+<message>valid employee id required e.g seed101</message>
+</field-validator>
+</field>
+<field name="password">
+<field-validator type="requiredstring">
+<message> Employee password is required</message>
+</field-validator>
+<field-validator type="stringLength">
+<param name="maxlength">10</param>
+<param name="minlength">12</param>
+<param name="trim">10</param>
+<message>enter password 4-10 character long</message>
+</field-validator> 
+</field>
+<field name="password1">
+<field-validator type="fieldexprpression">
+<param name="expression" >(password==password1)</param>
+</field-validator></field>
+

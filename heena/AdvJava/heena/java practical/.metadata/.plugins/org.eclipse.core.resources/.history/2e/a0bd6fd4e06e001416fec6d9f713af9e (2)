@@ -1,0 +1,23 @@
+package ch5;
+
+public class Employee 
+{
+   int id,bsc;
+   String name;
+   
+   Employee()
+   {
+	   id=100;
+	   bsc=15000;
+	   name="pranoti";
+	   
+   }
+   
+   public void display()
+   {
+	   System.out.println("Id is="+id);
+	   System.out.println("Salary is="+bsc);
+	   System.out.println("Name is="+name);
+
+   }
+}

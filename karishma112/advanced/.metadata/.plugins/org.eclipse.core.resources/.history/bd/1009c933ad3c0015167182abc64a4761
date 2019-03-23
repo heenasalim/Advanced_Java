@@ -1,0 +1,27 @@
+package collectionpk;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class UtilityReport {
+	static int i;
+	
+	static	void showReport(Employee[] e3)
+	{
+		Scanner s=new Scanner(System.in);
+		Map m=new HashMap();
+		m.put(1,"karishma");
+		m.put(2,"Hina");
+		m.put(5,"kkkk");
+		m.put(1,"hhhhh");
+		m.put(3,"karishma");
+		for(i=0;i<e3.length;i++)
+		{
+			m.add(e3[i]);
+		}
+		
+		
+	}
+
+}

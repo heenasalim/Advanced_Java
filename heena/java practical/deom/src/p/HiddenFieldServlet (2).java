@@ -1,0 +1,93 @@
+package p;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class HiddenFieldServlet
+ */
+public class HiddenFieldServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public HiddenFieldServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		out.println("<html>");
+		out.println("<head><title>HiddenFieldServlet" +
+		"</title></head>");
+		out.println("<body>");
+		String name=request.getParameter("name");
+		String password=request.getParameter("password");
+		// Create the Form with Hidden Fields
+		out.println("<FORM ACTION=" +
+		"\"/sessionTracking/HiddenFieldServlet\" METHOD=\"POST\">");
+		// These values would be uniquely generated
+		out.println("<INPUT TYPE=\"hidden\" NAME="+"\"user\" VALUE="+name+">");
+		out.println("<INPUT TYPE=\"hidden\" NAME=" +
+		"\"session\" VALUE=\"EFO999999934343412892\">");
+		out.println("<INPUT TYPE=\"hidden\" NAME=" +
+				"\"movie\" VALUE=\"golmal\">");
+				out.println("<INPUT TYPE=\"hidden\" NAME=" +
+				"\"movie\" VALUE=\"dhoom\">");
+				out.println("<INPUT TYPE=\"hidden\" NAME=" +
+				"\"movie\" VALUE=\"don\">");
+				out.println("<INPUT TYPE=\"submit\" VALUE=" +
+				"\"Submit\">");
+				out.println("</FORM>");
+				out.println("</body></html>");
+				out.close();
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		String hiddenData=request.getParameter("Hiddenfield");
+		out.println("<html>");
+		out.println("<head><title>HiddenFieldServlet" +
+		"</title></head>");
+		out.println("<body>");
+		// Get the hidden inputs and echo them
+		String user = request.getParameter("user");
+		String session = request.getParameter("session");
+		out.println("<H3>" + user +
+		", the contents of your Shopping Basket are:</H3><BR>");
+		String[] movies = request.getParameterValues("movie");
+		if ( movies != null ) {
+		out.println(user);	
+		out.println("session Id is "+" "+session+" "+"<br>");
+		for ( int x = 0; x < movies.length; x++ ) {
+		out.println(movies[x] + "<BR>");
+		}
+		}
+		out.println("</body></html>");
+		out.close();
+		}
+		//Get Servlet information
+		public String getServletInfo() {
+		return "HiddenFieldServlet Information";
+		}
+	}
+
+
+

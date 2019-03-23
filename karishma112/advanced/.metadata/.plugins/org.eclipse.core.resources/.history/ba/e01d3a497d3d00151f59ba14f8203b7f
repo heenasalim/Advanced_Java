@@ -1,0 +1,23 @@
+package collectionpk;
+
+import java.lang.reflect.Constructor;
+import java.util.Iterator;
+
+public class ReflectionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e3=new Employee(1, "www", 2000,"c");
+		Class c=e3.getClass();
+		Constructor c1[]=c.getDeclaredConstructors();
+		for(int i=0;i<c1.length;i++)
+		{
+			System.out.println(c1[i]);
+		}
+
+	}
+
+}

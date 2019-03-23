@@ -1,0 +1,10 @@
+
+public class changing  extends  Applet {
+Canvas  c;
+Color  col;
+
+public void  change(Color  c)
+{
+	c.setBackground(c);
+}
+}

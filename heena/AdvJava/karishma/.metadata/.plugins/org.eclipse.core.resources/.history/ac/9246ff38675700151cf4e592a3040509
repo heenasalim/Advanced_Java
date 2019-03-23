@@ -1,0 +1,11 @@
+import java.io.*;
+public class LowbalanceException extends Exception {
+	String msg;
+	LowbalanceExcfeption(String msg)
+	{
+		super(msg);
+		this.msg=msg;
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+import javax.swing.JApplet;
+
+
+public class Applet2   extends  JApplet{
+	Font  f;
+	public  void  init()
+	{
+		super.init();
+	}
+public  void  paint(Graphics  g)
+{
+	super.paint();
+}
+}

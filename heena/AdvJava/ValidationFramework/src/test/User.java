@@ -1,0 +1,48 @@
+/* In Model-Driven Create this separate User class*/
+package test;
+
+import java.io.Serializable;
+import java.util.Date;
+
+public class User implements Serializable {
+	
+	private String username;
+	private String password;
+	private String mail;
+	private String cpass;
+	private Date dob;
+	public Date getDob() {
+		return dob;
+	}
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+	public String getCpass() {
+		return cpass;
+	}
+	public void setCpass(String cpass) {
+		this.cpass = cpass;
+	}
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
+
+}
+

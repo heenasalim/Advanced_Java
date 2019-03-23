@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package pk2;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class Manager extends Employee{
+	double pa,fa,oa;
+	public double petrolAll()
+	{
+		pa=(8*basicSal)/100;
+		return pa;
+	}
+
+	public double foodAll()
+	{
+		fa=(13*basicSal)/100;
+		return fa;
+	}
+	public double otherAll()
+	{
+		oa=(8*basicSal)/100;
+		return oa;
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

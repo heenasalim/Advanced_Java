@@ -1,0 +1,25 @@
+package collectionpk;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class UtilityList {
+	public static void printReport(Employee[] e1)
+	{
+		int i;
+		//ArrayList l1=new ArrayList();
+		
+		for(i=0;i<e1.length;i++)
+		{
+			l1.add(e1[i]);
+		}
+		Iterator it=l1.iterator();
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
+		
+	}
+
+}

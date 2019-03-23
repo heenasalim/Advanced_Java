@@ -1,0 +1,39 @@
+EditPlus Version 2 License Agreement
+====================================
+
+NO WARRANTY
+-----------
+EDITPLUS IS SOLD "AS IS" AND WITHOUT ANY WARRANTY AS TO 
+MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY 
+OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL 
+NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY 
+OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+
+Evaluation and Registration
+---------------------------
+EditPlus is not free software. You may use this software for 
+evaluation purposes without charge for a period of 30 days. If 
+you use this software after the 30 day evaluation period, you 
+must pay registration fee.
+
+Distribution of the evaluation version
+--------------------------------------
+You may copy the evaluation version of this software and 
+documentation as you wish, and give exact copies of the 
+original evaluation version to anyone, and distribute the 
+evaluation version of the software and documentation in its 
+unmodified form via electronic means. But you should not 
+charge or requesting donations for any such copies however 
+made and from distributing the software and/or documentation 
+with other products without the author's written permission.
+
+Registered version
+------------------
+One registered copy of EditPlus may either be used by a single 
+person who uses the software personally on one or more 
+computers, or installed on a single workstation used 
+non-simultaneously by multiple people, but not both. You may 
+access the registered version of EditPlus through a network, 
+provided that you have obtained individual licenses for the 
+software covering all workstations that will access the 
+software through the network.

@@ -1,0 +1,18 @@
+package ch7;
+
+import java.util.Scanner;
+
+public class Account   extends  Exception {
+	
+int   balance=5000,amount ;
+public  void  withdraw()
+{
+  System.out.println("enter  the  amount  u  want  to  withdraw");	
+  Scanner  s=new  Scanner(System.in);
+   amount= s.nextInt();
+ if(amount >balance)  
+ {
+	 System.err.println("  cannot  withdraw   amount  balance  is  not  sufficient ");
+ }
+}
+}

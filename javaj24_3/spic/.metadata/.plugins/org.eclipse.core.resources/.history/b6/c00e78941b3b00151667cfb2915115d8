@@ -1,0 +1,26 @@
+package ch7;
+import java.util.Scanner;
+
+public class DivisionDemo 
+{
+ int a,b;
+ double  c;
+	
+public  static  void division()
+{  
+	Scanner  s=new Scanner(System.in);
+	System.out.println("enter  the  two  numbers  u  want  to    divide");
+	int  a=s.nextInt();
+	int  b=s.nextInt();
+	  try
+	  {
+		 c=b/a;
+		 
+	  }
+  catch( ArithmeticException  ae)
+  {
+	System.err.println("  divide   by  zero  error  enter  the  another  number");  
+  }
+}
+
+}

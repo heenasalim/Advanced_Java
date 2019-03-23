@@ -1,0 +1,29 @@
+package Applet;
+
+import java.applet.Applet;
+import java.awt.*;
+
+public class changingApplet extends Applet{
+
+	Canvas c;
+	Color col;
+	public void change(Color clr)
+	{
+		c.setBackground(clr);
+		col=clr;
+		repaint();
+	}
+	public void init()
+	{
+		col=Color.BLACK;
+		System.out.println("init");
+		c=new Canvas();
+		c.setSize(20,20);
+		c.setBackground(Color.black);
+		add(c);
+	}
+	public void paint(Graphics g)
+	{
+		c.setBackground(col);
+	}
+}

@@ -1,0 +1,15 @@
+package ch7;
+
+public class Utilitylist {
+
+	   public  static   void printlist(Collection  c[])
+	   {
+		     List  l=  new    ArrayList();
+		       for(i=0;i<c.length;i++)
+		       {
+		    	   l.add(c[i]);
+		    	   
+		       }   
+		       System.out.println("  the   details  of   employee  is:+l");
+	   }
+}

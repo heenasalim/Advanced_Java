@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    <struts>
+    <package name="pk1" namespace="\sturts" extends="sturts-default">
+    <action name="HelloWorld"  class="pk1.HelloWorld" method="display">
+    <result name="success" >/HelloWorld.jsp</result>
+    </action>
+    </package>
+    </struts>

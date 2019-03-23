@@ -1,0 +1,25 @@
+package pk2;
+
+public class Employee {
+	int eid;
+	String name;
+	public double basicSal;
+	/**
+	 * @param eid
+	 * @param name
+	 * @param basicSal
+	 */
+	public Employee(int eid, String name, double basicSal) {
+		
+		this.eid = eid;
+		this.name = name;
+		this.basicSal = basicSal;
+	}
+	
+	public String toString() {
+		return "Employee [eid=" + eid + ", name=" + name + ", basicSal="
+				+ basicSal + "]";
+	}
+	
+
+}

@@ -1,0 +1,9 @@
+package collectionpk;
+
+public class SearhUtil {
+	public static void searchInfo()
+	{
+		
+	}
+
+}

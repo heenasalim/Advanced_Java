@@ -1,0 +1,15 @@
+
+public class hashcode {
+
+	int  dd,mm,yy;
+
+	public hashcode(int dd, int mm, int yy) {
+		super();
+		this.dd = dd;
+		this.mm = mm;
+		this.yy = yy;
+	}
+	
+	
+	
+}

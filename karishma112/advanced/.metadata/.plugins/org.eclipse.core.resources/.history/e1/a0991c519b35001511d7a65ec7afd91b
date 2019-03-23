@@ -1,0 +1,16 @@
+package pk1;
+
+public class test {
+	public void showDatails(Employee e)
+	{
+		e.toString();
+	}
+	//Employee e=new Employee();
+	public static void main(String args[])
+	{
+		Manager m1=new Manager();
+		System.out.println(""+showDetails(m1));
+		
+	}
+
+}

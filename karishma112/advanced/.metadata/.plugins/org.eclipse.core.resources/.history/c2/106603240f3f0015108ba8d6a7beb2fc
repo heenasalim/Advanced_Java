@@ -1,0 +1,147 @@
+package swingPK;
+import java.awt.Component;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+public class Student implements ActionListener {
+	
+JLabel l1,l2,l3,l4,l7;
+JTextField t1;
+JList ls;
+List ls2;
+JButton b1,b2,b3,b4,b5;
+JComboBox c;
+//JRadioButton rb;
+JFrame f1;
+JPanel p;
+String sa[]={"Java","C","C++","Sql"};
+
+
+
+	 Student() {
+		
+		f1=new JFrame("StudentDetails");
+		p=new JPanel();
+		l1=new JLabel("Name");
+		l2=new JLabel("Qualification");
+		l3=new JLabel("Subject Offered");
+		l4=new JLabel("Subject Selected");
+		t1=new JTextField(15);
+		ls=new JList(sa);
+		
+		
+		ls2=new List();
+		//String sa[]={"c","c++","Java","sql",".Net"};
+		//rb=new JRadioButton();
+		
+		c=new JComboBox();
+		c.addItem("BE");
+		c.addItem("BTech");
+		c.addItem("ME");
+		c.addItem("MTech");
+		c.addItem("Bca");
+		
+		
+		
+		//c.add("BE");
+		b1=new JButton(">>");
+		b2=new JButton("<<");
+		l7=new JLabel();
+		b3=new JButton("Register");
+		b4=new JButton("Cancel");
+		b5=new JButton("Reset");
+		
+		
+		f1.add(p);
+		p.add(l1);
+		p.add(t1);
+		p.add(l2);
+		p.add(c);
+		p.add(l3);
+		p.add(ls);
+		p.add(l4);
+		
+		
+		p.add(b1);
+		
+		p.add(b2);
+		p.add(b3);
+		p.add(ls2);
+		p.add(b4);
+		p.add(b5);
+		//p.add(rb);
+		
+		f1.setVisible(true);
+		f1.setSize(400,400);
+		
+		b3.addActionListener(this);
+		b4.addActionListener(this);
+		b5.addActionListener(this);
+		b1.addActionListener(this);
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		Student student=new Student();
+	}
+
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if(e.getSource()==b3)
+		{
+			String name1=t1.getText();
+			String lower=name1.toLowerCase();
+			if(name1.equals(""))
+			{
+				JOptionPane.showInternalMessageDialog(b1,"please enter the Name");
+				
+			}
+			if(name1.equals(lower))
+			{
+				JOptionPane.showMessageDialog(b1,"Student Name should be in capital lette");
+			}
+			else
+			{
+				JOptionPane.showMessageDialog(b1,"Registered");
+			}
+			
+		}
+		if(e.getSource()==b4)
+		{
+			System.exit(0);
+			}
+			if(e.getSource()==b5)
+			{
+			t1.setText("");
+		     l7.setText(null);
+			
+		}
+		if(e.getSource()==b1)
+		{
+				String ss=(String) ls.getSelectedValue();
+				
+				ls2.add(ss);
+				
+				//p.add(ls2);
+				//p.add(ls2);
+			
+		
+		}
+	
+
+	
+	if(e.getSource()==b2)
+	{
+		String ss=(String) ls.getSelectedValue();
+		
+}
+}
+

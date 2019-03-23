@@ -1,0 +1,29 @@
+package collectionpk;
+
+import java.util.HashSet;
+
+public class Employee {
+	int id;
+	String name;
+	double salary;
+	Set skillset;
+	Employee (int id,String name,double salary,String... X)
+	{
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
+		 skillset=new HashSet();
+	}
+	
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Employee e[]=new Employee [5];
+		 e[0]=new Employee(1,"karishma",20000,);
+		
+		UtilityList.printReport();
+
+	}
+
+}

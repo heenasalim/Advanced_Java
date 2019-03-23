@@ -1,0 +1,17 @@
+
+public class testinterface {
+public  static  void  main(String  args[])
+{
+	Date d1=new  Date(18,4,1994);
+	Shape s1=new  Shape(6);
+	employe  e1=new  employe(1,"HEENA",57900);
+	d1.print();
+	s1.print();
+	e1.print();
+	d1.toString();
+	System.out.println(" shape  attributes  are:\n "+s1.toString());
+	System.out.println(" shape  attributes  are:\n "+s1);
+	e1.toString();
+	
+}
+}

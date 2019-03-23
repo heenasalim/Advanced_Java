@@ -1,0 +1,27 @@
+package JDBConn;
+
+import java.sql.*;
+import java.sql.DriverManager;
+
+public class StoredPrc {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			System.out.println("Got Driver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@oracle-server:1521:orcl","java","java" );
+			System.out.println("Got Connected");
+			CollableStatement cs=con.prepareCall("{call account_rute(?,?)}");
+
+	}catch (Exception e) {
+		// TODO: handle exception
+		e.printStackTrace();
+	}
+
+}
+}

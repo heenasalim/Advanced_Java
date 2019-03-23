@@ -1,0 +1,13 @@
+package ch6;
+
+public class DemoStringBuilder {
+public  static  void  main(String  args[])
+{
+String  s=new  String("abc");
+StringBuffer  s1=new  StringBuffer("abc");
+if(s.equals(s1))
+{
+System.out.println("not  Equals");
+}
+}
+}

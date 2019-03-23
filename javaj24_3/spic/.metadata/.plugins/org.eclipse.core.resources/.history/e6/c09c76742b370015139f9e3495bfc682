@@ -1,0 +1,8 @@
+package abstract1;
+
+public  abstract  class shape {
+	
+	public  abstract int  shape();
+	
+  
+}

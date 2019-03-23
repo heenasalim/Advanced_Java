@@ -1,0 +1,23 @@
+package ch7;
+
+public class SearchUtilDemo {
+
+	
+	  public  static  void   searchEmpInfo(  Collection c[])  throws  Exception 
+	  {
+		  
+		 
+		  if(c==null)
+		  {
+		     throw  new  MyException("employee  does  not   exist");
+		  }
+		  else
+		  {
+			 System.out.println( "employee  details  are" +c);
+		  }
+		  
+
+
+}
+
+	  

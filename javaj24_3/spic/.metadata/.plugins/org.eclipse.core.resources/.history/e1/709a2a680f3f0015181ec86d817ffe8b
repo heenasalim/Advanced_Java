@@ -1,0 +1,126 @@
+package swings;
+import java.awt.List;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+
+public class Javaswing11 implements ActionListener{
+ 
+	 JFrame f;
+	 JPanel  p;
+	 JLabel l1;
+	 JLabel  l2;
+	 JLabel l3;
+	 JLabel  l4;
+	 JTextField  tf;
+	 JComboBox cb;
+	 JList   ls1;
+	 List  ls2;
+	 JButton a;
+	 JButton  b;
+	 JButton  b1;
+	 JButton  b2;
+	 JButton  b3;
+	  String  aR[]={"B.E","BCA","MCA","BCS"};
+	   Javaswing11()
+	   {
+		   f=new JFrame(" java  swing  Exercise1   radio  combolist  student  info");
+		   p= new JPanel();
+		  tf=new JTextField(10);
+		 l1=new JLabel("NAME");
+		 l2=new JLabel("QUALIFICATION");
+		
+		 cb=new JComboBox(aR);
+		 l3=new JLabel("SUBJECT  OFFERED ");
+		 l4=new JLabel("SUBJECT   SELECTED");
+		 String  data[]={"c","c++","Corejava","WCD","C#","ASP.NET"};
+		 ls1=new JList(data);
+		 a=new JButton(">>");
+		 b=new JButton("<<");
+		 a.addActionListener(this);
+		 b.addActionListener(this);
+		 ls2=new  List();
+	   b1= new JButton("rEGISTER");
+	   b2=  new JButton("CANCEL");
+	   b3=  new JButton("RESET ");
+	  b1.addActionListener(this);
+	  b2.addActionListener(this);
+	  b3.addActionListener(this);
+	  p.add(l1);
+	  p.add(tf);
+	  p.add(l2);
+	  p.add(cb);
+	  p.add(l3);
+	  p.add(ls1);
+	  p.add(a);
+	  p.add(b);
+	  p.add(ls2);
+	  p.add(b1);
+	  p.add(b2);
+	  p.add(b3);
+	  f.add(p);
+	  f.setVisible(true);
+	  f.setSize(400, 400);
+	  
+		    }
+	   public  void  show()
+	  {
+		   
+	 }
+	   public static void main(String[] args) 
+	   {
+		   Javaswing11  n= new Javaswing11();
+		  n.show();
+		
+	  }
+	
+	
+	
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if(e.getSource()==b1)
+		{              ////////***********
+			//System.out.println("hiee");
+			 String   name=tf.getText();
+			 {
+				 if(name==null||(name.equals(name.toLowerCase())))
+				  {
+				JOptionPane.showMessageDialog(b1, "CHECK NAME  SHOULD  NOT  BE  NULL   OR  IN  LOWERCASE  ");
+				  }
+				 else
+					 
+		        JOptionPane.showMessageDialog(b1, "NAME   is  successfully   submited ");
+					   	 
+			    
+		      }
+		
+	  if(e.getSource()==a)
+	{
+	  
+			 String s1=(String) ls1.getSelectedValue();
+			 {
+				     ls2.setName(s1);
+			 }
+	}
+	 if(e.getSource()==b)
+	    {
+		String  s2=(String) ls1.getSelectedValue();
+		ls2.setName("");
+		}
+	 }//////////  end  of    first  register  button 
+
+		}   //  end  of  action  performed 
+	 
+}

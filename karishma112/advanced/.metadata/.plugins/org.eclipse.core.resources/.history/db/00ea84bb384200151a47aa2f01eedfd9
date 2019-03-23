@@ -1,0 +1,20 @@
+package Multithreding;
+
+public class Transaction {
+	AccountDemo a;
+
+	public Transaction(AccountDemo a) {
+		
+		this.a=a;
+	}
+
+	
+	public static void main(String[] args) {
+		
+		AccountDemo a=new AccountDemo(20000);
+		Transaction t=new Transaction(a);
+		
+
+	}
+
+}

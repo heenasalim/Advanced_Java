@@ -1,0 +1,4 @@
+#Fri Aug 21 09:02:03 IST 2015
+org.eclipse.debug.ui.VariableView.org.eclipse.jdt.debug.ui.show_null_entries=true
+eclipse.preferences.version=1
+org.eclipse.jdt.debug.ui.javaDebug.alertHCRFailed=false

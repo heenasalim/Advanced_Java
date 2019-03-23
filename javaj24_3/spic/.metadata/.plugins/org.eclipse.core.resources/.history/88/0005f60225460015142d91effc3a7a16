@@ -1,0 +1,12 @@
+import java.awt.Color;
+
+
+public class changing  extends  Applet {
+Canvas  c;
+Color  col;
+
+public void  change(Color  c1)
+{
+	c.setBackground(c1);
+}
+}

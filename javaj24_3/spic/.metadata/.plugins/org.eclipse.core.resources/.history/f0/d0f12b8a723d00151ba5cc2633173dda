@@ -1,0 +1,10 @@
+package ch7;
+
+public class SearchUtilDemo {
+
+	
+	  public  static  void   searchEmpInfo()
+	  {
+		      if(C[i].emp.id)
+	  }
+}

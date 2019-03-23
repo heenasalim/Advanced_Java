@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+
+import java.io.*;
+public class FileDemo2 {
+	
+
+	/**
+	 * 
+	 */
+	void checkEx()
+	{
+		try
+		{
+		FileInputStream f=new FileInputStream("myfile.txt");
+		
+				
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println("Inside catch");
+			System.out.println("file isnot present");
+			e.printStackTrace();
+		
+			//return;
+			
+		}
+		finally
+		{
+			System.out.println("Inside Finally");
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileDemo2 ff=new FileDemo2();
+		ff.checkEx();
+
+	}
+
+}

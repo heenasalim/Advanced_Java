@@ -1,0 +1,39 @@
+package Multithreding;
+
+public class Transaction extends Thread{
+	AccountDemo a;
+	Thread t1,t2;
+
+	public Transaction(AccountDemo a) {
+		
+		this.a=a;
+		t1=new Thread(this,"t1");
+		t2=new Thread(this,"t2");
+		t1.start();
+		t2.start();
+	}
+public void run()
+{
+	if(Thread.currentThread()==t1)
+	{
+		withdraw();
+	}
+	if(Thread.currentThread()==t2)
+	{
+		deposit();
+	}
+}
+	
+	private void withdraw() {
+	// TODO Auto-generated method stub
+	
+}
+	public static void main(String[] args) {
+		
+		AccountDemo a=new AccountDemo(20000);
+		Transaction t=new Transaction(a);
+		
+
+	}
+
+}

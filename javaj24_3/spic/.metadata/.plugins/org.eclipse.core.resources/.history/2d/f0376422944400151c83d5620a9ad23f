@@ -1,0 +1,5 @@
+package applet;
+
+public class Applet1 extends  JApplet{
+
+}

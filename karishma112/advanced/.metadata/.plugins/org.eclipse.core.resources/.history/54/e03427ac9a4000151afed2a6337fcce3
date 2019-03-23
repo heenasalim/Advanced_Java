@@ -1,0 +1,23 @@
+package RGBClass;
+
+import javax.swing.JFrame;
+import javax.swing.*;
+
+public class RgbClass extends JFrame {
+	JtextField t1,t2,t3;
+	JLabel l1,l2,l3;
+	JPanel jp;
+
+	public RgbClass() {
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		RgbClass r=new RgbClass();
+
+	}
+
+}

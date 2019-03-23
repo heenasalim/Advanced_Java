@@ -1,0 +1,33 @@
+package pk6;
+
+import java.util.Scanner;
+
+public class Calculator {
+	
+	public static void main(String args[])
+	{
+		String ss;
+		int ch,no1,no2;
+System.out.println("**********menu***************");
+System.out.println("\n1.ADD");
+System.out.println("\n2.SUB");
+System.out.println("\n3.MUL");
+System.out.println("\n4.DIVIDE");
+System.out.println("\n enter ur choice= ");
+Scanner s=new Scanner(System.in);
+ch=s.nextInt();
+//System.out.println("\n");
+	switch(ch)
+	{
+	case 1:System.out.println("\n enter numbers= ");
+			Scanner s1=new Scanner(System.in);
+			no1=s.nextInt();
+			Scanner s2=new Scanner(System.in);
+			no2=s.nextInt();
+			System.out.println("Addition= "+(no1+no2));
+			break;
+	
+	}
+
+}
+}

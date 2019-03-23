@@ -1,0 +1,35 @@
+package Multithreding;
+
+import javax.swing.JFrame;
+
+public class BounceBall extends JFrame implements Runnable {
+
+	
+		
+		
+		Thread t1,t2,t3;
+		int x1,x2,x3;
+		public BounceBall() {
+			// TODO Auto-generated constructor stub
+			t1=new Thread(this,"Thread-1");
+			
+			//t1.setPriority(1);
+			//t2.setPriority(10);
+			t1.start();
+		}
+		
+
+	public static void main(String[] args) {
+		
+		BounceBall bb=new BounceBall();
+		bb.setVisible(true);
+		bb.setSize(500,500);
+		}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

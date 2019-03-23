@@ -1,0 +1,328 @@
+!SESSION 2015-08-10 07:37:11.138 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-08-10 07:38:54.409
+!MESSAGE Could not write: Z:\.metadata\.mylyn\repositories.xml.zip
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:52)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:422)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-08-10 07:38:54.596
+!MESSAGE Could not save master table to file 'Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak'.
+!STACK 0
+java.io.FileNotFoundException: Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:136)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:227)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1137)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2015-08-24 08:02:24.813 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2015-08-24 08:02:37.315
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2015-08-24 08:02:39.517
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2015-08-24 08:02:39.517
+!MESSAGE Unable to restore perspective: Workspace - Java EE.
+!SUBENTRY 2 org.eclipse.ui 0 0 2015-08-24 08:02:39.517
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2015-08-24 08:02:39.517
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2015-08-24 08:02:39.517
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:02:39.517
+!MESSAGE OK
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-08-24 08:04:02.248
+!MESSAGE Could not write: Z:\.metadata\.mylyn\repositories.xml.zip
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:52)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:422)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-08-24 08:04:02.341
+!MESSAGE Could not save master table to file 'Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak'.
+!STACK 0
+java.io.FileNotFoundException: Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:136)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:227)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1137)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2015-08-24 08:04:03.985 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data Z:\ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-08-24 08:05:36.865
+!MESSAGE Could not write: Z:\.metadata\.mylyn\repositories.xml.zip
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:52)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:422)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2015-08-24 08:05:36.928
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: Z:\.metadata\.mylyn\tasks.xml.zip (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-08-24 08:05:36.928
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: Z:\.metadata\.mylyn\tasks.xml.zip (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-08-24 08:06:17.362
+!MESSAGE Could not save master table to file 'Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak'.
+!STACK 0
+java.io.FileNotFoundException: Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:136)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:227)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1137)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2015-08-24 08:06:19.962 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data Z:\ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2015-08-24 08:06:24.773
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2015-08-24 08:06:26.407
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2015-08-24 08:06:26.407
+!MESSAGE Unable to restore perspective: Workspace - Java EE.
+!SUBENTRY 2 org.eclipse.ui 0 0 2015-08-24 08:06:26.407
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2015-08-24 08:06:26.407
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2015-08-24 08:06:26.407
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2015-08-24 08:06:26.407
+!MESSAGE OK
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-08-24 08:07:09.201
+!MESSAGE Could not write: Z:\.metadata\.mylyn\repositories.xml.zip
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:52)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:422)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-08-24 08:07:09.288
+!MESSAGE Could not save master table to file 'Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak'.
+!STACK 0
+java.io.FileNotFoundException: Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:136)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:227)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1137)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2015-09-02 08:01:30.959 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2015-09-02 08:01:42.166
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2015-09-02 08:01:46.399
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2015-09-02 08:01:46.399
+!MESSAGE Unable to restore perspective: Workspace - Java EE.
+!SUBENTRY 2 org.eclipse.ui 0 0 2015-09-02 08:01:46.399
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2015-09-02 08:01:46.399
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2015-09-02 08:01:46.399
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2015-09-02 08:01:46.399
+!MESSAGE OK
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-09-02 08:03:08.632
+!MESSAGE Could not write: Z:\.metadata\.mylyn\repositories.xml.zip
+!STACK 0
+java.io.IOException: Access is denied
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:52)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:422)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 566 2015-09-02 08:06:52.918
+!MESSAGE Could not save master table to file 'Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak'.
+!STACK 0
+java.io.FileNotFoundException: Z:\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources.bak (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:136)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1226)
+	at org.eclipse.core.internal.resources.SaveManager.cleanMasterTable(SaveManager.java:227)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1137)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)

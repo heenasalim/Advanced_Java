@@ -1,0 +1,29 @@
+package collectionpk;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+public abstract  class salaryComparator implements Comparator {
+	salaryComparator()
+	{
+	
+	
+public int compare(Employee o1,Employee o2)
+{
+	Employee e1=o1;
+	Employee e2=o2;
+	if(e1.salary>e2.salary)
+	{
+		return 1;
+	}
+	if(e1.salary==e2.salary)
+	{
+		return 0;
+		
+	}
+	else
+	{
+		return -1;
+	}
+}
+}

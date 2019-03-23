@@ -1,0 +1,14 @@
+package JDBConn;
+
+public class connectivity1 {
+
+	public connectivity1() {
+		
+	}
+
+	
+	public static void main(String[] args) {
+		connectivity1 c=new connectivity1();
+	}
+
+}

@@ -1,0 +1,44 @@
+package Applet;
+
+
+import javax.swing.JApplet;
+
+
+	public class Applet2 extends  JApplet
+	{
+
+		String str;
+		Font f;
+		public void init() 
+		{super.init();
+			str=getParameter("Font Name");
+			String xx=getParameter("size");
+			int size=Integer.parseInt(xx);
+			f=new Font(str,Font.BOLD,size);
+			
+		}
+		public void paint(Graphics g)
+		{
+			super.paint(g);
+			g.drawString("Hello everyOne",50,50);
+			
+			//String type=getParameter("Font");
+			//int size=Integer.parseInt(ge)
+		}
+		public void start()
+		{
+			super.start();
+			//JOptionPane.showMessageDialog("applet is strated");
+		}
+
+		public void stop()
+		{
+			super.stop();
+		}
+		public void destroy()
+		{
+			super.destroy();
+			System.out.println("Applet is being destroyed");
+		}
+
+}

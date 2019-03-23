@@ -1,0 +1,25 @@
+INDEX VERSION 1.126
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\137877908.index
+\StrutsResult\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\719706231.index
+\StrutsActionAwareInterface\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\576299951.index
+\strutsUI\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3232516759.index
+\StrutsDemo2\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2947302913.index
+\StrutsDemoUI\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2641722921.index
+\strutsPDFgenerator2\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3417376567.index
+\StrutsProject\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4134637498.index
+\strutsUI\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2805055193.index
+\strutsUI\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2530332096.index
+\StrutsPDFgenerator\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1764675221.index
+\validationStruts\src
+D:\karishma\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2786199779.index
+\OgnlStruts\src

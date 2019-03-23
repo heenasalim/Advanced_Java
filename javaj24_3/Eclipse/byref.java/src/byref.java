@@ -1,0 +1,56 @@
+
+	public class byref 
+	{
+
+		int  dd,mm,yy;
+		
+
+		public byref() {
+			super();
+			dd=18;
+			mm=04;
+			yy=1994;
+			System.out.println("+dd =="+dd + "\t \t "+ "mm == "  +mm+  "  \t  \t yy\t== "+yy);
+			
+			// TODO Auto-generated constructor stub
+		}
+
+
+		public byref(int dd, int mm, int yy)
+		{
+			super();
+			this.dd = dd;
+			this.mm = mm;
+			this.yy = yy;
+		}
+		
+		public   String  toString()
+		{
+			return "dd == " +dd +"\t mm== " + mm + "\t yy== " +yy;
+		}
+		
+		public static void  swap(byref b[])
+		{
+		byref temp;
+		temp=b[0];
+		b[0]=b[1];
+		b[1]=temp;
+
+		}
+
+	public  static  void   main(String  args[])
+	{
+	  byref b[]=new  byref[2];
+	  b[0]= new  byref(10,0,1028);
+	  b[1]= new byref(23,84,2399);
+	  System.out.println("BEFORE  SWAPPING ENTITIES ARE");
+	  System.out.println(b[0]+  "/+++++++" +b[1]);
+	  System.out.println("AFTER  SWAPPING  ENTITIES  ARE");
+	  swap(b);
+	  System.out.println(b[0]+ "/=++++++" +b[1]);
+	 
+	}
+	}
+		
+
+

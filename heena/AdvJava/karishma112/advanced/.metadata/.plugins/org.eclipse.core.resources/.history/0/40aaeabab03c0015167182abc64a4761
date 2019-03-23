@@ -1,0 +1,9 @@
+package collectionpk;
+
+public class SortUtil {
+	public static void sort(Employee[] e4)
+	{
+	Set s=new TreeSet();
+	}
+
+}

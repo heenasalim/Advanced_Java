@@ -1,0 +1,21 @@
+INDEX VERSION 1.126
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2152036882.index
+\riya\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1798313969.index
+\struts4\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3475496397.index
+\ui\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3848073403.index
+\struts3\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3746830906.index
+\struts4\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\162267538.index
+\st2\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3935457986.index
+\servlet23\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2322903394.index
+\struts3\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2882335669.index
+\struts3\src
+D:\java practical\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1262352667.index
+\struts11\src

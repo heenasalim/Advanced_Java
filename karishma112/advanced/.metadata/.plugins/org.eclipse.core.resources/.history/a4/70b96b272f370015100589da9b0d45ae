@@ -1,0 +1,10 @@
+package string;
+
+public class StringBuild {
+	 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder s=new StringBuilder("abc123456");
+		System.out.println("string1 capacity= "+s.capacity());
+}
+}

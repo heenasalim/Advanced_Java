@@ -1,0 +1,14 @@
+package ch7;
+
+public class SortUtilDemo {
+	
+	public  void  sort(Collection c[])
+	{
+		  for(int  i=0;i<c.length;i++)
+		  {
+	  
+	  SortedSet   s=  new  TreeSet();
+		  }
+	  
+	}
+}

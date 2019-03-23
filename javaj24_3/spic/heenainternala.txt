@@ -1,0 +1,1251 @@
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ1_v1Object Oriented Programming ConceptsKnowledge Check -Object Oriented Programming
+Started on	Friday, 24 July 2015, 10:29 AM
+State	Finished
+Completed on	Friday, 24 July 2015, 10:31 AM
+Time taken	2 mins 33 secs
+Marks	5.00/8.00
+Grade	6.25 out of 10.00 (63%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Dynamic Polymorphism is achieved using___________.
+
+Select one:
+a. Method Overloading
+b. Inheritance
+c. Modularity
+d. Method Overriding 
+Feedback
+Your answer is correct.
+
+The correct answer is: Method Overriding
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Data abstraction and encapsulation are same.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'False'.
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+In library management system which of the following are valid behaviours of a Subscriber entity
+
+Select one or more:
+a. returnBook() 
+b. checkAccountBalance()
+c. displayBloodGroup()
+d. issueBook() 
+Feedback
+Your answer is correct.
+
+The correct answer is: returnBook(), issueBook()
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+For assigning Date to bank Account's transactions which of the following option can be used?
+
+Select one:
+a. containment-Account has Date
+b. Inheritance-Account extends Date
+c. Declare dd,mm,yy as data members in an Account class 
+d. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: containment-Account has Date
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+Hiding or unhiding part of the data or functionality from some components is__________.
+
+Select one:
+a. polymorphism
+b. Inheritance
+c. abstarction 
+d. encapsulation
+Feedback
+Your answer is incorrect.
+
+The correct answer is: encapsulation
+Question 6
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Extending the functionality for new requirement without disturbing the existing implementation is called as____________.
+
+Select one:
+a. Abstraction
+b. modularity
+c. Encapsulation
+d. Inheritance 
+Feedback
+Your answer is correct.
+
+The correct answer is: Inheritance
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+______________Allows to create complex relationships between entities.
+
+Select one:
+a. Inheritance
+b. Containment
+c. modularity
+d. Polymorphism 
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Containment
+Question 8
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Which of the following are object oriented programming languages?
+
+Select one:
+a. Java 
+b. visual Basics
+c. Ada
+d. Java Script
+e. All of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: Java
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page Question 6 This page Question 7 This page Question 8 This page
+Finish review
+J1_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ1_v1Object Oriented Programming ConceptsKnowledge Check -Object Oriented Programming
+Started on	Friday, 24 July 2015, 10:29 AM
+State	Finished
+Completed on	Friday, 24 July 2015, 10:31 AM
+Time taken	2 mins 33 secs
+Marks	5.00/8.00
+Grade	6.25 out of 10.00 (63%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Dynamic Polymorphism is achieved using___________.
+
+Select one:
+a. Method Overloading
+b. Inheritance
+c. Modularity
+d. Method Overriding 
+Feedback
+Your answer is correct.
+
+The correct answer is: Method Overriding
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Data abstraction and encapsulation are same.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'False'.
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+In library management system which of the following are valid behaviours of a Subscriber entity
+
+Select one or more:
+a. returnBook() 
+b. checkAccountBalance()
+c. displayBloodGroup()
+d. issueBook() 
+Feedback
+Your answer is correct.
+
+The correct answer is: returnBook(), issueBook()
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+For assigning Date to bank Account's transactions which of the following option can be used?
+
+Select one:
+a. containment-Account has Date
+b. Inheritance-Account extends Date
+c. Declare dd,mm,yy as data members in an Account class 
+d. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: containment-Account has Date
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+Hiding or unhiding part of the data or functionality from some components is__________.
+
+Select one:
+a. polymorphism
+b. Inheritance
+c. abstarction 
+d. encapsulation
+Feedback
+Your answer is incorrect.
+Java Standard edition is used for developing which of the following applications?
+
+Select one or more:
+a. Console based applications 
+b. GUI applications
+c. Client-Server applications
+d. All of the above
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Console based applications, GUI applications
+Question 2
+Partially correct
+Mark 0.25 out of 1.00
+ Flag question
+Question text
+which of the following components are part of JRE?
+
+Select one or more:
+a. Class Loader
+b. JIT
+c. Compiler 
+d. Interpreter
+e. ByteCode verifier 
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Class Loader, ByteCode verifier, JIT, Interpreter
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+__________________ is a way of representing a real world entity in the software domain.
+
+Select one:
+a. class
+b. object
+c. instance
+d. All of the above 
+Feedback
+Your answer is incorrect.
+
+The correct answer is: class
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+As JVM is platform dependent Java is platform Independent.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'True'.
+Question 5
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Abstraction is programmatically achieved by_____________________.
+
+Select one:
+a. Declaring data members and Member functions 
+b. writing class
+c. making data members private and setters and getters public
+d. none of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: Declari
+Static data is stored in a memory in_____________.
+
+Select one:
+a. Stack
+b. Data Section 
+c. Code Section
+d. Heap
+Feedback
+Your answer is correct.
+
+The correct answer is: Data Section
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+All parameters to Java methods are always passed by value.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'True'.
+Question 3
+Partially correct
+Mark 0.67 out of 1.00
+ Flag question
+Question text
+Which of the following statements are correct about Java arrays?
+
+Select one or more:
+a. Arrays are the first class object. 
+b. Arrays are created on heap
+c. Arrays are dynamically growable 
+d. Arrays can be created without using new keyword. 
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 2.
+The correct answer is: Arrays are the first class object., Arrays can be created without using new keyword., Arrays are created on heap
+Question 4
+Partially correct
+Mark 0.50 out of 1.00
+ Flag question
+Question text
+Which of the following statements are correct about 'for each loop'?
+
+Select one or more:
+a. cannot be used for filtering collection 
+b. Gives read-only data and hides the iterator
+c. Cannot remove elements from collection
+d. Used to traverse over collection in forward direction. 
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 2.
+The correct answer is: cannot be used for filtering collection, Gives read-only data and hides the iterator, Cannot remove elements from collection, Used to traverse over collection in forward direction.
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+What will be the output of following code:
+
+class Test
+
+{
+
+      public static void main(String args[])
+
+      {
+
+              final Test t1=new Test();
+
+              Test t2=new Test();
+
+               t1=t2;
+
+       }
+
+}
+
+             
+
+Select one:
+a. code will work fine and two objects will be created 
+b. compilation error
+c. RuntimeException
+d. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: compilation error
+Question 6
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+'Has a' relationship cannot be established with final classes.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'False'.
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+Which of the following statement is not correct about Enums?
+
+Select one:
+a. Enums can be extended by any class
+b. Enums can be declared inside or outside any class. 
+c. Enums declared within class are static.
+d. Enums are by default final
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Enums can be extended by any class
+Question 8
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+In hierarchy final data of super class cannot be accessed in subclass.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'False'.
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page Question 6 This page Question 7 This page Question 8 This page
+Finish review
+J1_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Static data is stored in a memory in_____________.
+
+Select one:
+a. Stack
+b. Data Section 
+c. Code Section
+d. Heap
+Feedback
+Your answer is correct.
+
+The correct answer is: Data Section
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+All parameters to Java methods are always passed by value.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'True'.
+Question 3
+Partially correct
+Mark 0.67 out of 1.00
+ Flag question
+Question text
+Which of the following statements are correct about Java arrays?
+
+Select one or more:
+a. Arrays are the first class object. 
+b. Arrays are created on heap
+c. Arrays are dynamically growable 
+d. Arrays can be created without using new keyword. 
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 2.
+The correct answer is: Arrays are the first class object., Arrays can be created without using new keyword., Arrays are created on heap
+Question 4
+Partially correct
+Mark 0.50 out of 1.00
+ Flag question
+Question text
+Which of the following statements are correct about 'for each loop'?
+
+Select one or more:
+a. cannot be used for filtering collection 
+b. Gives read-only data and hides the iterator
+c. Cannot remove elements from collection
+d. Used to traverse over collection in forward direction. 
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 2.
+The correct answer is: cannot be used for filtering collection, Gives read-only data and hides the iterator, Cannot remove elements from collection, Used to traverse over collection in forward direction.
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+What will be the output of following code:
+
+class Test
+
+{
+
+      public static void main(String args[])
+
+      {
+
+              final Test t1=new Test();
+
+              Test t2=new Test();
+
+               t1=t2;
+
+       }
+
+}
+
+             
+
+Select one:
+a. code will work fine and two objects will be created 
+b. compilation error
+c. RuntimeException
+d. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: compilation error
+Question 6
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+'Has a' relationship cannot be established with final classes.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'False'.
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+Which of the following statement is not correct about Enums?
+
+Select one:
+a. Enums can be extended by any class
+b. Enums can be declared inside or outside any class. 
+c. Enums declared within class are static.
+d. Enums are by default final
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Enums can be extended by any class
+Question 8
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+In hierarchy final data of super class cannot be accessed in subclass.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'False'
+Call to the super must be the very first statement in constructor as well as method.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'False'.
+Question 2
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+_________ allows us to create new classes based on existing classes.
+
+Select one:
+a. Containment
+b. Inheritance 
+c. Polymorphism
+d. All of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: Inheritance
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+_________ members of a base class are never accessible to a derived class.
+
+Select one:
+a. public
+b. final
+c. private 
+d. protected
+Feedback
+Your answer is correct.
+
+The correct answer is: private
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+The ________ constructor is called before the _______ constructor.
+
+Select one:
+a. sub class,super class
+b. none of the above
+c. super class, sub class 
+Feedback
+Your answer is correct.
+
+The correct answer is: super class, sub class
+Question 5
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+More than one class may be derived from a base class.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'True'.
+Question 6
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+A method of a sub class may not have the same name as a method of a super class.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'True'.
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+What will be the output of following code:
+
+class Parent
+
+{ 
+
+      int i;
+
+      public Parent(int i)
+
+      {    this.i=i;
+
+          System.out.println("Parent")
+
+       }
+
+}
+
+class Child extends Parent
+
+{
+
+       int j;
+
+        public Child(int j)
+
+        {     this.j=j;
+
+            System.out.println("Child");
+
+        }
+
+       public static void main(String args[])
+
+       {    Child c1=new Child(100);
+
+       }
+
+}
+
+ 
+
+Select one:
+a. Compilation Error
+b. Parent,Child
+c. Runtime Exception 
+d. Child, Parent
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Compilation Error
+Question 8
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+What will be the output of following code:
+
+class Parent
+
+{
+
+      public void test()
+
+      {   
+
+           System.out.println("A");
+
+       }
+
+}
+
+class Child extends Parent
+
+{
+
+      public void test()
+
+      {
+
+          System.out.println("B")
+
+       }
+
+       public void aMethod()
+
+      {
+
+          System.out.println("C");
+
+      }
+
+      public static void main(String args[])
+
+     {   
+
+          Parent p1=new Child();  
+
+          p1.test();
+
+         p1.aMethod();
+
+    }
+
+}
+
+Select one:
+a. A C
+b. B C 
+c. A B C
+d. compilation error
+Feedback
+Your answer is incorrect.
+
+The correct answer is: compilation error
+Question 9
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+Overriding is  possible with which of the following options:
+
+Select one:
+a. private methods
+b. abstract methods
+c. final methods 
+d. static methods
+Feedback
+Your answer is incorrect.
+
+The correct answer is: abstract methods
+Question 10
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+To identify dynamic data type of an object we required instanceof operator.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'Tr
+Which of the following are not RuntimeExceptions?
+
+Select one:
+a. NullPointerException
+b. ArrayIndexOutOfBoundsException 
+c. ArithmeticException
+d. FileNotFoundException
+e. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: FileNotFoundException
+Question 2
+Partially correct
+Mark 0.33 out of 1.00
+ Flag question
+Question text
+Which of the following combinations are valid for handling exceptions?
+
+Select one or more:
+a. try-catch-finally
+b. try-catch 
+c. try-finally
+d. catch-finally
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: try-catch-finally, try-catch, try-finally
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Final rethrow can be used without adding throws clause in the method signature.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'True'.
+Question 4
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Assertions are used in _____________phase of an application.
+
+Select one:
+a. compiling
+b. executing
+c. Deployment
+d. Testing 
+Feedback
+Your answer is correct.
+
+The correct answer is: Testing
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+class Test
+{  
+    public static void main(String[] args) 
+    {
+        try 
+        { 
+            return; 
+        } 
+        finally 
+        {
+            System.out.println( "inside finally block" ); 
+        } 
+    } 
+}
+
+Select one:
+a. inside finally block
+b. compilation fails
+c. code will run without producing any output 
+d. An exception is thrown at runtime
+Feedback
+Your answer is incorrect.
+
+The correct answer is: inside finally block
+Question 6
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+What will be the output of following code:
+
+class Test
+{ 
+public static void main(String args[])
+{
+  try 
+  { 
+    int p = 0; 
+    int q = 5 / p; 
+  } 
+  catch (Exception e) 
+  {
+    System.out.println("General Exception"); 
+  } 
+  catch (ArithmeticException ae) 
+  {
+    System.out.println(" Arithmetic Exception:divided by zero"); 
+  } 
+  System.out.println("done");
+ }
+}
+
+Select one:
+a. done
+b. ArithmeticException:divided by zero
+c. compilation fails
+d. General Exception 
+Feedback
+Your answer is incorrect.
+
+The correct answer is: compilation fails
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+In Exception handling, error and exceptions are one and the same.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'False'.
+Question 8
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+RuntimeExceptions are always forced exceptions, so programmer must handle them.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'False'.
+Finish review
+Which of the following Interfaces belongs to collection framework hierarchy?
+
+Select one or more:
+a. Set
+b. Map 
+c. List
+d. Queue
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Set, List, Queue
+Question 2
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+It is mandatory to override equals() method when hashCode() method is overriden in a clas.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'False'.
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+ArrayList is unordered and unsorted collection.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'False'.
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+In an application for creating unique ordered collection which of the following option is appropriate?
+
+Select one:
+a. HashSet
+b. TreeSet 
+c. LinkedHashSet
+d. None of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: LinkedHashSet
+Question 5
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+______________________ allows one null key and multiple null values in a collection.
+
+Select one:
+a. HashMap
+b. HashTable 
+c. LinkedHashMap
+d. TreeMap
+Feedback
+Your answer is incorrect.
+
+The correct answer is: HashMap
+Question 6
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Generic type information does not exists at runtime.It is for compile time safety only.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'True'.
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+Generics are used to________________________________.
+
+Select one:
+a. Make code faster.
+b. Make code readable and faster. 
+c. for Type safety.
+d. Create bug free code
+Feedback
+Your answer is incorrect.
+
+The correct answer is: for Type safety.
+Finish review
+Which of the following statements are incorrect about annotations?
+
+Select one:
+a. Annotation is a super interface for all the annotations.
+b. In annotations methods acts like fields. 
+c. Annotations contains only method declarations.
+d. Any annotation by default extends to Annotation interface.
+e. none of the above
+Feedback
+Your answer is incorrect.
+
+The correct answer is: none of the above
+Question 2
+Partially correct
+Mark 0.33 out of 1.00
+ Flag question
+Question text
+Annotations are used to
+
+Select one or more:
+a. Generate Java documentation
+b. Automation in inheritance 
+c. Information for compiler
+d. for handling exceptions
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Generate Java documentation, Automation in inheritance, Information for compiler
+Question 3
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Reflection is to examine or introspect the Java program and manipulate internal properties of the program.
+
+Select one:
+True 
+False
+Feedback
+The correct answer is 'True'.
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page
+Finish review
+J1_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+
+
+The correct answer is: encapsulation
+Question 6
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Extending the functionality for new requirement without disturbing the existing implementation is called as____________.
+
+Select one:
+a. Abstraction
+b. modularity
+c. Encapsulation
+d. Inheritance 
+Feedback
+Your answer is correct.
+
+The correct answer is: Inheritance
+Question 7
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+______________Allows to create complex relationships between entities.
+
+Select one:
+a. Inheritance
+b. Containment
+c. modularity
+d. Polymorphism 
+Feedback
+Your answer is incorrect.
+
+The correct answer is: Containment
+Question 8
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Which of the following are object oriented programming languages?
+
+Select one:
+a. Java 
+b. visual Basics
+c. Ada
+d. Java Script
+e. All of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: Java
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page Question 6 This page Question 7 This page Question 8 This page
+Finish review
+J1_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)
+Skip to main content
+0 Messages
+Heena Shaikh
+HomeMy coursesJava ProgramingJ1_v1Introduction to JavaKnowledge Check-Introduction To Java
+Started on	Tuesday, 11 August 2015, 8:18 AM
+State	Finished
+Completed on	Tuesday, 11 August 2015, 8:19 AM
+Time taken	1 min 50 secs
+Marks	1.75/5.00
+Grade	3.50 out of 10.00 (35%)
+Question 1
+Partially correct
+Mark 0.50 out of 1.00
+ Flag question
+Question text
+Java Standard edition is used for developing which of the following applications?
+
+Select one or more:
+a. Console based applications 
+b. GUI applications
+c. Client-Server applications
+d. All of the above
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Console based applications, GUI applications
+Question 2
+Partially correct
+Mark 0.25 out of 1.00
+ Flag question
+Question text
+which of the following components are part of JRE?
+
+Select one or more:
+a. Class Loader
+b. JIT
+c. Compiler 
+d. Interpreter
+e. ByteCode verifier 
+Feedback
+Your answer is partially correct.
+
+You have correctly selected 1.
+The correct answer is: Class Loader, ByteCode verifier, JIT, Interpreter
+Question 3
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+__________________ is a way of representing a real world entity in the software domain.
+
+Select one:
+a. class
+b. object
+c. instance
+d. All of the above 
+Feedback
+Your answer is incorrect.
+
+The correct answer is: class
+Question 4
+Incorrect
+Mark 0.00 out of 1.00
+ Flag question
+Question text
+As JVM is platform dependent Java is platform Independent.
+
+Select one:
+True
+False 
+Feedback
+The correct answer is 'True'.
+Question 5
+Correct
+Mark 1.00 out of 1.00
+ Flag question
+Question text
+Abstraction is programmatically achieved by_____________________.
+
+Select one:
+a. Declaring data members and Member functions 
+b. writing class
+c. making data members private and setters and getters public
+d. none of the above
+Feedback
+Your answer is correct.
+
+The correct answer is: Declaring data members and Member functions
+Finish review
+Skip Quiz navigation
+Quiz navigation
+Question 1 This page Question 2 This page Question 3 This page Question 4 This page Question 5 This page
+Finish review
+J1_v1
+© Copyright 2015 by Seed Infotech
+You are logged in as Heena Shaikh (Log out)

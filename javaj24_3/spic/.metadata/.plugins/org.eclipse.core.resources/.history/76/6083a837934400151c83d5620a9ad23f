@@ -1,0 +1,62 @@
+package balls;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class Transaction  extends Thread {
+  Thread  t1,t2;
+  Account  a;
+  public  Transaction(Account a)
+  {
+	  this.a=a;
+	  t1=new  Thread(this,"t1");
+	  t2=new  Thread(this,"t2");
+	  t1.start();
+	  t2.start();
+  }
+  public  void  run()
+  {
+	  for(int  i=0;i<5;i++)
+	  {
+		   try
+		   {
+			   if(Thread.currentThread()==t1)
+			   {
+				   deposite(2000);
+				   Thread.sleep(1000);
+			   }
+		   
+		   if(Thread.currentThread()==t2)
+		   {
+			   withdraw(1000);
+			   Thread.sleep(1000);
+		   }
+	       }
+		   catch(Exception  e)
+		   {
+			   e.printStackTrace();
+		   }
+	  }
+	  
+ }
+ // private synchronized void  withdraw(int  i)   either  use  this  orv  defined  Lock  l1=new ReentrantLock();  at  start  of  the  program
+  private  void  withdraw(int  i)
+  {
+	  int  bal=a.getbalance();
+	  bal=bal-i;
+	  a.setBalance(bal);
+	 System.out.println("after  withdraw "+a.getbalance()); 
+  }
+  private   void  deposite(int  i)
+  {
+	  int  bal=a.getbalance();
+	  bal=bal+i;
+	  a.setBalance(bal);
+	  System.out.println("sfter  deposite" +a.getbalance());
+  }
+
+  public static void main(String[] args) {
+	 Account  a=new  Account(1000);
+	Transaction  t=new Transaction(a);
+}
+}

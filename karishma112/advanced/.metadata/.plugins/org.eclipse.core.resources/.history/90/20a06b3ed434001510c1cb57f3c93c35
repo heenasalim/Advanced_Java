@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package pk1;
+
+/**
+ * @author javaj24_2
+ *
+ */
+public class JoinDate {
+
+	/**
+	 * 
+	 */
+	public JoinDate() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

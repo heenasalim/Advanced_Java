@@ -1,0 +1,9 @@
+package pk1;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class Login  extends  ActionSupport {
+	String  user,pass;
+	
+
+}

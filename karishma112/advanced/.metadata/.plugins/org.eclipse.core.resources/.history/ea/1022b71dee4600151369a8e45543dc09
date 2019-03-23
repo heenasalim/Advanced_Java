@@ -1,0 +1,22 @@
+package javaIO;
+
+import java.io.File;
+import java.util.RandomAccess;
+
+public class simpleAvial {
+	simpleAvial()
+	{
+		File f1=new File("one.txt");
+		File f2=new File("two.txt");
+		RandomAccessFile r1=new RandomAccessFile(f1,'r');
+		RandomAccessFile r2=new RandomAccessFile(f2,'w');
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 simpleAvial s=new  simpleAvial();
+	}
+
+}

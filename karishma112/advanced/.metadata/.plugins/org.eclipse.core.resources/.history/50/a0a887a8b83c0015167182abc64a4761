@@ -1,0 +1,11 @@
+package collectionpk;
+
+public class SearhUtil {
+	boolean flag=true;
+	public static void searchInfo(Employee[] e5)
+	{
+		
+		
+	}
+
+}

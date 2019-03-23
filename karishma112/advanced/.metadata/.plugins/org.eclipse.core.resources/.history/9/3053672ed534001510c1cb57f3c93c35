@@ -1,0 +1,24 @@
+package pk1;
+
+public class Employee {
+	int id;
+	String name;
+	double basic;
+	double gs,pf,pt;
+
+	public Employee(int id,String name,double basic) {
+		// TODO Auto-generated constructor stub
+		this.id=id;
+		this.name=name;
+		this.basic=basic;
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Employee e=new Employee(1,"abc",30000);
+	
+	}
+
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+ 
+ <field name="user.username">
+  <field-validator type="requiredstring" >
+      <message>You must enter a value for UserName</message>
+    </field-validator>
+    
+  </field>
+  
+  <field name="user.password">
+  <field-validator type="requiredstring" >
+      <message>You must enter a value for password</message>
+    </field-validator>
+    
+    <field-validator type="stringlength" >
+    <param name="maxLength">8</param>
+    <param name="minLength">3</param>
+      <message>While  ${user.password} is a nice password, a valid password must
+      be between ${minLength} and ${maxLength} characters long </message>
+      </field-validator>
+  
+    <field-validator type="regex">
+    <param name="expression"><![CDATA[([s][e][e][d][0-9][0-9][0-9])]]></param>
+    <message>Valid password should be like seed123</message>
+    </field-validator>  
+    </field>   
+  
+  <field name="user.mail">
+  <field-validator type="email">
+  <message>Enter proper Mail ID</message>
+  </field-validator>
+  
+  </field>
+  
+  <field name="user.cpass">
+  <field-validator type="fieldexpression">
+  <param name="expression">(user.password==user.cpass)</param>
+  <message>password and confirm password should match</message>
+  </field-validator>
+  </field>
+  
+  <field name="user.dob">
+  <field-validator type="date">
+  <param name="min">01/01/2006</param>
+  <param name="max">01/01/2008</param>
+  <message>Enter a date between ${min} and ${max}</message>
+  </field-validator>
+  </field>
+  
+  
+  
+  
+  
+</validators>

@@ -1,0 +1,8 @@
+package ch7;
+
+import java.lang.annotation.Documented;
+
+@Documented
+public @interface Reflectondemo {
+	String msg();
+}

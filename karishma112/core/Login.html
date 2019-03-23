@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+
+
+<title>Login</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+function check()
+{
+	alert("Hello");
+	var user=document.getElementById('user').value;
+	alert(user);
+	var password=document.getElementById('pass').value;
+	alert(password);
+	var ulen=user.length;
+	var passlength=pass.length;
+	if(ulen==0 || passlength==0 )
+		{
+		  alert("Enter user name & password");
+		  return false;
+		}
+	
+	else if(user!="" && password!="")
+		{
+		   var matcher=/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,14}$/;
+		   if(password.match(matcher))
+			   {
+			      alert("login Successfull");
+			      return true;
+			   }
+		   else
+			   {
+			   alert("Wrong pass");
+			   return false;
+			   }
+		}
+	else
+		{return false;}
+
+     return false;
+	
+	}
+</script>
+
+
+<form action="Home.html">
+<strong>User Name</strong><input type="text" id="user" name="User" ><br>
+<strong>Password</strong><input type="password" id="pass" name="pass" >
+<br><button type="submit" id="submit" onclick="return check();">Submit</button>
+<button type="reset" id="reset" >Reset</button><br>
+<a href="http://Register.html"> New User?</a>
+
+</form>
+</body>
+</html>

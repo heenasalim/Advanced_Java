@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+
+public class javaswing11 {
+ 
+	 JFrame f;
+	 JPanel  p;
+	 JLabel l1;
+	 JLabel  l2;
+	 JTextField  tf;
+	 JTextField  tf2;
+}

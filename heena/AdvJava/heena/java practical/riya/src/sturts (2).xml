@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sturts>
+<include file="sturts_default.xml"/>
+<package name="abc" extends="sturts_default">\
+<action name="employee" class="emp.EmployeeAction">
+<result name="input">emp_reg.jsp</result>
+<result name="success">info1.jsp</result>
+</action>
+</package>
+</sturts>

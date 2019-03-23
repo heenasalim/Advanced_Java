@@ -1,0 +1,8 @@
+127.0.0.1 - - [05/Sep/2015:07:39:54 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [05/Sep/2015:07:39:56 +0530] "GET /StrutsProject/Login.jsp HTTP/1.1" 200 994
+0:0:0:0:0:0:0:1 - - [05/Sep/2015:07:40:06 +0530] "POST /StrutsProject/struts/login.action;jsessionid=6AD5DEABC92B1E0D94067C725BD2F4AF HTTP/1.1" 200 281
+0:0:0:0:0:0:0:1 - - [05/Sep/2015:07:40:15 +0530] "POST /StrutsProject/struts/login.action;jsessionid=6AD5DEABC92B1E0D94067C725BD2F4AF HTTP/1.1" 200 284
+0:0:0:0:0:0:0:1 - - [05/Sep/2015:07:40:19 +0530] "POST /StrutsProject/struts/login.action;jsessionid=6AD5DEABC92B1E0D94067C725BD2F4AF HTTP/1.1" 200 284
+127.0.0.1 - - [05/Sep/2015:10:30:10 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [05/Sep/2015:10:30:12 +0530] "GET /StrutsProject/Login.jsp HTTP/1.1" 200 994
+0:0:0:0:0:0:0:1 - - [05/Sep/2015:10:30:26 +0530] "POST /StrutsProject/struts/login.action;jsessionid=805AABD682B997C4E626BCA9262E77E7 HTTP/1.1" 200 284

@@ -1,0 +1,82 @@
+package Multithreding;
+
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+
+public class Busdemo extends JFrame implements Runnable{
+	Thread t1,t2;
+	int x1,x2=500;
+	
+	public  Busdemo()
+	{
+		t1=new Thread(this,"Thread-1");
+		t2=new Thread(this,"Thread-2");
+		t1.start();
+		t2.start();
+	}
+	public static void main(String[] args) {
+		 Busdemo bd=new  Busdemo();
+		 bd.setVisible(true);
+		 bd.setSize(400,400);
+	}
+	public void paint(Graphics g)
+	{
+		super.paint(g);
+		g.drawLine(0,270,550,270);
+		g.drawLine(0,470,550,470);
+		
+		g.drawLine(550,0,550,270);
+		g.drawLine(550,470,550,750);
+		
+		g.drawLine(750,0,750,270);
+		g.drawLine(750,470,750,750);
+		
+		g.drawLine(750,270,1400,270);
+		g.drawLine(750,470,1400,470);
+		
+		g.drawRect(300,350, 150,100);
+		
+		
+		
+		//g.drawRect(x, y, width, height)
+		
+	}
+	@Override
+	public void run() {
+		while(true)
+		{
+			try
+			{
+			
+			if(Thread.currentThread()==t1)
+			{
+				x1++;
+				repaint();
+				Thread.sleep(100);
+					
+			
+			}
+			
+			
+			if(Thread.currentThread()==t2)
+			{
+				
+				x2--;
+				repaint();
+				//System.out.print("thread2=");
+				
+			
+				Thread.sleep(100);
+			}
+			}catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				}
+		
+		
+	}
+	}
+	}
+
+

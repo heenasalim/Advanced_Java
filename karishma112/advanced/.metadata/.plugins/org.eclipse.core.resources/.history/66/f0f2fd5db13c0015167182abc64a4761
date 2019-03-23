@@ -1,0 +1,11 @@
+package collectionpk;
+
+//import javax.swing.tree.TreePath;
+
+public class SortUtil {
+	public static void sort(Employee[] e4)
+	{
+	Set s=new TreePath();
+	}
+
+}

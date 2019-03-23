@@ -1,0 +1,19 @@
+import java.awt.Font;
+import javax.swing.JApplet;
+
+ 
+public class Applet   extends  JApplet {
+	  Font  f;
+	  @Override
+	  public  void  init()
+	  {
+		  super.init();
+		  String type=getParameter("font");
+		  int  size=Integer.parseInt(getParameter("size"));
+		  f=new Font(type,Font.BOLD,size);
+  }
+
+{
+	
+}
+}

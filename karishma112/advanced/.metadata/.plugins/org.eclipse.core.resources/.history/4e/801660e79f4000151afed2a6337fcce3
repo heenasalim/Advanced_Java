@@ -1,0 +1,32 @@
+package Multithreding;
+
+import javax.swing.JFrame;
+
+public class BannerClass extends JFrame implements Runnable {
+	Thread t1,t2;
+	public BannerClass() {
+		t1=new Thread(this,"Thread-1");
+		t2=new Thread(this,"Thread-2");
+		t1.start();
+		t2.start();
+		
+		
+	}
+
+	
+	public static void main(String[] args) {
+		 BannerClass b=new  BannerClass();
+		 b.setVisible(true);
+		 b.setSize(300,400);
+		
+	}
+
+
+	@Override
+	public void run() {
+		
+		
+		
+	}
+
+}

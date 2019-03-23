@@ -1,0 +1,21 @@
+package javaIO;
+
+import javax.swing.*;
+
+public class Serialization extends JFrame {
+JFrame f;
+JLabel l1,l2,l3;
+
+	public Serialization() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

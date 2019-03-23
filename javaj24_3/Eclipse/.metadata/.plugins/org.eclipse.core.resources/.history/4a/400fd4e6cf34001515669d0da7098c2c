@@ -1,0 +1,27 @@
+package pk1;
+
+public class byvalue 
+{
+
+	int  dd,mm,yy;
+	
+
+	public byvalue() {
+		super();
+		dd=18;
+		mm=04;
+		yy=1994;
+		
+		
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public byvalue(int dd, int mm, int yy)
+	{
+		super();
+		this.dd = dd;
+		this.mm = mm;
+		this.yy = yy;
+	}
+	

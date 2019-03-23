@@ -1,0 +1,28 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+
+public class Banking {
+public static void main(String[] args) {
+	
+}
+private  static void  moneyTransfer()  throws Exception
+{
+	Connection  con=null;
+	  try
+	  {
+		  Class.forName("oracle.jdbc.driver.OracleDriver");
+		  System.out.println("got  driver");
+		  con=DriverManager.getConnection("jdbc:oracle:thin:@oracle-server:1521:orcl","java","java");
+		  System.out.println("got  connection");
+		  con.setAutoCommit(false);
+		  PreparedStatement    psmt=con.prepareStatement("")
+		  
+	  }
+	  catch(Exception e)
+	  {
+		  
+	  }
+}
+}

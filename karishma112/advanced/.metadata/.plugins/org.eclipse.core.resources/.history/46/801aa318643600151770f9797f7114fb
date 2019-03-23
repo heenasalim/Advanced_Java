@@ -1,0 +1,19 @@
+package pk4;
+
+public class Account {
+	int accountid;
+	String accountname;
+	double accountbal;
+	public class Loker
+	{
+		int lockid;
+		void print()
+		{
+			System.out.println("Account Id= "+accountid);
+			System.out.println("Account name= "+accountname);
+			System.out.println("Account Balance= "+accountbal);
+			System.out.println("lockId= "+lockid);
+		}
+	}
+
+}

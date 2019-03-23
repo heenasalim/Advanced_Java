@@ -1,0 +1,12 @@
+package ch7;
+
+public class reflectionDemo {
+  public static void main(String[] args) {
+	  
+	   Employee12 m=new   Employee12(1, 677433, "heena");
+	   Class  c=m.getClass();
+	   Field  f[]=c.);
+	
+}
+
+}

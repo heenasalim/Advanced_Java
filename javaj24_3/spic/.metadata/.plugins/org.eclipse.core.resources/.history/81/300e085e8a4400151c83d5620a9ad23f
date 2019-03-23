@@ -1,0 +1,6 @@
+package balls;
+
+public class Account {
+ private  int  balance;
+ Lock  l1=new ReentrarantLock();
+}

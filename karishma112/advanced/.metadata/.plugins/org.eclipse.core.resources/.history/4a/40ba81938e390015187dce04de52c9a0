@@ -1,0 +1,22 @@
+
+public class DivisionDemo {
+	int no1=10,no2=0,no3;
+	
+	void check() 
+	{
+		//no3=no1/no2;
+	if(no2==0)
+	{
+		throw new NullPointerException();
+	}
+	
+	}
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		DivisionDemo d=new DivisionDemo();
+		d.check();
+
+	}
+
+
+}

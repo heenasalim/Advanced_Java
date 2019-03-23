@@ -1,0 +1,16 @@
+package ch7;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class UtilityReport {
+	public      void  report()
+	{
+		
+	Map  m=  new  HashMap();
+	 m.put("heena",50000);
+	 m.put("karii", 40000);
+	 m.put("sayli",689);
+	  
+}
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script  type="text/javascript" >
+  function  check3()
+  {
+	  
+	  alert("user   successfully   submited")
+	  if(user.length==0||pass.length==0||pass1.length==0||f.length==0||l.length==0)
+		  {
+		    alert("all  feilds  are  mandatory")
+		  }
+	  else
+		  {
+		  alert("all  feild  are  entered ");
+		  }
+	 var  pass=document.getElementById(pass);
+	 var  pass1=document.getElementById(pass1);
+	 
+	  
+  }
+  function  check4()
+  {
+	  
+  }
+</script>
+</head>
+<body>
+  *****NEW  USER****
+  UserName<input  type ="text"  name=" USERNAME ENTER"  id="user">
+  PassWord<input  type="text"  name="PASSWORD  ENTER"  id="pass">
+  ConfirmPassWord<input  type="text   name=" CONFIRM  PASSWORD"   id="pass1">
+  FirstName<input  type="text   name="sffqfs"  id="f">
+  LastName<input  type="text   name="sffqfs"  id="l">
+ <input  type="submit"  value="SUBMIT"    onclick="check3()">
+  <input  type="reset"  value="RESET"    onclick="check4()">
+   
+</body>
+</html>

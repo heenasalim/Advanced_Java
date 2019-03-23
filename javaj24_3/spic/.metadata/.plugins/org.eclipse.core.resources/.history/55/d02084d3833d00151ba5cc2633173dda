@@ -1,0 +1,17 @@
+package ch7;
+  import java.lang.annotation.Documented;
+import java.lang.annotation.Inherited;
+ @Documented
+  public  @interface city_info
+  {
+
+	String msg();
+	//String doTest();
+  }
+
+
+
+public class ReflectionDemo1 {
+
+	
+}

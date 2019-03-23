@@ -1,0 +1,22 @@
+package pk2;
+
+public class circle extends Shape {
+	
+	double r;
+	public final double PI=3.14;
+	circle()
+	{
+		r=5;
+	}
+	
+	public double area()
+	{
+		return PI*r*r;
+	}
+	public static void main(String args[])
+	{
+		circle c=new circle();
+		c.area();
+	}
+
+}

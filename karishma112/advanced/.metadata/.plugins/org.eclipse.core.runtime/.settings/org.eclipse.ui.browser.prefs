@@ -1,0 +1,5 @@
+#Fri Aug 28 08:57:22 IST 2015
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="1">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+browser-choice=0
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/login/WEB-INF/login2.html|*|http\://localhost\:8080/login/WEB-INF/login.html|*|http\://localhost\:8080/login/HelloServlet1|*|http\://localhost\:8080/advancedJava/HelloServlet1|*|http\://localhost\:8080/advancedJava/login.html|*|http\://localhost\:8080/advancedJava/register.html|*|http\://localhost\:8080/advancedJava/HelloServlet|*|http\://localhost\:8080/advancedJava/WEB-INF/bookdtd.dtd|*|http\://localhost\:8080/advancedJava/book.xml|*|http\://localhost\:8080/advancedJava/register.html?user\=&pwd\=&fname\=&lname\=&address\=&paddress\=&city\=&state\=&mno\=&eid\=|*|http\://localhost\:8080/advancedJava/home.html|*|

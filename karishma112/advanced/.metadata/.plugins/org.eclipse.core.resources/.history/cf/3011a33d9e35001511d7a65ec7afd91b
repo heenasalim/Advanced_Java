@@ -1,0 +1,22 @@
+package pk2;
+
+public class Date2 {
+	int dd,mm,yy;
+
+	/**
+	 * @param dd
+	 * @param mm
+	 * @param yy
+	 */
+	public Date2(int dd, int mm, int yy) {
+		//super();
+		this.dd = dd;
+		this.mm = mm;
+		this.yy = yy;
+	}
+	public static void main(String args[])
+	{
+		
+	}
+
+}

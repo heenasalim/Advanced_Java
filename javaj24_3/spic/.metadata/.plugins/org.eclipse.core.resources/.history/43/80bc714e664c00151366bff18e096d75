@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+ 
+</head>
+<body>
+<script type="text/javascript">
+ <!--function  check()
+  {
+    alert("hello");  
+    var  user=document.getElementById("user").value;
+    
+    alert(user);
+    Var  len=user.length;
+    
+    alert(len);
+    check1();
+    }-->
+ function  check1()
+ {   
+	<!-- Var  d=new  Date();-->
+	<!-- Var  hr=d.getHours();-->
+	 Var  pass=  document.getElementById("pass").value;
+	 Var  a=  pass.length();
+	 alert(a);
+	 Var    passw=/^[a-z  A-z  0-9]\W{0,14}$/;
+	 if(pass.match(pass  w)){
+		 alert ("Correct,try  another");
+		   return  true;
+	 }
+	 else{
+		 alert("wrong  password");
+		 return  false;
+	 }
+              
+ }
+ </script>
+  <h1> LOGIN  PAGE</h1>
+  
+  <form  action="REGISTER.html">
+  <input type="submit" value="register  here"  img  alt="img"  src="D://onebook.jpg"  width="250"  height="250"></br>
+ </form>
+  
+  UserName<input type="text"  name="USER"  id="user">
+  Password<input  type="password"  name="PASSWORD"   id="pass">
+  
+  <input  type="submit"  value="SUBMIT"    onclick="check()">
+  
+</body>
+</html>

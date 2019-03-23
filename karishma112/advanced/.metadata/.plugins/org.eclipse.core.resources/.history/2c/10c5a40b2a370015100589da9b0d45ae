@@ -1,0 +1,16 @@
+package string;
+
+public class StringClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="abc";
+		s="xyz";
+		System.out.println("string1= "+s);
+		System.out.println("string1 memory loc= "+s.hashCode());
+	}
+
+}

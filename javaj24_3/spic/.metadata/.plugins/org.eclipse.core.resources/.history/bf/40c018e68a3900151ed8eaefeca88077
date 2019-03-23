@@ -1,0 +1,23 @@
+package ch6;
+
+public class Account {
+
+	int  accid;
+	  String accname;
+	  int  balance;
+	  class  Locker
+	  {
+		 int  locid;
+		Locker()
+		{
+		this.locid=locid;
+		
+		}
+		public  void  show()
+		{
+		System.out.println("lcid=="+locid+"acdcid"+accid+"account  name"+accname+"balance"+balance);
+		}
+		
+	  }
+
+}

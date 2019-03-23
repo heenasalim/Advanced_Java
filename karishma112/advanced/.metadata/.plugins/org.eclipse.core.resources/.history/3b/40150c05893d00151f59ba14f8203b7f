@@ -1,0 +1,21 @@
+package swingPK;
+import javax.swing.*;
+
+public class Student {
+	
+JLabel l1,l2,l3,l4;
+JTextField t1;
+JList ls;
+
+
+	public Student() {
+		
+	}
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package javaIO;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.RandomAccessFile;
+import java.util.RandomAccess;
+
+public class simpleAvial {
+	simpleAvial() throws FileNotFoundException
+	{
+		File f1=new File("one.txt");
+		File f2=new File("two.txt");
+		RandomAccessFile r1=new RandomAccessFile(f1,"r");
+		RandomAccessFile r2=new RandomAccessFile(f2,"w");
+		
+		int x=0;
+		System.out.println("beforesettig pointer "+r1.getFilePointer());
+		r1.seek(3);
+		System.out.println("after settig pointer "+r1.getFilePointer());
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		 simpleAvial s=new  simpleAvial();
+	}
+
+}

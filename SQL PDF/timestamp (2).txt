@@ -1,0 +1,116 @@
+SQL> create table praxt( dat timestamp(6));
+
+Table created.
+
+SQL> desc praxt
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DAT                                                TIMESTAMP(6)
+
+   
+SQL> insert into praxt values(to_date('6-jan-2000','dd-mon-yyyy'))
+
+1 row created.
+
+SQL> select * from praxt;
+
+DAT
+---------------------------------------------------------------------------
+06-JAN-00 12.00.00.000000 AM
+
+
+
+
+SQL> alter table praxt
+  2  modify (dat timestamp(3));
+
+Table altered.
+
+SQL> desc praxt
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DAT                                                TIMESTAMP(3)
+
+
+SQL> insert into praxt values(to_date('6-jan-2000','dd-mon-yyyy'));
+
+1 row created.
+
+SQL> select * from praxt;
+
+DAT
+---------------------------------------------------------------------------
+06-JAN-00 12.00.00.000 AM
+
+
+SQL> 
+SQL>  alter table praxt
+  2   modify (dat timestamp(3) with time zone);
+
+Table altered.
+
+SQL> desc praxt
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DAT                                                TIMESTAMP(3) WITH TIME ZONE
+
+SQL> insert into praxt values(to_date('6-jan-2000','dd-mon-yyyy'));
+
+1 row created.
+
+SQL> select * from praxt;
+
+DAT
+---------------------------------------------------------------------------
+06-JAN-00 12.00.00.000 AM +05:30
+
+
+SQL> CREATE TABLE coupons (
+  2    coupon_id INTEGER,
+  3    name VARCHAR2(30),
+  4    duration INTERVAL YEAR(3) TO MONTH
+  5  );
+
+Table created.
+
+SQL>
+SQL>
+SQL> INSERT INTO coupons (coupon_id, name, duration) VALUES (1, 'movie', INTERVAL '1' YEAR);
+
+1 row created.
+
+SQL> INSERT INTO coupons (coupon_id, name, duration) VALUES (2, 'shopping', INTERVAL '11' MONTH);
+
+1 row created.
+
+SQL> INSERT INTO coupons (coupon_id, name, duration) VALUES (3, 'food', INTERVAL '14' MONTH);
+
+1 row created.
+
+SQL> INSERT INTO coupons (coupon_id, name, duration) VALUES (4, 'movie', INTERVAL '1-3' YEAR TO MONTH);
+
+1 row created.
+
+SQL> INSERT INTO coupons (coupon_id, name, duration) VALUES (5, 'game', INTERVAL '0-5' YEAR TO MONTH);
+
+1 row created.
+
+SQL> INSERT INTO coupons (coupon_id, name, duration) VALUES (6, 'trip', INTERVAL '123' YEAR(3));
+
+1 row created.
+
+SQL>
+SQL> SELECT * FROM coupons;
+
+ COUPON_ID NAME                           DURATION
+---------- ------------------------------ ---------------------------------------------------------------------------
+         1 movie	                  +001-00
+         2 shopping                       +000-11
+         3 food    		          +001-02
+         4 movie	                  +001-03
+         5 game		                  +000-05
+         6 trip		                  +123-00
+
+6 rows selected.
+
+

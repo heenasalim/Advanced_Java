@@ -1,0 +1,8 @@
+package Applet;
+
+public class changingApplet extends Applet{
+
+	Convas c;
+	color col;
+	
+}

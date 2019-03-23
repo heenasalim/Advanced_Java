@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+
+<field name="empid">
+  
+  <field-validator type="requiredstring">
+    <message>Employee Id is required</message>
+  </field-validator>
+
+  <field-validator type="regex">
+    
+    <param name="expression">
+    <![CDATA[([b][h][u][s][h][a][n][0-9][0-9][0-9][0-9])]]>    
+    </param>
+    <message>Valid Employee Id is required eg. bhushan1234</message>
+  </field-validator>
+  
+</field>
+
+<field name="password">
+  
+  <field-validator type="requiredstring">
+    <message>password field is empty</message>
+  </field-validator>
+
+  <field-validator type="stringlength">
+    <param name="maxLength">10</param>
+    <param name="minLength">4</param>
+    <param name="trim">true</param> 
+    <message>password length must be 4-10 characters long</message>
+  </field-validator>
+   
+   <field-validator type="regex">
+      <param name="expression">
+      <![CDATA[(A-Z.*?)(!@#$%^*)]]>    
+      </param>
+      <message>Password must contain Atleast one special character(!@#$%^*).</message>
+  </field-validator>
+  
+</field>
+
+<field name="conf_pass">
+  
+  <field-validator type="fieldexpression">
+    <param name="expression">(password==conf_pass)</param>
+    <message>password and Re-Entered password must be same.</message>
+  </field-validator>
+  
+</field>
+
+<field name="name">
+  <field-validator type="requiredstring">
+    <message>Employee name is required</message>
+  </field-validator>
+</field>
+
+<field name="doj">
+  <field-validator type="date">
+    <param name="min">01/01/1990</param>
+    <param name="max">01/01/2014</param>
+    <message>Enter Date of Joining between ${min} and ${max}.</message>
+  </field-validator>
+</field>
+
+<field name="age">
+  <field-validator type="int">
+    <param name="min">18</param>
+    <param name="max">45</param>
+    <message>Age should be in between ${min} and ${max}.</message>
+  </field-validator>
+</field>
+
+<field name="email">
+  <field-validator type="requiredstring">
+    <message>Email should not be empty.</message>
+  </field-validator>
+   
+   <field-validator type="email">
+    <message>Enter a valid Email Id.</message>
+  </field-validator> 
+</field>
+
+
+</validators>

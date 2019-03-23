@@ -1,0 +1,29 @@
+package ch6;
+
+public abstract class staticinner {
+	   static int  accid;
+	   static String accname;
+       static int  balance;
+       
+	     static  class  Locker
+	  {
+		static int  locid;
+		Locker(int  locid,int accid,String  accname,int  balance )
+		{
+		Locker.locid=locid;
+		accid=accid;
+		accname=accname;
+		balance=balance;
+		}
+		public   void  show()
+		{
+		System.out.println("lcid=="+locid+"acdcid"+accid+"account  name"+accname+"balance"+balance);
+		}
+		
+	  }
+
+	     public  static  void  main(String  args[])
+	     {
+	    	Locker =new Locker(12,67,"heena",78)
+	     }
+}

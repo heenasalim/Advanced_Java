@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+
+public class Account extends Exception {
+
+	int balance;
+	String msg1;
+	
+		
+
+}

@@ -1,0 +1,54 @@
+package ch7;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SearchUtilDemo {
+
+	   int  Empno;
+	   
+	  
+	   
+	// public  void   intake()
+	  //{
+		  
+	   // Empno=s.nextInt();
+	 //  }
+	   
+	  public   void   searchEmpInfo(  Collection c[])  throws  Exception 
+	  {   int  flag=0;
+		  Scanner  s= new  Scanner(System.in);
+		  Empno=s.nextInt();
+		  List  l=new  ArrayList();
+		   for(int i=0;i<c.length;i++)
+		   {
+			   l.add(c[i]);
+
+		   }
+		  Iterator  i=l.iterator();
+		  while(i.hasNext())
+		  {
+			  Collection  e=(Collection) i.next();
+			  
+		            if(e.empid==Empno)
+		
+		  {  flag=1;
+			 System.out.println( "employee  details  are" +e);
+		  } 
+		 
+		  }
+		  
+		  {
+		     throw  new  MyException("employee  does  not   exist");
+		  }
+		  
+		 
+		   
+	  }
+
+	  
+}
+
+	  

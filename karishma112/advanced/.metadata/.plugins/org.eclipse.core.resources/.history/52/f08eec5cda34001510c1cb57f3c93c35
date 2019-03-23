@@ -1,0 +1,10 @@
+package pk1;
+
+public class testEnum {
+	public static void main(String args[])
+	{
+		testEnum t=new testEnum();
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.122+Z:\spic\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+817485742.index
+2460803322.index
+1699837366.index

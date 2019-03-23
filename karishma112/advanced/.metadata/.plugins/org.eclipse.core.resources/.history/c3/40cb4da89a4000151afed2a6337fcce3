@@ -1,0 +1,17 @@
+package RGBClass;
+
+public class RgbClass {
+
+	public RgbClass() {
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		RgbClass r=new RgbClass();
+
+	}
+
+}

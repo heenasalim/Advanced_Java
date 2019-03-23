@@ -1,0 +1,9 @@
+package pk1;
+
+public class HelloWorld extends ActionSupport {
+	private static final String GREETING="Hello";
+	private string name;
+	private String customGreeting;
+	
+
+}

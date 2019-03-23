@@ -1,0 +1,22 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+public class Servlet11 {
+public static void main(String[] args) {
+	
+  Connection  con=null;
+	  try
+	  {
+		  Class.forName("oracle.jdbc.driver.OracleDriver");
+		    System.out.println("got  connection");
+		     con=DriverManager.getConnection("jdbc:Oracle:thin:@Oracle-server:1521:orcl","java","java");
+		     System.out.println("get  connection");
+		  
+	  }
+	    catch(Exception  e)
+	    {
+	    	  e.printStackTrace();
+	    }
+}
+}

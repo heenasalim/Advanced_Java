@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class Account {
+
+	int balance;
+	try
+	{
+	Scanner s=new Scanner(System.in);
+	balance=s.nextInt;
+	if(balance<1000)
+	{
+		throw new LessBalanceException(str));
+	}
+	}
+	finally
+	{
+		System.out.println("inside finally");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
